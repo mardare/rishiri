@@ -2,6 +2,7 @@
 noted for its production of dried kombu
 
 known-world-is
- leafs
+
+ the clear
  the pine forrest
  the dungeons
