@@ -1,5 +1,5 @@
 # rishiri
-Noted for its production of dried kombu.
+noted for its production of dried kombu
 
 known-world-is
  leafs
