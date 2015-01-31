@@ -10,9 +10,17 @@ git config --global push.default simple
 
 KEEP UP-TO-DATE WITH/
 
+git pull
+
 
 UPDATE/
+
 git checkout
-git add ... (if new files)
-git commit -m "forrest/dungeon ..."
+git add . (or git commit -am "forrest/dungeons ..")
+git commit -m "forrest/dungeons ..."
 git push
+
+W7|SYM-LINK/
+
+mklink /D \hy c:\rishiri-hyades\rishiri
+copy Agent2Troll.java \hy\dungeons\XVIIIth
