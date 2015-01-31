@@ -1,9 +1,18 @@
 
-init/
+INIT/
 
 git clone git clone https://github.com/mardare/rishiri.git
+git config -l
+git config --global user.name "mrd@m"
+git config --global user.email "n/a"
+git config --global push.default simple
 
-keep up-to-date with/
+
+KEEP UP-TO-DATE WITH/
 
 
-update/
+UPDATE/
+git checkout
+git add ... (if new files)
+git commit -m "forrest/dungeon ..."
+git push
