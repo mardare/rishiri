@@ -1,11 +1,14 @@
 
 INIT/
 
-git clone git clone https://github.com/mardare/rishiri.git
+git clone https://github.com/mardare/rishiri.git
 git config -l
 git config --global user.name "mrd@m"
 git config --global user.email "n/a"
 git config --global push.default simple
+
+git config --global http.proxy http://u:p@192.168.5.116:8080
+set GIT_SSL_NO_VERIFY=true (or in bash export GIT_SSL_NO_VERIFY=true)
 
 
 KEEP UP-TO-DATE WITH/
