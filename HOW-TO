@@ -21,6 +21,7 @@ UPDATE/
 git checkout
 git add . (or git commit -am "forrest/dungeons ..")
 git commit -m "forrest/dungeons ..."
+git commit --amend -m "replaced message"
 git push
 
 W7|SYM-LINK/
