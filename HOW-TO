@@ -24,7 +24,23 @@ git commit -m "forrest/dungeons ..."
 git commit --amend -m "replaced message"
 git push
 
-W7|SYM-LINK/
+W7|SYM-LINK FOR COPYCATS/
 
 mklink /D \hy c:\rishiri-hyades\rishiri
 copy Agent2Troll.java \hy\dungeons\XVIIIth
+
+/UNDO/ERASE HISTORY
+reference http://christoph.ruegg.name/blog/git-howto-revert-a-commit-already-pushed-to-a-remote-reposit.html
+
+after tmp/ erased from local and remote: git rm tmp/\*; git checkout; git commit -m "del tmp/financials.*";git push
+ce8d75d..f198933  master -> master
+
+revert on remote wrongful f198933 to the the parent ce8d75d (f198933^ = parent of f198933): git push origin +f198933^:master
+ + f198933...ce8d75d f198933^ -> master (forced update)
+
+revert locally  wrongful f198933 to the the parent ce8d75d: git reset HEAD^ --hard
+HEAD is now at ce8d75d [...]
+ 
+/UNDO/KEEP HISTORY
+git revert f198933
+
