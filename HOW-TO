@@ -13,8 +13,12 @@ set GIT_SSL_NO_VERIFY=true (or in bash export GIT_SSL_NO_VERIFY=true)
 
 KEEP UP-TO-DATE WITH/
 
-git pull
+git fetch origin --dry-run -v 
+/git remote -v update; git status -uall
+/git fetch origin; git log HEAD..origin/master --oneline
+/git pull --dry-run
 
+git pull 
 
 UPDATE/
 
