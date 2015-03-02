@@ -1,4 +1,25 @@
 
+123/
+git config --global http.proxy http://u:p@192.168.5.116:8080
+set GIT_SSL_NO_VERIFY=true 
+git clone https://github.com/mardare/rishiri.git
+
+git fetch origin --dry-run -v 
+git pull
+
+git checkout
+git add/rm
+git commit -m "forrest/dungeons/clear ..."
+git push
+
+
+
+
+
+
+
+
+
 INIT/
 
 git clone https://github.com/mardare/rishiri.git
@@ -49,3 +70,14 @@ HEAD is now at ce8d75d [...]
 /UNDO/KEEP HISTORY
 git revert f198933
 
+BASH/
+set "Start in" property of shortcut with repository folder
+
+echo ~; cd ~; touch/vi .bashrc.
+alias ls='ls -halF'
+alias g='git'
+
+echo ~; cd ~; vi .gitconfig
+[alias]
+co=checkout
+cm=commit -m
