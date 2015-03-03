@@ -1,0 +1,20 @@
+
+
+^Z stop process (exit tail -f)
+
+ifconfig
+
+ip addr
+ip link
+ip route
+
+arp
+
+less /proc/kmsg
+
+tail -f /var/log/messages
+
+watch "dmesg|tail -f -n 15"
+
+
+

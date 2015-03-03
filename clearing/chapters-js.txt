@@ -1,8 +1,24 @@
 
+
 KEY/
 
  React.js (http://facebook.github.io/react/downloads.html)
 
 
+LIB/
+ Underscore
+ jQuery
+
+
+
+TEMPLATING/
+ Angular
+
+
+
 ETC/
  Timesheet.js (http://sbstjn.com/en/Introducing-Timesheet-js.html)
+
+
+WI/
+ https://github.com/bolshchikov/js-must-watch/tree/5c8efd00daa54c5cfd29814ca7bac9bdbdf53974
