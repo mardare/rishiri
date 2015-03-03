@@ -1,9 +1,22 @@
 
+WI/
+ _search play! architecture explained
+ https://github.com/l3nz/ObjectiveSync/blob/master/classes/ch/loway/oss/ObjectiveSync/SqlTools.java
+
 KEY/
 
 
- String (http://javarevisited.blogspot.ro/2013/07/java-string-tutorial-and-examples-beginners-programming.html, http://javarevisited.blogspot.ro/2011/07/string-vs-stringbuffer-vs-stringbuilder.html:)
+ String 
+  http://javarevisited.blogspot.ro/2013/07/java-string-tutorial-and-examples-beginners-programming.html 
+  http://javarevisited.blogspot.ro/2011/07/string-vs-stringbuffer-vs-stringbuilder.html
 
 
-WI/
- https://github.com/l3nz/ObjectiveSync/blob/master/classes/ch/loway/oss/ObjectiveSync/SqlTools.java
+NEXT/
+ 
+  jsf primefaces/richfaces
+  cdi
+  ejb
+  jpa hibernate/eclipselink
+  jax-ws/jax-rs
+  play! mvc (less jee)
+
