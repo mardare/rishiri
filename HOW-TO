@@ -1,7 +1,11 @@
 
 123/
+
 git config --global http.proxy http://u:p@192.168.5.116:8080
-set GIT_SSL_NO_VERIFY=true 
+vi ~/.gitconfig
+[http]
+  proxy = "http://so20pe:casstor123#@192.168.5.116:8080"
+  sslVerify = false
 git clone https://github.com/mardare/rishiri.git
 
 git fetch origin --dry-run -v 
@@ -28,8 +32,12 @@ git config --global user.name "mrd@m"
 git config --global user.email "n/a"
 git config --global push.default simple
 
-git config --global http.proxy http://u:p@192.168.5.116:8080
-set GIT_SSL_NO_VERIFY=true (or in bash export GIT_SSL_NO_VERIFY=true)
+vi ~/.gitconfig
+[http]
+ proxy = "http://so20pe:casstor123#@192.168.5.116:8080"
+  sslVerify = false
+  /git config --global http.proxy http://u:p@192.168.5.116:8080
+  /set GIT_SSL_NO_VERIFY=true (or in bash export GIT_SSL_NO_VERIFY=true)
 
 
 KEEP UP-TO-DATE WITH/
