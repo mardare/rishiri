@@ -90,4 +90,4 @@ echo ~; cd ~; vi .gitconfig
   co=checkout
   cm=commit -m
   s = status -s
-  l = log --pretty='format:%ad %h %Cgreen%ar%Creset (%an): %s' --date=short
+  l = log --pretty='format:%ad %h %Cgreen%ar%Creset (%an): %s' --date=short -7
