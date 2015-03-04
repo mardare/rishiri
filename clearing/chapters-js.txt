@@ -6,19 +6,28 @@ KEY/
 
 
 LIB/
- Underscore
- jQuery
+ Underscore 	http://underscorejs.org/underscore.js
+ jQuery 	http://code.jquery.com/jquery-latest.min.js
 
-
+ Bootstrat
 
 TEMPLATING/
  Angular
 
 
 
+
 ETC/
  Timesheet.js (http://sbstjn.com/en/Introducing-Timesheet-js.html)
-
+ Flux
 
 WI/
  https://github.com/bolshchikov/js-must-watch/tree/5c8efd00daa54c5cfd29814ca7bac9bdbdf53974
+
+DO/
+ iterator/select pattern
+ filter
+ grep {length($_)>0} split /,/
+ grep {/POS/} @lines
+ iterate
+ % = map {/^F/?($_=>length($_)):()} @lines @ = map {$_*2}

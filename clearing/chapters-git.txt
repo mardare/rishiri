@@ -2,3 +2,13 @@
 CORE/
 
   http://git-scm.com/book/en/v2
+
+TOOLS/
+ https://github.com/nvie/gitflow
+
+TUTORIAL/
+  http://blog.funda.nl/creating-a-custom-git-flow-visualization/
+  http://nfarina.com/post/9868516270/git-is-simpler
+  https://www.atlassian.com/git/tutorials/comparing-workflows/
+  
+  http://nvie.com/posts/a-successful-git-branching-model/
