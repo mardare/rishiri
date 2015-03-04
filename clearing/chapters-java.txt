@@ -3,6 +3,9 @@ WI/
  _search play! architecture explained
  https://github.com/l3nz/ObjectiveSync/blob/master/classes/ch/loway/oss/ObjectiveSync/SqlTools.java
 
+?/
+ anonymous class is a form of closure
+
 KEY/
 
 
