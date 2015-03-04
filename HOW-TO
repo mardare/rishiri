@@ -46,7 +46,7 @@ git fetch origin --dry-run -v
 /git remote -v update; git status -uall
 /git fetch origin; git log HEAD..origin/master --oneline
 /git pull --dry-run
-/git log -5 --oneline versus git ls-remote (origin)
+/git log -5 --oneline VS git ls-remote (origin)
 
 git pull 
 
@@ -87,5 +87,7 @@ alias g='git'
 
 echo ~; cd ~; vi .gitconfig
 [alias]
-co=checkout
-cm=commit -m
+  co=checkout
+  cm=commit -m
+  s = status -s
+  l = log --pretty='format:%ad %h %Cgreen%ar%Creset (%an): %s' --date=short
