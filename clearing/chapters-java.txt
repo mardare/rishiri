@@ -2,7 +2,8 @@
 WI/
  _search play! architecture explained
  https://github.com/l3nz/ObjectiveSync/blob/master/classes/ch/loway/oss/ObjectiveSync/SqlTools.java
-
+ Java8 http://www.techempower.com/blog/2013/03/26/everything-about-java-8/
+ 
 ?/
  anonymous class is a form of closure
 
@@ -10,8 +11,63 @@ KEY/
 
 
  String 
-  http://javarevisited.blogspot.ro/2013/07/java-string-tutorial-and-examples-beginners-programming.html 
-  http://javarevisited.blogspot.ro/2011/07/string-vs-stringbuffer-vs-stringbuilder.html
+   http://javarevisited.blogspot.ro/2013/07/java-string-tutorial-and-examples-beginners-programming.html 
+   http://javarevisited.blogspot.ro/2011/07/string-vs-stringbuffer-vs-stringbuilder.html
+
+ Classloader
+   https://www.mulesoft.com/tcat/tomcat-classpath
+   http://bitshub.blogspot.ro/2010/01/java-classloader.html
+   http://docs.oracle.com/javase/7/docs/api/java/lang/ClassLoader.html
+
+ *java.util.EventObject
+ *Data Types
+    Map  HashMap, Hashtable IdentityHashMap SortedMap
+    Set  HashSet
+    List ArrayList
+
+ 
+    Conversii Map -> entrySet() -> Set
+
+    Comparator
+    ListIterator
+
+    java.lang.ref.WeakReference;
+
+    Enumaration vs Iteration 
+    Enumeration Vector, Hashtable
+     hasMoreElements()
+     nextElement()
+    Iteration HashSet TreeSet HashMap Vector ArrayList
+     hasNext()
+     next()
+     remove()
+    external gson.internal.LinkedTreeMap, apache multimap, apache.commons.NameValuePair
+
+PATTERNS/
+ Java Development Kit Factory BorderFactory Decorator 
+ Java EE patterns
+
+?/
+ JNDI http://tomcat.apache.org/tomcat-5.5-doc/jndi-datasource-examples-howto.htmlw
+  What is a Functor
+   command pattern <= functor pattern aka function object
+  javax.naming.Context;
+  java.util.ResourceBundle;
+  java.text.ParseException;
+  java.text.message format
+  java.util.zip
+ *java.security.Principal;
+
+LIB/
+  Apache commons 
+    Object/Fule/Date/Word/StringUtils StringEscapeUtils EqualsBuilder HashCodeBuilder ToStringBuilder HttpClient CollectionUtils *Predicate BooleanUtils PropertiesConfiguration fileupload Validate CharUtils URLCodec/Base64 *FastDateFormat VelocityContext BeanComparator *XMLConfiguration builder.ToStringStyle
+  com.google.gson/guava
+  org.jfree ifreechart
+  org.springframework.validation
+
+CERTIFICATION/
+ http://www.jchq.net/tutorial/introj2.htm
+ http://www.jchq.net/tutorial/introj2.htm
 
 
 NEXT/
@@ -22,4 +78,34 @@ NEXT/
   jpa hibernate/eclipselink
   jax-ws/jax-rs
   play! mvc (less jee)
+
+
+KNOWN-WORLD/
+
+  rishiri
+     |-- dungeons
+     |      |-- XVIIIth 
+     |      |-- hellaStudy
+     |	    |-- hellaStudy-jsp
+     |	    |-- hsm (hyades skies matrix?) study codebase@w
+     |
+     |
+     |-- wi/books
+     |     |-- infoq
+     |     |-- Thinking in Java/Java EE Patterns
+     |
+     |
+     |-- certification
+     |     |-- infoq
+     |     |-- Thinking in Java/Java EE Patterns
+
+
+
+XVIIIth 
+  download-bots (nbr, intercap), deck (gui with everything/weather, hackernews api, bnr quote...)
+  it4 replacement
+  recruitment historical records, with search (lucene)
+  207
+
+
 

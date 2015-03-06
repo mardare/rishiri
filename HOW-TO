@@ -58,6 +58,10 @@ git commit -m "forrest/dungeons ..."
 git commit --amend -m "replaced message"
 git push
 
+INFO/
+
+git remote -v
+
 W7|SYM-LINK FOR COPYCATS/
 
 mklink /D \hy c:\rishiri-hyades\rishiri
