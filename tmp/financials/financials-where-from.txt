@@ -9,7 +9,7 @@ CAL
  http://www.bvb.ro/FinancialInstruments/SelectedData/FinancialCalendar
 
 ELMA
-http://www.electromagnetica.ro/companie/info.php?ik_comp=4
+http://www.electromagnetica.ro/companie/info.php?ik_sub=11&ik_comp=4&ik_tip=3
 
 ROCE
 http://romcarbon.com/application/#shares

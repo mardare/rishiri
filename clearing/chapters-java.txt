@@ -43,12 +43,14 @@ KEY/
      remove()
     external gson.internal.LinkedTreeMap, apache multimap, apache.commons.NameValuePair
 
+
 PATTERNS/
  Java Development Kit Factory BorderFactory Decorator 
  Java EE patterns
 
+
 ?/
- JNDI http://tomcat.apache.org/tomcat-5.5-doc/jndi-datasource-examples-howto.htmlw
+  JNDI http://tomcat.apache.org/tomcat-5.5-doc/jndi-datasource-examples-howto.htmlw
   What is a Functor
    command pattern <= functor pattern aka function object
   javax.naming.Context;
@@ -58,16 +60,22 @@ PATTERNS/
   java.util.zip
  *java.security.Principal;
 
+
 LIB/
-  Apache commons 
+ Apache commons 
     Object/Fule/Date/Word/StringUtils StringEscapeUtils EqualsBuilder HashCodeBuilder ToStringBuilder HttpClient CollectionUtils *Predicate BooleanUtils PropertiesConfiguration fileupload Validate CharUtils URLCodec/Base64 *FastDateFormat VelocityContext BeanComparator *XMLConfiguration builder.ToStringStyle
   com.google.gson/guava
   org.jfree ifreechart
   org.springframework.validation
 
 CERTIFICATION/
+
  http://www.jchq.net/tutorial/introj2.htm
  http://www.jchq.net/tutorial/introj2.htm
+
+ SCJP / OCPJP any edition (ex OCEJPAD)
+ Oracle Certified Expert, Java Platform, Enterprise Edition 6 Java Persistence API Developer (1Z0-898) ex Sun Certified JPA Developer for the Java EE6 Platform (SCJPAD 6)
+
 
 
 NEXT/
@@ -78,6 +86,14 @@ NEXT/
   jpa hibernate/eclipselink
   jax-ws/jax-rs
   play! mvc (less jee)
+  https://github.com/thombergs/wicked-charts; http://www.highcharts.com/
+
+
+XVIIIth/
+  download-bots (nbr, intercap), deck (gui with everything/weather, hackernews api, bnr quote...)
+  it4 replacement
+  recruitment historical records, with search (lucene)
+  207
 
 
 KNOWN-WORLD/
@@ -96,16 +112,10 @@ KNOWN-WORLD/
      |
      |
      |-- certification
-     |     |-- infoq
-     |     |-- Thinking in Java/Java EE Patterns
+          
+          
 
 
-
-XVIIIth 
-  download-bots (nbr, intercap), deck (gui with everything/weather, hackernews api, bnr quote...)
-  it4 replacement
-  recruitment historical records, with search (lucene)
-  207
 
 
 
