@@ -24,6 +24,7 @@ KEY/
     Map  HashMap, Hashtable IdentityHashMap SortedMap
     Set  HashSet
     List ArrayList
+    http://stackoverflow.com/questions/322715/when-to-use-linkedlist-over-arraylist
 
  
     Conversii Map -> entrySet() -> Set
@@ -32,6 +33,9 @@ KEY/
     ListIterator
 
     java.lang.ref.WeakReference;
+    
+    immutability/defensive copy technique 
+    https://www.securecoding.cert.org/confluence/display/java/OBJ05-J.+Defensively+copy+private+mutable+class+members+before+returning+their+references 
 
     Enumaration vs Iteration 
     Enumeration Vector, Hashtable
@@ -94,6 +98,7 @@ XVIIIth/
   it4 replacement
   recruitment historical records, with search (lucene)
   207
+  all-platform it5 (http://stackoverflow.com/questions/2037220/how-can-i-creating-executable-jar-with-swt-that-runs-on-all-platforms)
 
 
 KNOWN-WORLD/
