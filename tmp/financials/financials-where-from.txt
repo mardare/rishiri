@@ -30,7 +30,8 @@ ELGS
 http://electroarges.ro/ro/index.php?id=10156&lang=ro
 
 ELMA
-http://www.electromagnetica.ro/companie/info.php?ik_sub=11&ik_comp=4&ik_tip=3
+http://www.electromagnetica.ro/documente/companie/investitori/
+
 
 IPRU
 http://www.iproeb.ro/info
