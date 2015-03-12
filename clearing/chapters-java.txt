@@ -25,6 +25,9 @@ KEY/
     Set  HashSet
     List ArrayList
     http://stackoverflow.com/questions/322715/when-to-use-linkedlist-over-arraylist
+    MultiValueMap from Apache in order to link multiple values with one key (pk in table)
+    TreeBasedTable class from Google guava 
+    http://code.google.com/p/guava-libraries/wiki/LivingWithNullHostileCollections
 
  
     Conversii Map -> entrySet() -> Set
@@ -36,6 +39,11 @@ KEY/
     
     immutability/defensive copy technique 
     https://www.securecoding.cert.org/confluence/display/java/OBJ05-J.+Defensively+copy+private+mutable+class+members+before+returning+their+references 
+    http://stackoverflow.com/questions/16061030/must-all-properties-of-an-immutable-object-be-final
+    https://docs.oracle.com/javase/tutorial/essential/concurrency/imstrat.html
+    http://stackoverflow.com/questions/8906284/all-immutable-types-in-java
+    http://www.javapractices.com/topic/TopicAction.do?Id=29
+    immutability effect: http://stackoverflow.com/questions/3815173/increment-a-integers-int-value
 
     Enumaration vs Iteration 
     Enumeration Vector, Hashtable
@@ -51,7 +59,7 @@ KEY/
 PATTERNS/
  Java Development Kit Factory BorderFactory Decorator 
  Java EE patterns
-
+ CERT Oracle Coding Standard for Java  https://www.securecoding.cert.org/confluence/x/Ux
 
 ?/
   JNDI http://tomcat.apache.org/tomcat-5.5-doc/jndi-datasource-examples-howto.htmlw
@@ -79,7 +87,10 @@ CERTIFICATION/
 
  SCJP / OCPJP any edition (ex OCEJPAD)
  Oracle Certified Expert, Java Platform, Enterprise Edition 6 Java Persistence API Developer (1Z0-898) ex Sun Certified JPA Developer for the Java EE6 Platform (SCJPAD 6)
-
+ OCJP - Exam 1Z0-851 - Oracle Certified Professional, Java SE 6 Programmer (former SCJP 310-065)
+ February 2013 ÎíÎñ Present
+ Exam 000-316 - IBM WebSphere Integration Developer V6.1 Application Development
+ 
 
 
 NEXT/
