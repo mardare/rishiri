@@ -11,5 +11,20 @@ instantly manage logs from 2 servers... or 2,000;
 graphyte/
 kebana/
 
-
 elk/
+
+MongoDB/ 
+ "humongous"
+ open-source document-oriented database
+ schemaless storage engine
+ nosql database
+ atomic operations
+ NO acid transactions
+ query language - own based on JSON
+OrientDB/
+ distributed graph database of documents (hybrid document-graph)
+ acid transactions
+ query language - sql with extra for trees and graphs
+  
+ 
+ 
