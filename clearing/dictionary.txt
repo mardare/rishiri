@@ -5,8 +5,7 @@ WebRTC/
 
 papertrail/
  papertrailapp.com
-
-instantly manage logs from 2 servers... or 2,000;
+ instantly manage logs from 2 servers... or 2,000;
 
 graphyte/
 kebana/
