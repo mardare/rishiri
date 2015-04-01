@@ -13,6 +13,16 @@ arp
 less /proc/kmsg
 
 tail -f /var/log/messages
+/less +F file
+    Ctrl-c to exit follow-mode
+    F to enter follow-mode
+    /foo to search "foo"
+    n/N next/previous occurrence
+
+vi
+  dd       delete current line (esc to enter default mode)
+  INS      insert mode
+  INS INS  write-over mode		    
 
 watch "dmesg|tail -f -n 15"
 
