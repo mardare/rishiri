@@ -3,7 +3,12 @@
 KEY/
 
  React.js (http://facebook.github.io/react/downloads.html)
+
+TOOLS/
  
+ https://developers.google.com/chrome-developer-tools/
+
+
 LIB/
  Underscore 	http://underscorejs.org/underscore.js
  jQuery 	http://code.jquery.com/jquery-latest.min.js
