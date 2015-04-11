@@ -24,6 +24,7 @@ TEMPLATING/
 ETC/
  Timesheet.js (http://sbstjn.com/en/Introducing-Timesheet-js.html)
  Flux
+ Edge.js http://tjanczuk.github.io/edge/#/
 
 WI/
  https://github.com/bolshchikov/js-must-watch/tree/5c8efd00daa54c5cfd29814ca7bac9bdbdf53974
