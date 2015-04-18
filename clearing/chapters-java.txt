@@ -85,10 +85,12 @@ CERTIFICATION/
  http://www.jchq.net/tutorial/introj2.htm
  http://www.jchq.net/tutorial/introj2.htm
 
- SCJP / OCPJP any edition (ex OCEJPAD)
+ SCJP / OCPJP any edition (ex OCEJPAD) http://stackoverflow.com/questions/tagged/scjp
+ SCJP affirms that the programmer really knows how to code, not to design and implement a complete 
+  
  Oracle Certified Expert, Java Platform, Enterprise Edition 6 Java Persistence API Developer (1Z0-898) ex Sun Certified JPA Developer for the Java EE6 Platform (SCJPAD 6)
  OCJP - Exam 1Z0-851 - Oracle Certified Professional, Java SE 6 Programmer (former SCJP 310-065)
- February 2013 ÎíÎñ Present
+ February 2013 ÃŽÃ­ÃŽÃ± Present
  Exam 000-316 - IBM WebSphere Integration Developer V6.1 Application Development
  
 
