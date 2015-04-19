@@ -71,10 +71,10 @@ dq=(
 	               the surface of the top of your skull"
         "If you want to be more productive and creative, and to have more energy, the science dictates that you should partition your day into project periods"
         "malox -- antacid medication; contains the active ingredient calcium carbonate; treat symptoms associated with heartburn, indigestion, or upset stomach"
-
-
 	"the devil takes care of its own -- ?"
 	"wagwan -- Jamaican Patois |hello|what's going on|"
+	"Jiizas: di Buk We Luuk Rait bout Im -- Jamaican Patois translation of the Gospel of Luke"
+	"Di Jamiekan Nyuu Testiment -- Jamaican Patois translation of the New Testament"
 
  
 

@@ -1,0 +1,8 @@
+
+alias ls='ls -halF'
+alias g='git'
+
+alias allbk='cp -v -u ~/.bashrc /c/rishiri-hyades/rishiri/dungeons/XVIIIth/bash/.bashrc_slayer17; cp -v -u ~/coffee.sh /c/rishiri-hyades/rishiri/dungeons/XVIIIth/bash'
+
+~/coffee.sh
+
