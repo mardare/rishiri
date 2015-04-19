@@ -29,9 +29,9 @@ dq=(
 			    and liberation;|Either the querents must make changes in their own lives, or the changes will be made for them|"
 	"persnickety -- placing too much emphasis on trivial or minor details; fussy; requiring a particularly precise or careful approach; fastidious |a persnickety teacher|"
 	"The hardest thing to predict is the future -- Yogi Berra (baseball catcher, New York Yankees)"
-	"haffi -- Jamaican |have to|"
-	"pum pum -- Jamaican |pussy|"
-	"bombaclat -- Jamaican |fuck!|"
+	"haffi -- Jamaican Patois |have to|"
+	"pum pum -- Jamaican Patois |pussy|"
+	"bombaclat -- Jamaican Patois |fuck!|"
 	"buyaka -- Jamaican sound of a gunshot"
 	"asinine -- adj. like an ass, esp. stupid or stubborn.  asininity n. [Latin asinus: ass]"
 	"If you're doing it for the money, you'll always be underpaid -- Scott Bell"
@@ -71,6 +71,10 @@ dq=(
 	               the surface of the top of your skull"
         "If you want to be more productive and creative, and to have more energy, the science dictates that you should partition your day into project periods"
         "malox -- antacid medication; contains the active ingredient calcium carbonate; treat symptoms associated with heartburn, indigestion, or upset stomach"
+
+
+	"the devil takes care of its own -- ?"
+	"wagwan -- Jamaican Patois |hello|what's going on|"
 
  
 
