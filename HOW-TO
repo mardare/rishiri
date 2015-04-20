@@ -12,7 +12,11 @@ vi ~/.gitconfig
 
 [difftool "windiff"]
   cmd = /c/My\\ Data/bin/portable-windiff/windiff.exe $LOCAL $REMOTE
-			~
+
+[merge]
+  tool = vimdiff
+  conflictstyle = diff3
+			
 git clone https://github.com/mardare/rishiri.git
 
 git fetch origin --dry-run -v 
@@ -68,7 +72,7 @@ git push
 MERGE/CONFLICT
 git fetch
 git show FETCH_HEAD:dungeons/XVIIIth/bash/coffee.sh	show remote version
-
+git mergetool?? not tested
 
 INFO/
 
