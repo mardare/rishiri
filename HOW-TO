@@ -55,7 +55,7 @@ KEEP UP-TO-DATE WITH/LOCAL v REMOTE
 
 git fetch origin --dry-run -v 
 /git remote -v update; git status -uall
-/git fetch origin; git log HEAD..origin/master --oneline
+/git fetch origin; git log HEAD..origin/master --oneline; git log HEAD..FETCH_HEAD;git log FETCH_HEAD; g show fetch_head:HOW-TO
 /git pull --dry-run
 /git log -5 --oneline VS git ls-remote (origin)
 
@@ -80,7 +80,6 @@ git remote -v
 git ls-remote
 git show<TAB>						display available refs (FETCH_HEAD  HEAD ORIG_HEAD  master  origin/HEAD  origin/master)
 git show HEAD~1:dungeons/XVIIIth/bash/coffee.sh		display 1 version ago (also git show 3b5486c:dungeons/XVIIIth/bash/coffee.sh)
-
 
 UNDO/ERASE HISTORY
 reference http://christoph.ruegg.name/blog/git-howto-revert-a-commit-already-pushed-to-a-remote-reposit.html

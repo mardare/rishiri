@@ -1,8 +1,13 @@
 
+# command overwrite
 alias ls='ls -halF'
 alias g='git'
 
-alias allbk='cp -v -u ~/.bashrc /c/rishiri-hyades/rishiri/dungeons/XVIIIth/bash/.bashrc_slayer17; cp -v -u ~/coffee.sh /c/rishiri-hyades/rishiri/dungeons/XVIIIth/bash'
+# command new
+alias allbk='cp -v -u ~/.bashrc /c/rishiri-hyades/rishiri/dungeons/XVIIIth/bash/.bashrc_slayer17; cp -v -u ~/coffee.sh /c/rishiri-hyades/rishiri/dungeons/XVIIIth/bash/.bashrc_slayer17'
+
+alias|perl -e  "print qq{Run available cmds };while (<>){chomp($_);/^alias\s+(.*?)=.*?/g;print \$1.qq{/ }}"
 
 ~/coffee.sh
+
 
