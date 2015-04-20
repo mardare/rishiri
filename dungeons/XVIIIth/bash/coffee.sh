@@ -72,6 +72,8 @@ dq=(
         "If you want to be more productive and creative, and to have more energy, the science dictates that you should partition your day into project periods"
         "malox -- antacid medication; contains the active ingredient calcium carbonate; treat symptoms associated with heartburn, indigestion, or upset stomach"
 
+	"...and the spirit returneth unto god who gave it"
+
  
 
 

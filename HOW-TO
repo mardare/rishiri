@@ -6,6 +6,13 @@ vi ~/.gitconfig
 [http]
   proxy = "http://u:p@192.168.5.116:8080"
   sslVerify = false
+[diff]
+  #tool = vimdiff
+   tool = windiff
+
+[difftool "windiff"]
+  cmd = /c/My\\ Data/bin/portable-windiff/windiff.exe $LOCAL $REMOTE
+			~
 git clone https://github.com/mardare/rishiri.git
 
 git fetch origin --dry-run -v 
@@ -40,7 +47,7 @@ vi ~/.gitconfig
   /set GIT_SSL_NO_VERIFY=true (or in bash export GIT_SSL_NO_VERIFY=true)
 
 
-KEEP UP-TO-DATE WITH/
+KEEP UP-TO-DATE WITH/LOCAL v REMOTE
 
 git fetch origin --dry-run -v 
 /git remote -v update; git status -uall
@@ -58,16 +65,20 @@ git commit -m "forrest/dungeons ..."
 git commit --amend -m "replaced message"
 git push
 
+MERGE/CONFLICT
+git fetch
+git show FETCH_HEAD:dungeons/XVIIIth/bash/coffee.sh	show remote version
+
+
 INFO/
 
 git remote -v
+git ls-remote
+git show<TAB>						display available refs (FETCH_HEAD  HEAD ORIG_HEAD  master  origin/HEAD  origin/master)
+git show HEAD~1:dungeons/XVIIIth/bash/coffee.sh		display 1 version ago (also git show 3b5486c:dungeons/XVIIIth/bash/coffee.sh)
 
-W7|SYM-LINK FOR COPYCATS/
 
-mklink /D \hy c:\rishiri-hyades\rishiri
-copy Agent2Troll.java \hy\dungeons\XVIIIth
-
-/UNDO/ERASE HISTORY
+UNDO/ERASE HISTORY
 reference http://christoph.ruegg.name/blog/git-howto-revert-a-commit-already-pushed-to-a-remote-reposit.html
 
 after tmp/ erased from local and remote: git rm tmp/\*; git checkout; git commit -m "del tmp/financials.*";git push
@@ -79,8 +90,16 @@ revert on remote wrongful f198933 to the the parent ce8d75d (f198933^ = parent o
 revert locally  wrongful f198933 to the the parent ce8d75d: git reset HEAD^ --hard
 HEAD is now at ce8d75d [...]
  
-/UNDO/KEEP HISTORY
+UNDO/KEEP HISTORY
 git revert f198933
+
+USEFUL/
+
+W7|SYM-LINK FOR COPYCATS/
+
+mklink /D \hy c:\rishiri-hyades\rishiri
+copy Agent2Troll.java \hy\dungeons\XVIIIth
+
 
 BASH/
 set "Start in" property of shortcut with repository folder

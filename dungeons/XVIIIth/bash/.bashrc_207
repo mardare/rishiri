@@ -1,0 +1,22 @@
+
+alias ls='ls -halF'
+alias g='git'
+
+alias pub='cd /c/server/apache-tomcat-7.0.59-windows-x64-pub/bin/'
+alias dev='cd /c/server/apache-tomcat-7.0.59-windows-x64-dev/bin/'
+alias publ='cd /c/server/apache-tomcat-7.0.59-windows-x64-pub/logs/;ls | grep `date +"%Y-%m-%d"`'
+alias devl='cd /c/server/apache-tomcat-7.0.59-windows-x64-dev/logs/;ls | grep `date +"%Y-%m-%d"`'
+alias publl='cd /c/server/apache-tomcat-7.0.59-windows-x64-pub/logs/;less +F localhost_access_log.`date +"%Y-%m-%d"`.txt'
+alias devll='cd /c/server/apache-tomcat-7.0.59-windows-x64-dev/logs/;less +F localhost_access_log.`date +"%Y-%m-%d"`.txt'
+
+alias pubbk='~/snct-pub.sh'
+alias allbk='pubbk;~/snct-bash.sh'
+
+printf "\n\n"
+printf "\t"; date "+W%V/D%j"; printf "\t"; date "+%a %e.%m.%y"; printf "\n";
+
+r=$(( $RANDOM % 5 ))
+if [[ "$r" -eq 3 ]]; then
+   printf "\t* run ...; pubbk; allbk\n"
+fi
+
