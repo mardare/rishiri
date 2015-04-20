@@ -5,7 +5,7 @@ printf "\n\n"
 printf "\t"; date "+W%V/D%j"; printf "\t"; date "+%a %e.%m.%y"; printf "\n";
 printf "=%.0s" {1..65} 
 printf "\n"
-cal -3
+cal -3m
 
 printf "\n"
 
@@ -75,6 +75,9 @@ dq=(
 	"wagwan -- Jamaican Patois |hello|what's going on|"
 	"Jiizas: di Buk We Luuk Rait bout Im -- Jamaican Patois translation of the Gospel of Luke"
 	"Di Jamiekan Nyuu Testiment -- Jamaican Patois translation of the New Testament"
+	"13.4.1870 -- est. The Met (Metropolitan Museum of Art) <TOOD match date with date>"
+	"17.4.1880 -- est. National Bank of Romania"
+	"serb -- taran dependent de stapanul feudal; sinonim - iobag, rob; etimologie - lat. servus; 6.4.1749 Constantin Mavrocordat a absolvit serbia in Moldova" 
 
  
 
