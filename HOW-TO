@@ -80,6 +80,8 @@ git remote -v
 git ls-remote
 git show<TAB>						display available refs (FETCH_HEAD  HEAD ORIG_HEAD  master  origin/HEAD  origin/master)
 git show HEAD~1:dungeons/XVIIIth/bash/coffee.sh		display 1 version ago (also git show 3b5486c:dungeons/XVIIIth/bash/coffee.sh)
+git log -- dungeons/XVIIIth/bash/coffee.sh		log on a single file
+
 
 UNDO/ERASE HISTORY
 reference http://christoph.ruegg.name/blog/git-howto-revert-a-commit-already-pushed-to-a-remote-reposit.html
