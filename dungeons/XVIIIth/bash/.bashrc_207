@@ -1,4 +1,6 @@
 
+
+# command overwrite
 alias ls='ls -halF'
 alias g='git'
 
@@ -9,14 +11,18 @@ alias devl='cd /c/server/apache-tomcat-7.0.59-windows-x64-dev/logs/;ls | grep `d
 alias publl='cd /c/server/apache-tomcat-7.0.59-windows-x64-pub/logs/;less +F localhost_access_log.`date +"%Y-%m-%d"`.txt'
 alias devll='cd /c/server/apache-tomcat-7.0.59-windows-x64-dev/logs/;less +F localhost_access_log.`date +"%Y-%m-%d"`.txt'
 
+# command new
 alias pubbk='~/snct-pub.sh'
 alias allbk='pubbk;~/snct-bash.sh'
+
+alias|perl -e  "print qq{Run available cmds };while (<>){chomp($_);/^alias\s+(.*?)=.*?/g;print \$1.qq{/ }}"
 
 printf "\n\n"
 printf "\t"; date "+W%V/D%j"; printf "\t"; date "+%a %e.%m.%y"; printf "\n";
 
 r=$(( $RANDOM % 5 ))
 if [[ "$r" -eq 3 ]]; then
-   printf "\t* run ...; pubbk; allbk\n"
+   printf "\t* run now allbk\n"
 fi
+
 

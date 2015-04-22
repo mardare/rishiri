@@ -78,8 +78,9 @@ dq=(
 	"13.4.1870 -- est. The Met (Metropolitan Museum of Art) <TOOD match date with date>"
 	"17.4.1880 -- est. National Bank of Romania"
 	"serb -- taran dependent de stapanul feudal; sinonim - iobag, rob; etimologie - lat. servus; 6.4.1749 Constantin Mavrocordat a absolvit serbia in Moldova" 
-
 	"...and the spirit returneth unto god who gave it"
+	"Perfection in design is achieved not when there is nothing more to add, but rather when there is nothing more to take away -- Antoine de Saint-Exupery"
+  	"The next best thing to having good ideas is recognizing good ideas -- Eric S. Raymond"
 
  
 

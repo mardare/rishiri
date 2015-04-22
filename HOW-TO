@@ -65,6 +65,7 @@ UPDATE/
 
 git checkout
 git add . (or git commit -am "forrest/dungeons ..")
+git difftool -- dungeons/XVIIIth/bash/coffee.sh
 git commit -m "forrest/dungeons ..."
 git commit --amend -m "replaced message"
 git push
@@ -72,6 +73,7 @@ git push
 MERGE/CONFLICT
 git fetch
 git show FETCH_HEAD:dungeons/XVIIIth/bash/coffee.sh	show remote version
+git difftool -- dungeons/XVIIIth/bash/coffee.sh		diff versus remote version
 git mergetool?? not tested
 
 INFO/

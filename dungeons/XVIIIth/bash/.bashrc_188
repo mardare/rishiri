@@ -1,0 +1,12 @@
+
+# command overwrite
+alias ls='ls -halF'
+alias g='git'
+
+# command new
+alias allbk='~/snct-bash.sh'
+alias hy='cd /c/My\ Data/so20/80\ -\ rishiri\ hyades\ clouds/rishiri; ls'
+
+alias|perl -e  "print qq{Run available cmds };while (<>){chomp($_);/^alias\s+(.*?)=.*?/g;print \$1.qq{/ }}"
+
+~/coffee.sh
