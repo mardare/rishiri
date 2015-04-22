@@ -56,6 +56,7 @@ KEEP UP-TO-DATE WITH/LOCAL v REMOTE
 git fetch origin --dry-run -v 
 /git remote -v update; git status -uall
 /git fetch origin; git log HEAD..origin/master --oneline; git log HEAD..FETCH_HEAD;git log FETCH_HEAD; g show fetch_head:HOW-TO
+/git log --pretty=oneline --abbrev-commit head..fetch_head
 /git pull --dry-run
 /git log -5 --oneline VS git ls-remote (origin)
 

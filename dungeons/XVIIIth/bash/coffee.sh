@@ -1,13 +1,39 @@
+## HOW-TO COLOR/
+
+#printf "<CODE> fhqwhgads"
+#printf "\e[1;35m fhqwhgads"
+
+#<CODE>
+#	background red
+#	\e[1;41m
+#	red
+#	\e[1;31m
+#
+#	green
+#	\e[32m
+#	light-green
+#	\e[1;32m
+#
+#	royal-blue
+#	\e[1;34m
+#
+#	grey
+#	\e[1;30m=
+#
+#	clear color
+#	\e[0m
+#</CODE>
+
 
 ## HEADER/
 
 printf "\n\n"
-printf "\t"; date "+W%V/D%j"; printf "\t"; date "+%a %e.%m.%y"; printf "\n";
-printf "=%.0s" {1..65} 
+printf "\t\e[1;35m"; date "+W%V/D%j"; printf "\e[1;34m\t"; date "+%a %e.%m.%y"; printf "\n";
+printf "\e[1;30m=%.0s" {1..65} 
 printf "\n"
 cal -3m
 
-printf "\n"
+printf "\n\n\e[1;30m"
 
 ## QUOTE/
 
@@ -67,7 +93,7 @@ dq=(
 	"scolding -- an angry rebuke; synonyms:	reproach, admonish; |a scolding glare|"
 	"humdrum -- lacking excitement, dullness"
 	"We think of our future selves like we think of others: in the third person -- 	Derek Parfit (British philosopher)"
- 	"the insula -- controls the switch between daydreaming and attention; an important structure about an inch or so beneath 
+	"the insula -- controls the switch between daydreaming and attention; an important structure about an inch or so beneath 
 	               the surface of the top of your skull"
         "If you want to be more productive and creative, and to have more energy, the science dictates that you should partition your day into project periods"
         "malox -- antacid medication; contains the active ingredient calcium carbonate; treat symptoms associated with heartburn, indigestion, or upset stomach"
@@ -81,7 +107,7 @@ dq=(
 	"...and the spirit returneth unto god who gave it"
 	"Perfection in design is achieved not when there is nothing more to add, but rather when there is nothing more to take away -- Antoine de Saint-Exupery"
   	"The next best thing to having good ideas is recognizing good ideas -- Eric S. Raymond"
-	 "habeas corpus -- "you have the body" in Latin, technically only a procedural remedy; it is addressed to the custodian, to present proof of authority, allowing the court to determine whether the custodian has lawful authority to detain the prisoner;"
+	"habeas corpus -- "you have the body" in Latin, technically only a procedural remedy; it is addressed to the custodian, to present proof of authority, allowing the court to determine whether the custodian has lawful authority to detain the prisoner;"
 
  
 
