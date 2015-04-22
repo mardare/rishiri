@@ -10,3 +10,7 @@ alias hy='cd /c/My\ Data/so20/80\ -\ rishiri\ hyades\ clouds/rishiri; ls'
 alias|perl -e  "print qq{Run available cmds };while (<>){chomp($_);/^alias\s+(.*?)=.*?/g;print \$1.qq{/ }}"
 
 ~/coffee.sh
+
+printf "\n"
+diff ~/coffee.sh /c/My\ Data/so20/80\ -\ rishiri\ hyades\ clouds/rishiri/dungeons/XVIIIth/bash/coffee.sh -q
+#fix with cp /c/My\ Data/so20/80\ -\ rishiri\ hyades\ clouds/rishiri/dungeons/XVIIIth/bash/coffee.sh ~/
