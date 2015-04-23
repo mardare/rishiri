@@ -4,8 +4,6 @@
 #printf "\e[1;35m fhqwhgads"
 
 #<CODE>
-#	background red
-#	\e[1;41m
 #	red
 #	\e[1;31m
 #
@@ -17,8 +15,29 @@
 #	royal-blue
 #	\e[1;34m
 #
+#	light-blue
+#	\e[1;36m
+#
+#	white
+#	\e[1;37m
+#
 #	grey
-#	\e[1;30m=
+#	\e[1;30m
+#
+#	red background
+#	\e[1;41m
+#
+#	green background
+#	\e[1;42m	
+#
+#	blue background
+#	\e[1;44m
+#
+#	pink background
+#	\e[1;45m
+#
+#	white background
+#	\e[1;47m
 #
 #	clear color
 #	\e[0m
@@ -28,10 +47,14 @@
 ## HEADER/
 
 printf "\n\n"
-printf "\t\e[1;35m"; date "+W%V/D%j"; printf "\e[1;34m\t"; date "+%a %e.%m.%y"; printf "\n";
+printf "\t\e[1;35m"; date "+W%V/D%j"; printf "\e[1;30m\t"; date "+%a %e.%m.%y"; printf "\n";
 printf "\e[1;30m=%.0s" {1..65} 
 printf "\n"
-cal -3m
+
+
+cal3m=`perl -e '($sec,$min,$hour,$mday,$mon,$year,$wday,$yday,$isdst) = localtime; $cal3m=qx{cal -3m}; $cal3m=~s/\s$mday\s/ \\e\[1;45m$mday\\e\[0m\ /m; print $cal3m'`
+echo "$cal3m"
+
 
 printf "\n\n\e[1;30m"
 
