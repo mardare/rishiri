@@ -6,6 +6,7 @@ alias g='git'
 # command new
 # TOOD add section to snct-bash.sh
 alias allbk='cp -v -u ~/.bashrc /c/rishiri-hyades/rishiri/dungeons/XVIIIth/bash/.bashrc_slayer17; cp -v -u ~/coffee.sh /c/rishiri-hyades/rishiri/dungeons/XVIIIth/bash/'
+alias coffee_pull='cp -i /c/rishiri-hyades/rishiri/dungeons/XVIIIth/bash/coffee.sh ~/'
 
 alias|perl -e  "print qq{Run available cmds };while (<>){chomp($_);/^alias\s+(.*?)=.*?/g;print \$1.qq{/ }}"
 
@@ -16,6 +17,9 @@ printf "\n"
 exdiff=`diff ~/coffee.sh /c/rishiri-hyades/rishiri/dungeons/XVIIIth/bash/coffee.sh -q`
 
 if [[ $(diff ~/coffee.sh /c/rishiri-hyades/rishiri/dungeons/XVIIIth/bash/coffee.sh -q) == *differ* ]]; then
-	printf "\e[1;41m $exdiff"
+	printf "\n"
+	printf "\e[1;41m $exdiff\e[0m\n\n"
+	printf "\e[1;36m use <coffee_pull> to overwrite local\n"
+	printf "\e[1;36m use <diff ~/coffee.sh /c/rishiri-hyades/rishiri/dungeons/XVIIIth/bash/coffee.sh> for doublechecking\n"
 fi
 
