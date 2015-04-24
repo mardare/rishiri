@@ -16,6 +16,12 @@ vi ~/.gitconfig
 [merge]
   tool = vimdiff
   conflictstyle = diff3
+
+[alias]
+  co = checkout
+  cm = commit -m
+  s = status -s
+  l = log --pretty='format:%ad %h %Cgreen%ar%Creset (%an): %s' --date=short -7
 			
 git clone https://github.com/mardare/rishiri.git
 
