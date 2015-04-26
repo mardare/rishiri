@@ -134,6 +134,7 @@ dq=(
 	"Perfection in design is achieved not when there is nothing more to add, but rather when there is nothing more to take away -- Antoine de Saint-Exupery"
   	"The next best thing to having good ideas is recognizing good ideas -- Eric S. Raymond"
 	"habeas corpus -- 'you have the body' in Latin, technically only a procedural remedy; it is addressed to the custodian, to present proof of authority, allowing the court to determine whether the custodian has lawful authority to detain the prisoner;"
+	"Nothing in life is to be feared, it is only to be understood -- Marie Curie"
 
  
 
