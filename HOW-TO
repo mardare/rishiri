@@ -22,6 +22,9 @@ vi ~/.gitconfig
   cm = commit -m
   s = status -s
   l = log --pretty='format:%ad %h %Cgreen%ar%Creset (%an): %s' --date=short -7
+  l = log --pretty='format:%ad %h %Cgreen%ar%Creset (%an): %s' --date=short -7
+ l2 = log --oneline --graph --decorate
+ l3 = log -p --graph -3
 			
 git clone https://github.com/mardare/rishiri.git
 
