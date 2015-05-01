@@ -6,6 +6,7 @@ alias g='git'
 # command new
 # TOOD add section to snct-bash.sh
 alias allbk='cp -v -u ~/.bashrc /c/rishiri-hyades/rishiri/dungeons/XVIIIth/bash/.bashrc_slayer17; cp -v -u ~/coffee.sh /c/rishiri-hyades/rishiri/dungeons/XVIIIth/bash/'
+alias pub='cd /c/temp/~kingscross/bin'
 alias coffee_pull='cp -i /c/rishiri-hyades/rishiri/dungeons/XVIIIth/bash/coffee.sh ~/'
 
 alias|perl -e  "print qq{Run available cmds };while (<>){chomp($_);/^alias\s+(.*?)=.*?/g;print \$1.qq{/ }}"
