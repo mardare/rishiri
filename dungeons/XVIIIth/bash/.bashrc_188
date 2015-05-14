@@ -6,7 +6,12 @@ alias g='git'
 # command new
 alias allbk='~/snct-bash.sh; cp -u -v /c/My\ Data/temp-dash/*.cmd /c/My\ Data/so20/80\ -\ rishiri\ hyades\ clouds/rishiri/dungeons/XVIIIth/bash-cmd/'
 alias hy='cd /c/My\ Data/so20/80\ -\ rishiri\ hyades\ clouds/rishiri; ls'
+
 alias coffee_pull='cp -i /c/My\ Data/so20/80\ -\ rishiri\ hyades\ clouds/rishiri/dungeons/XVIIIth/bash/coffee.sh /h/coffee.sh'
+alias coffee_push='cp -i /h/coffee.sh /c/My\ Data/so20/80\ -\ rishiri\ hyades\ clouds/rishiri/dungeons/XVIIIth/bash/'
+alias coffee_diff='diff -s -d --width=1000 -y --suppress-common-lines /c/My\ Data/so20/80\ -\ rishiri\ hyades\ clouds/rishiri/dungeons/XVIIIth/bash/coffee.sh /h/coffee.sh'
+alias coffee_diff2='diff -s /c/My\ Data/so20/80\ -\ rishiri\ hyades\ clouds/rishiri/dungeons/XVIIIth/bash/coffee.sh /h/coffee.sh'
+
 
 alias|perl -e  "print qq{Run available cmds };while (<>){chomp($_);/^alias\s+(.*?)=.*?/g;print \$1.qq{/ }}"
 
@@ -16,8 +21,14 @@ exdiff=`diff ~/coffee.sh /c/My\ Data/so20/80\ -\ rishiri\ hyades\ clouds/rishiri
 
 if [[ $(diff ~/coffee.sh /c/My\ Data/so20/80\ -\ rishiri\ hyades\ clouds/rishiri/dungeons/XVIIIth/bash/coffee.sh -q) == *differ* ]]; then
 	printf "\n"
-        printf "\e[1;41m $exdiff\e[0m\n\n"
+        printf "\e[1;41m $exdiff\e[0m\n"
+	echo `ls --full-time /h/coffee.sh`
+	echo `ls --full-time /c/My\ Data/so20/80\ -\ rishiri\ hyades\ clouds/rishiri/dungeons/XVIIIth/bash/coffee.sh`
+	printf "\n"
+
 	printf "\e[1;36m use <coffee_pull> to overwrite local\n"
-	printf "\e[1;36m use <diff ~/coffee.sh /c/My\ Data/so20/80\ -\ rishiri\ hyades\ clouds/rishiri/dungeons/XVIIIth/bash/coffee.sh> for doublechecking\n"
+	printf "\e[1;36m use <coffee_push> to overwrite local hyades\n"
+	printf "\e[1;36m use <coffee_diff> to see diff\n"
+	printf "\e[1;36m use <diff -s ~/coffee.sh /c/My\ Data/so20/80\ -\ rishiri\ hyades\ clouds/rishiri/dungeons/XVIIIth/bash/coffee.sh> for doublechecking\n"
 fi
 

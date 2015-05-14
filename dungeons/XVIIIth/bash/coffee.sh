@@ -54,7 +54,7 @@ printf "\n"
 
 #cal3m=`perl -e '($sec,$min,$hour,$mday,$mon,$year,$wday,$yday,$isdst) = localtime; $cal3m=qx{cal -3m}; $cal3m=~s/\s$mday\s/ \\e\[1;45m$mday\\e\[0m\ /g; print $cal3m'`
 
-cal3m=`perl -e '($sec,$min,$hour,$mday,$mon,$year,$wday,$yday,$isdst) = localtime; $cal3m=qx{cal -3m};$mdc=qq{\\e\[1;45m$mday\\e\[0m};$cal3m=~s/(.....................) $mday(.*?)(.....................\r)/$1$mdc$2$3/; print $cal3m'`
+cal3m=`perl -e '($sec,$min,$hour,$mday,$mon,$year,$wday,$yday,$isdst) = localtime; $cal3m=qx{cal -3m};$mdc=qq{\\e\[1;45m$mday\\e\[0m};$cal3m=~s/(.....................) $mday(.*?)(.....................\r)/$1 $mdc$2$3/; print $cal3m'`
 
 echo "$cal3m"
 
