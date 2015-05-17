@@ -1,6 +1,9 @@
 
-CORE/
+READ-NOW/
+  http://maryrosecook.com/blog/post/git-from-the-inside-out
 
+
+CORE/
   http://git-scm.com/book/en/v2
 
 TOOLS/
