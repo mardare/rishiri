@@ -12,6 +12,9 @@ alias coffee_push='cp -i /h/coffee.sh /c/My\ Data/so20/80\ -\ rishiri\ hyades\ c
 alias coffee_diff='diff -s -d --width=1000 -y --suppress-common-lines /c/My\ Data/so20/80\ -\ rishiri\ hyades\ clouds/rishiri/dungeons/XVIIIth/bash/coffee.sh /h/coffee.sh'
 alias coffee_diff2='diff -s /c/My\ Data/so20/80\ -\ rishiri\ hyades\ clouds/rishiri/dungeons/XVIIIth/bash/coffee.sh /h/coffee.sh'
 
+alias c='~/coffee.sh'
+alias r='sh --login'
+
 
 alias|perl -e  "print qq{Run available cmds };while (<>){chomp($_);/^alias\s+(.*?)=.*?/g;print \$1.qq{/ }}"
 
