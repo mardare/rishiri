@@ -11,7 +11,10 @@ alias allbk='cp -v -u ~/.bashrc /c/rishiri-hyades/rishiri/dungeons/XVIIIth/bash/
 
 alias pub='cd /c/temp/~kings-cross/bin'
 
-alias coffee_pull='cp -i /c/rishiri-hyades/rishiri/dungeons/XVIIIth/bash/coffee.sh ~/'
+hycffee='/c/rishiri-hyades/rishiri/dungeons/XVIIIth/bash'
+
+alias coffee_pull='cp -i ${hycffee}/coffee.sh ~/'
+alias coffee_push='cp -i ~/coffee.sh ${hycffee}/'
 
 alias c='~/coffee.sh'
 alias r='sh --login'
@@ -30,6 +33,7 @@ if [[ $(diff ~/coffee.sh /c/rishiri-hyades/rishiri/dungeons/XVIIIth/bash/coffee.
 	printf "\n"
 	printf "\e[1;41m $exdiff\e[0m\n\n"
 	printf "\e[1;36m use <coffee_pull> to overwrite local\n"
+	printf "\e[1;36m use <coffee_push> to overwrite hyades (local)\n"
 	printf "\e[1;36m use <diff ~/coffee.sh /c/rishiri-hyades/rishiri/dungeons/XVIIIth/bash/coffee.sh> for doublechecking\n"
 fi
 
