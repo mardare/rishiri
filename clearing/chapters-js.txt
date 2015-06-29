@@ -28,6 +28,7 @@ TEMPLATING/
 
 
 ETC/
+ https://github.com/kolodny/exercises
  Timesheet.js (http://sbstjn.com/en/Introducing-Timesheet-js.html)
  Flux
  Edge.js http://tjanczuk.github.io/edge/#/
