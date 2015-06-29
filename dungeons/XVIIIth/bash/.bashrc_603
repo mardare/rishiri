@@ -1,0 +1,36 @@
+
+# command overwrite
+
+alias ls='ls -halF'
+
+alias s='d-scan.sh'
+
+
+# command new
+
+alias lc='alias|perl -e  "print qq{Run available cmds };while (<>){chomp($_);/^alias\s+(.*?)=.*?/g;print \$1.qq{/ }}"'
+alias n='/c/Program\ Files/Notepad++/notepad++.exe'
+
+alias w='cd /c/RADWorkspace/workspaces/px-23; ls'
+
+alias wasp='cd /c/Program\ Files/IBM/SDP/runtimes/base_v61/profiles/px-57-150621/config/cells/WDBED2100603Node01Cell/nodes/WDBED2100603-57-Node01/servers/server1; ls'
+alias wasb='cd /c/Program\ Files/IBM/SDP/runtimes/base_v61; ls'
+alias wast='cd /c/Program\ Files/IBM/SDP/runtimes/base_v61/profiles/px-57-150621/temp/WDBED2100603-57-Node01/server1'
+
+alias nx='cd /c/RADWorkspace2/nginx'
+alias nxl='cd /c/RADWorkspace2/nginx/logs/'
+alias nxll='cd /c/RADWorkspace2/nginx/logs/;less +F error.log'
+
+alias ebl='cd /c/LOG/System/WAS/EB_Server'
+
+alias allbk='~/snct-bash.sh'
+
+# list my commands
+
+alias|perl -e  "print qq{Run available cmds };while (<>){chomp($_);/^alias\s+(.*?)=.*?/g;print \$1.qq{/ }}"
+
+# cal
+
+printf "\n\n"
+printf "\t"; date "+W%V/D%j"; printf "\t"; date "+%a %e.%m.%y"; printf "\n";
+
