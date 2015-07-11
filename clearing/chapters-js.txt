@@ -13,6 +13,7 @@ KEY/
 TOOLS/
  
  https://developers.google.com/chrome-developer-tools/
+ https://developer.chrome.com/devtools/docs/commandline-api
 
 
 LIB/
