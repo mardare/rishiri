@@ -73,6 +73,9 @@ https://www.petrom.com/portal/01/petromcom/petromcom/OMV_Petrom/Investor_Relatio
 STIB
 http://www.stirom.ro/investors/Financial_Statements/?lang=ro
 
+SPCU
+http://www.boromir.ro/en/comunicate-financiare
+
 VNC
 http://www.vrancart.ro/index.php?lang=ro&m=12&p=intrebari_act
 
