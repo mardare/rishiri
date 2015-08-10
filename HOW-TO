@@ -88,9 +88,8 @@ git mergetool 						launch configured tool
 or vi <filename> under a (master|MERGING) folder
 ....merge changes....
 g add .
-
-
-
+g cm "coffee merge done"
+g push
   
 
 INFO/
