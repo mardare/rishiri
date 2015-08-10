@@ -1,9 +1,12 @@
 
+# globs (works with no-space names)
+
+workspace='/c/RADWorkspace/workspaces/px85'
+
 # command overwrite
 
 alias ls='ls -halF'
-
-alias s='d-scan.sh'
+alias g='grep -a -i -A 7 -B 7'
 
 
 # command new
@@ -11,23 +14,39 @@ alias s='d-scan.sh'
 alias lc='alias|perl -e  "print qq{Run available cmds };while (<>){chomp($_);/^alias\s+(.*?)=.*?/g;print \$1.qq{/ }}"'
 alias n='/c/Program\ Files/Notepad++/notepad++.exe'
 
-alias w='cd /c/RADWorkspace/workspaces/px-23; ls'
 
-alias wasp='cd /c/Program\ Files/IBM/SDP/runtimes/base_v61/profiles/px-57-150621/config/cells/WDBED2100603Node01Cell/nodes/WDBED2100603-57-Node01/servers/server1; ls'
-alias wasb='cd /c/Program\ Files/IBM/SDP/runtimes/base_v61; ls'
-alias wast='cd /c/Program\ Files/IBM/SDP/runtimes/base_v61/profiles/px-57-150621/temp/WDBED2100603-57-Node01/server1'
+alias w='cd $workspace; ls'
+alias ws='cd /c/RADWorkspace/workspaces-install-scripts-130209-cribor; less +F Local_Deploy.log.txt'
+alias wbtt='cd $workspace/EB/webApplication/WEB-INF/XML/bttSrc/include/'
+
+alias wasr6='cd /c/Program\ Files/IBM/SDP/runtimes/base_v61; ls'
+alias wasp6='cd /c/Program\ Files/IBM/SDP/runtimes/base_v61/profiles/px-57-150621; ls'
+alias wass6='cd /c/Program\ Files/IBM/SDP/runtimes/base_v61/profiles/px-57-150621/config/cells/WDBED2100603Node01Cell/nodes/WDBED2100603-57-Node01/servers/server1; ls'
+alias wast6='cd /c/Program\ Files/IBM/SDP/runtimes/base_v61/profiles/px-57-150621/temp/WDBED2100603-57-Node01/server1; ls'
+
+alias wasr='cd /c/Program\ Files/IBM/WebSphere/AppServer/; ls'
+alias wasp='cd /c/Program\ Files/IBM/WebSphere/AppServer/profiles; ls'
+alias wass='cd /c/Program\ Files/IBM/WebSphere/AppServer/profiles/px-85-150800/config/cells/WDBED2100603Node02Cell/nodes/WDBED2100603-85-Node01/servers/server1; ls'
+alias wast='cd /c/Program\ Files/IBM/WebSphere/AppServer/profiles/px-85-150800/temp/WDBED2100603-85-Node01/server1; ls'
 
 alias nx='cd /c/RADWorkspace2/nginx'
 alias nxl='cd /c/RADWorkspace2/nginx/logs/'
 alias nxll='cd /c/RADWorkspace2/nginx/logs/;less +F error.log'
 
 alias ebl='cd /c/LOG/System/WAS/EB_Server'
+alias ebll='cd /c/LOG/System/WAS/EB_Server/;less +F eb'
+alias eb-stat='perl -n -e "while (<>){/\d{2}\/\d{2}\/\d{4}\s(\d{2}:\d{2}:\d{2})\,(\d{3})/; print \$1.q{-}.\$2.q{-delta }.(\$2-\$1).qq{\n} if \$1}" /c/LOG/System/WAS/EB_Server/eb'
 
 alias allbk='~/snct-bash.sh'
 
 # list my commands
 
+printf "\n"
 alias|perl -e  "print qq{Run available cmds };while (<>){chomp($_);/^alias\s+(.*?)=.*?/g;print \$1.qq{/ }}"
+printf "\n"
+echo Run alias for command details
+echo Run cd \| \~/cd2.sh \'C:\RADWorkspace\...
+printf "\n"
 
 # cal
 

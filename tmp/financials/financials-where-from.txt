@@ -10,10 +10,12 @@ CAL
 
 ALBZ
 http://www.albalact.ro/rapoarte-si-hotarari.html
+http://www.tradeville.eu/actiuni/actiuni-ALBZ/dividende
 
 ARS
 http://www.aerostar.ro/raportari-periodice.php
 http://www.aerostar.ro/raportari-curente.php
+http://www.tradeville.eu/actiuni/actiuni-ARS/dividende
 
 ATB
 http://www.antibiotice.ro/investitori.php
