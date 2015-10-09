@@ -1,3 +1,8 @@
+KEYS/
+  CTRL+ALT+T  new terminal
+
+  CTRL+ALT+F1 tty1...
+  ALT+F7      gui tty
 
 CONFIG/
 
@@ -8,3 +13,34 @@ CONFIG/
   sudo usermod root -p <password>
   sudo passwd root
   su
+
+CMD/
+
+  tar zxvf jre-8u45-linux-x64.tar.gz
+  
+  export JAVA_HOME="/usr/java/jre1.8.0_45/"
+  
+  which java:
+  /usr/bin/java
+  
+  alias ls='ls -halF'
+
+HOW-TO INSTALL/
+
+  download to /tmp => extract
+  install to /opt
+  sudo -i ln -s /usr/bin/sublime /usr/local/bin/Sublime\ Text\ 2/sublime_text
+  
+UBUNTU/
+  
+  #console font
+  sudo dpkg-reconfigure console-setup
+
+  #disable apport
+  
+/FHS
+  /opt/
+      eclipse
+      sublime
+  /usr/bin/
+      sub -> /opt/sublime/sublime_text
