@@ -13,6 +13,14 @@ CONFIG/
   sudo usermod root -p <password>
   sudo passwd root
   su
+  
+  #vi fix arrow-keys issue
+  vi ~/.exrc
+    add "set nocompatible"  
+  #vi fix arrow-keys issue for root
+  sudo -i touch /root/.exrc
+  sudo -i vi /root/.exrc
+    add "set nocompatible"  
 
 CMD/
 
