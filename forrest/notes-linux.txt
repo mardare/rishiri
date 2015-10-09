@@ -3,3 +3,8 @@ CONFIG/
 
   change tty(console) font
   sudo dpkg-reconfigure console-setup
+
+  #enable root su
+  sudo usermod root -p <password>
+  sudo passwd root
+  su
