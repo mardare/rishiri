@@ -24,6 +24,8 @@ CMD/
   /usr/bin/java
   
   alias ls='ls -halF'
+  
+  history | grep blahblah
 
 HOW-TO INSTALL/
 
