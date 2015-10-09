@@ -22,6 +22,16 @@ CONFIG/
   sudo -i vi /root/.exrc
     add "set nocompatible"  
 
+INSTALL/
+  
+  list:
+   dpkg -l|grep -i "java"
+  
+  uninstall:
+   sudo apt-get purge openjdk-\* icedtea-\* icedtea6-\*
+   which java
+   which javac
+
 CMD/
 
   tar zxvf jre-8u45-linux-x64.tar.gz
@@ -57,3 +67,4 @@ UBUNTU/
       sublime
   /usr/bin/
       sub -> /opt/sublime/sublime_text
+  /usr/lib/jvm/
