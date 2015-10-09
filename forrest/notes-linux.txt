@@ -62,9 +62,11 @@ UBUNTU/
     enabled=0
   
 /FHS
+  /etc/bash.bashrc
   /opt/
       eclipse
       sublime
   /usr/bin/
       sub -> /opt/sublime/sublime_text
   /usr/lib/jvm/
+  /home/mardare/.bashrc
