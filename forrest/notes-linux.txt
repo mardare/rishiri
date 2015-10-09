@@ -1,0 +1,5 @@
+
+CONFIG/
+
+  change tty(console) font
+  sudo dpkg-reconfigure console-setup
