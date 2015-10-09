@@ -46,7 +46,10 @@ UBUNTU/
   #console font
   sudo dpkg-reconfigure console-setup
 
-  #disable apport
+  #disable apport (crash report)
+  sudo service apport stop
+  sudo -i vi /etc/default/apport
+    enabled=0
   
 /FHS
   /opt/
