@@ -42,8 +42,13 @@ CONFIG/
 
 INSTALL/
   
+  sudo dpkg -i /path/to/deb/file 
+  sudo apt-get install unity-tweak-tool
+   
   list:
    dpkg -l|grep -i "java"
+  
+   
   
   uninstall:
    sudo apt-get purge openjdk-\* icedtea-\* icedtea6-\*
