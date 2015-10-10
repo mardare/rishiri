@@ -7,6 +7,7 @@ KEYS/
 CONFIG/
 
   change tty(console) font
+  #UTF-8;Latin2;Terminus;16
   sudo dpkg-reconfigure console-setup
 
   #enable root su
@@ -51,6 +52,16 @@ CMD/
   sudo fdisk -l
   df -h
   df -h --output=source,fstype,size,used,avail,pcent,target
+  #relation dir-partition
+  df tmp/
+  
+  #what is my windows manager?
+  echo $XDG_CURRENT_DESKTOP
+  
+  #print all env vars
+  printenv
+  #print exported vars, not all bash variables
+  env
   
   #run fsck
     #unmount!
@@ -97,6 +108,11 @@ DISK PARTITION/
   /root   system partition
   /swap   ram swap (size = 1.5 or 2 x RAM)
   /home   everything else  - diff partition => os upgrade is non-event for /home
+  
+  ?/tmp    couple of Mega
+  ?/usr    1-2 Gb
+  
+  /boot    kernel image, ramdisk image, b ootloader configuration
 
 FHS
   /etc/bash.bashrc
