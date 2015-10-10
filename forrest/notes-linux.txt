@@ -37,6 +37,8 @@ CONFIG/
   groups primo
   #-a append
   sudo usermod -a -G adm,sudo,plugdev,sambashare primo
+  #change fullname
+  sudo usermod -c "primo" primo
 
 INSTALL/
   
