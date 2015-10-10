@@ -74,8 +74,7 @@ HOW-TO DEBUG/
   tail -f /var/log/kern.log
   
   last
-  
-  
+
 UBUNTU/
   
   #console font
@@ -90,7 +89,16 @@ UBUNTU/
   sudo apt-get install gparted
   sudo gparted
   
-/FHS
+  #defrag
+  n/a for ext3/ext4 which have a "self-cleaning” mechanism
+
+DISK PARTITION/
+  
+  /root   system partition
+  /swap   ram swap (size = 1.5 or 2 x RAM)
+  /home   everything else  - diff partition => os upgrade is non-event for /home
+
+FHS
   /etc/bash.bashrc
   /opt/
       eclipse
