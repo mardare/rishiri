@@ -44,6 +44,23 @@ CMD/
   alias ls='ls -halF'
   
   history | grep blahblah
+  
+  #list disks/partitions
+  lsblk
+  sudo sfdisk -l -uM
+  sudo fdisk -l
+  df -h
+  df -h --output=source,fstype,size,used,avail,pcent,target
+  
+  #run fsck
+    #unmount!
+    sudo unmount /dev/sda1
+    #check if unmounted (sda1 shouldn't appear anymore)
+    df -h --output=source,fstype,target
+    #run fsck
+    sudo -i fsck -f -v /dev/sda1
+    #mount back 
+    mount /dev/sda1
 
 HOW-TO INSTALL/
 
@@ -74,6 +91,9 @@ UBUNTU/
   /opt/
       eclipse
       sublime
+  /sbin
+      fdisk
+      fsck
   /usr/bin/
       sub -> /opt/sublime/sublime_text
   /usr/lib/jvm/
