@@ -42,13 +42,16 @@ CONFIG/
 
 INSTALL/
   
+  download to /tmp => extract
+  install to /opt
+  sudo -i ln -s /opt/Sublime/sublime_text /usr/bin/sub 
+  sudo -i ln -s /opt/google/chrome/chrome /usr/bin/chrome
+
   sudo dpkg -i /path/to/deb/file 
   sudo apt-get install unity-tweak-tool
-   
+  
   list:
    dpkg -l|grep -i "java"
-  
-   
   
   uninstall:
    sudo apt-get purge openjdk-\* icedtea-\* icedtea6-\*
@@ -99,13 +102,6 @@ CMD/
   sudo vi /etc/default/grub
     GRUB_TERMINAL=console
     GRUB_GFXMODE=800x600
-
-HOW-TO INSTALL/
-
-  download to /tmp => extract
-  install to /opt
-  sudo -i ln -s /opt/Sublime/sublime_text /usr/bin/sub 
-  sudo -i ln -s /opt/google/chrome/chrome /usr/bin/chrome
 
 HOW-TO DEBUG/
   
