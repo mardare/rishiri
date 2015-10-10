@@ -50,6 +50,14 @@ HOW-TO INSTALL/
   download to /tmp => extract
   install to /opt
   sudo -i ln -s /usr/bin/sublime /usr/local/bin/Sublime\ Text\ 2/sublime_text
+
+HOW-TO DEBUG/
+  
+  tail -f /var/log/syslog
+  tail -f /var/log/kern.log
+  
+  last
+  
   
 UBUNTU/
   
