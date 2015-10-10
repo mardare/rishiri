@@ -104,7 +104,8 @@ HOW-TO INSTALL/
 
   download to /tmp => extract
   install to /opt
-  sudo -i ln -s /usr/bin/sublime /usr/local/bin/Sublime\ Text\ 2/sublime_text
+  sudo -i ln -s /opt/Sublime/sublime_text /usr/bin/sub 
+  sudo -i ln -s /opt/google/chrome/chrome /usr/bin/chrome
 
 HOW-TO DEBUG/
   
@@ -150,6 +151,7 @@ FHS
   /opt/
       eclipse
       sublime
+      google/chrome
   /sbin
       fdisk
       fsck
