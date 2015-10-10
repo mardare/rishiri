@@ -57,6 +57,10 @@ INSTALL/
    sudo apt-get purge openjdk-\* icedtea-\* icedtea6-\*
    which java
    which javac
+   
+  #query available packages
+  apt-cache search java |grep openjdk
+
 
 CMD/
 
