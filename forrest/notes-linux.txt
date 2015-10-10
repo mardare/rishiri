@@ -134,6 +134,9 @@ UBUNTU/
   
   #defrag
   n/a for ext3/ext4 which have a "self-cleaning” mechanism
+  
+  #task manager/ps -aux
+  sudo apt-get install gnome-system-monitor
 
 DISK PARTITION/
   
