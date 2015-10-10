@@ -110,6 +110,10 @@ UBUNTU/
   
   #console font
   sudo dpkg-reconfigure console-setup
+  
+  #windows manager fonts
+  sudo apt-get install unity-tweak-tool
+  sudo unity-tweak-tool
 
   #disable apport (crash report)
   sudo service apport stop
