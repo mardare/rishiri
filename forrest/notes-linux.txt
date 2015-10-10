@@ -137,6 +137,9 @@ UBUNTU/
   
   #task manager/ps -aux
   sudo apt-get install gnome-system-monitor
+  
+  #perl
+  sudo apt-get install padre
 
 DISK PARTITION/
   
