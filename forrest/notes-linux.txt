@@ -22,6 +22,10 @@ CONFIG/
   sudo -i touch /root/.exrc
   sudo -i vi /root/.exrc
     add "set nocompatible"  
+    
+  #add user
+  useradd primo
+  passwd primo
 
 INSTALL/
   
