@@ -86,6 +86,10 @@ UBUNTU/
   sudo -i vi /etc/default/apport
     enabled=0
   
+  #fsck gui
+  sudo apt-get install gparted
+  sudo gparted
+  
 /FHS
   /etc/bash.bashrc
   /opt/
