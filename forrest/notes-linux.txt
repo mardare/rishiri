@@ -163,4 +163,5 @@ FHS
       sub -> /opt/sublime/sublime_text
     /java/jre1.8.0_45/bin/java    
     /lib/jvm/
+    /local/apache-tomcat-7.0.64/
   /home/mardare/.bashrc
