@@ -87,6 +87,11 @@ CMD/
     sudo -i fsck -f -v /dev/sda1
     #mount back 
     mount /dev/sda1
+    
+  #enable verbose login
+  sudo vi /etc/default/grub
+    GRUB_TERMINAL=console
+    GRUB_GFXMODE=800x600
 
 HOW-TO INSTALL/
 
