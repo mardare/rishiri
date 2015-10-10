@@ -15,17 +15,28 @@ CONFIG/
   sudo passwd root
   su
   
-  #vi fix arrow-keys issue
   vi ~/.exrc
+    #fix arrow-keys issue
     add "set nocompatible"  
-  #vi fix arrow-keys issue for root
+    #fix backspace disabled
+    set backspace=2
+    
+  #vi fix config for root
   sudo -i touch /root/.exrc
   sudo -i vi /root/.exrc
-    add "set nocompatible"  
+    add "set nocompatible"
+    add "set backspace=2"
     
-  #add user
-  useradd primo
+  #add user (do not use useradd unless setting up everything manually)
+  adduser primo
   passwd primo
+  
+  deluser primo
+  
+  #list groups
+  groups primo
+  #-a append
+  sudo usermod -a -G adm,sudo,plugdev,sambashare primo
 
 INSTALL/
   
