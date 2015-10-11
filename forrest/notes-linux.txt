@@ -163,6 +163,7 @@ FHS
       fsck
   /usr
     /bin/
+      padre
       sub -> /opt/sublime/sublime_text
     /java/jre1.8.0_45/bin/java    
     /lib/jvm/
