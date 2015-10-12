@@ -20,7 +20,7 @@ CONFIG/
   unzip to /usr/java/jre<1.8.0_60>/
   sudo -i ln -s /usr/java/jre<1.8.0_60>/lib/amd64/libnpjp2.so /home/<user>/.mozilla/plugins
   restart ff
-  #configure security
+  #configure security;security tab/add to exception list sites
   /usr/java/jre1.8.0_60/bin/ControlPanel 
   
   vi ~/.exrc
