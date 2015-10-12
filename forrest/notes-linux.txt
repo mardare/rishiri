@@ -47,6 +47,28 @@ CONFIG/
   sudo usermod -a -G adm,sudo,plugdev,sambashare primo
   #change fullname
   sudo usermod -c "primo" primo
+  
+  #vsftp server
+  sudo apt-get install vsftpd
+  
+  ??
+  sudo mkdir /var/ftp/pub/
+  sudo vi /etc/vsftpd.conf
+    local_enable=YES
+    write_enable=YES
+    
+    anon_upload_enable=YES
+    anon_mkdir_write_enable=YES
+    anon_root=/var/ftp/pub
+    
+    chown_uploads=YES
+    chown_username=primo
+
+  sudo chown primo:primo /var/ftp/pub/
+  sudo chmod 777 /var/ftp/pub/
+  
+  sudo service vsftpd restart
+
 
 INSTALL/
   
