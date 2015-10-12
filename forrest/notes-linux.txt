@@ -48,10 +48,10 @@ CONFIG/
   #change fullname
   sudo usermod -c "primo" primo
   
-  #vsftp server
+  <??not working??>
+  #vsftp server - users jailed to their /home dir
   sudo apt-get install vsftpd
   
-  ??
   sudo mkdir /var/ftp/pub/
   sudo vi /etc/vsftpd.conf
     local_enable=YES
@@ -68,7 +68,7 @@ CONFIG/
   sudo chmod 777 /var/ftp/pub/
   
   sudo service vsftpd restart
-
+  </??not working??>
 
 INSTALL/
   
