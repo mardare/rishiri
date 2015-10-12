@@ -48,7 +48,6 @@ CONFIG/
   #change fullname
   sudo usermod -c "primo" primo
   
-  <??not working??>
   #vsftp server - users jailed to their /home dir
   sudo apt-get install vsftpd
   
@@ -63,7 +62,8 @@ CONFIG/
     
     chown_uploads=YES
     chown_username=primo
-
+  
+  <??anonymous writting not working??>
   sudo chown primo:primo /var/ftp/pub/
   sudo chmod 777 /var/ftp/pub/
   
@@ -94,6 +94,8 @@ INSTALL/
 
 CMD/
 
+  ifconfig
+  
   tar zxvf jre-8u45-linux-x64.tar.gz
   
   export JAVA_HOME="/usr/java/jre1.8.0_45/"
