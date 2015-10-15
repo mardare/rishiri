@@ -1,0 +1,13 @@
+REM DEBUG
+REM
+REM MaxHeapSize -Xmx
+REM InitialHeapSize -Xms
+REM
+REM java -XX:+PrintFlagsFinal -version |egrep -i "heap"
+REM
+REM
+REM InitialHeapSize 16777216 bytes / 1024 /1024 = 16 Mb
+REM MaxHeapSize     268435456 bytes = 256 Mb
+ 
+java -Xmx1024m -jar SPECjvm2008.jar --createHtmlFile true
+@pause
