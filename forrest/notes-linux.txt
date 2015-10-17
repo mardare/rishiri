@@ -21,8 +21,19 @@ CONFIG/
   sudo -i ln -s /usr/java/jre<1.8.0_60>/lib/amd64/libnpjp2.so /home/<user>/.mozilla/plugins
   restart ff
   #configure security;security tab/add to exception list sites
-  /usr/java/jre1.8.0_60/bin/ControlPanel 
+  /usr/java/jre1.8.0_60/bin/ControlPanel
   
+  #tomcat install
+  download tomcat
+  unzip to /local/apache-tomcat-7.0.64/
+  #eclipse bug fix: unable to add a new server 'Tomcat v7.0 Server at localhost'
+  rm workspace/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jst.server.tomcat.core.prefs
+  rm workspace/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.wst.server.core.prefs
+  add new server
+  #eclipse bug fix: server overview tab, Server Location disabled
+  server tab > properties > general - click switch location
+  re-open overview tab - Server Location
+ 
   vi ~/.exrc
     #fix arrow-keys issue
     add "set nocompatible"  
