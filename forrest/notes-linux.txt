@@ -79,7 +79,14 @@ INSTALL/
 
   sudo dpkg -i /path/to/deb/file 
   sudo apt-get install unity-tweak-tool
-  
+
+  sudo dpkg -i skype-ubuntu-precise_4.3.0.37-1_i386.deb 
+	  The following packages have unmet dependencies:
+	  ....
+  sudo apt-get -f install
+	  -f, --fix-broken
+  cat /etc/apt/sources.list
+
   list:
    dpkg -l|grep -i "java"
   
