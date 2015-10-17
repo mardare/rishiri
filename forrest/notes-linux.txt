@@ -33,6 +33,8 @@ CONFIG/
   #eclipse bug fix: server overview tab, Server Location disabled
   server tab > properties > general - click switch location
   re-open overview tab - Server Location
+  #always su
+  sudo eclipse
  
   vi ~/.exrc
     #fix arrow-keys issue
