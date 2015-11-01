@@ -154,11 +154,6 @@ CMD/
     #mount back 
     mount /dev/sda1
     
-  #enable verbose login
-  sudo vi /etc/default/grub
-    GRUB_TERMINAL=console
-    GRUB_GFXMODE=800x600
-
 HOW-TO DEBUG/
   
   tail -f /var/log/syslog
@@ -190,7 +185,7 @@ UBUNTU/
   #task manager/ps -aux
   sudo apt-get install gnome-system-monitor
   
-  #perl
+  #perl ide
   sudo apt-get install padre
 
 DISK PARTITION/
