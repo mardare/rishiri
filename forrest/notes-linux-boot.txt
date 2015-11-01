@@ -1,0 +1,18 @@
+
+
+config boot
+  sudo vi /etc/default/grub
+  #enable verbose login
+    GRUB_TERMINAL=console
+    GRUB_GFXMODE=800x600
+  #error: no video mode activated
+    GRUB_HIDDEN_TIMEOUT=0
+    GRUB_CMDLINE_LINUX_DEFAULT="quiet splash nomodeset"
+
+annex - boot sequence
+
+BIOS > BOOT LOADER > star_kernel() (process 0) > idle process/schedule process/init process inside USER SPACE
+> display manager inside USER SPACE
+
+init process = shell scripts
+start_kernel() = start_32() arch specific > start_kernel() non-arch ./
