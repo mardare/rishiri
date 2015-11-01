@@ -8,6 +8,8 @@ config boot
   #error: no video mode activated
     GRUB_HIDDEN_TIMEOUT=0
     GRUB_CMDLINE_LINUX_DEFAULT="quiet splash nomodeset"
+apply changes
+ sudo update-grub
 
 annex - boot sequence
 
