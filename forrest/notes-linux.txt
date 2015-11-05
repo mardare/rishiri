@@ -82,7 +82,15 @@ CONFIG/
   
   sudo service vsftpd restart
   </??not working??>
+  
+INSTALL VBOX/
 
+  start the vbox
+  ubuntu > loggin in windows manager (unity)
+  vbox menu > Devices > Insert Guest Additions CD image...
+  ubuntu > search for "VBOX" > click VBoxLinuxAdditions.run.sh
+  terminal: /media/<user>/VBOXADDITIONS_...
+  
 INSTALL/
   
   download to /tmp => extract
