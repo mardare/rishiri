@@ -177,7 +177,12 @@ UBUNTU/
   #windows manager fonts
   sudo apt-get install unity-tweak-tool
   sudo unity-tweak-tool
-
+  * troubleshoot (display/appearance not available in dash)
+	sudo apt-get install synaptic
+	dash: synaptic > 'custom filters' then 'missing recommended'
+	highlight all and right click > mark > apply on the toolbar
+	
+	
   #disable apport (crash report)
   sudo service apport stop
   sudo -i vi /etc/default/apport
