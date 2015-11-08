@@ -1,10 +1,11 @@
 
+boot in grub: keep pressing SHIFT at boot time
 
 config boot
   sudo vi /etc/default/grub
   #enable verbose login
     GRUB_TERMINAL=console
-    GRUB_GFXMODE=800x600
+    GRUB_GFXMODE=1024x768
   #error: no video mode activated
     GRUB_HIDDEN_TIMEOUT=0
     GRUB_CMDLINE_LINUX_DEFAULT="quiet splash nomodeset"
