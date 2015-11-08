@@ -125,6 +125,7 @@ CMD/
   ifconfig
   
   tar zxvf jre-8u45-linux-x64.tar.gz
+  gzip -d jdk-7u80-linux-i586.gz
   
   export JAVA_HOME="/usr/java/jre1.8.0_45/"
   
