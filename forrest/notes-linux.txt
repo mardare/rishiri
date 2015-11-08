@@ -85,12 +85,10 @@ CONFIG/
   
 INSTALL VBOX/
 
-  start the vbox
-  ubuntu > loggin in windows manager (unity)
-  vbox menu > Devices > Insert Guest Additions CD image...
-  ubuntu > search for "VBOX" > click VBoxLinuxAdditions.run.sh
-  terminal: /media/<user>/VBOXADDITIONS_...
-  
+  vbox menu > storage > remove if optical > add new optical/link it to windows VBoxGuestAdditions.iso
+  ubuntu > mount /dev/cdrom/ /mnt
+  ubuntu > /mnt/VBoxLinuxAdditions.run.sh
+
 INSTALL/
   
   download to /tmp => extract
