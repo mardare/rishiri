@@ -125,7 +125,7 @@ CMD/
   /usr/bin/java
   
   alias ls='ls -halF'
-  alias ls2='stat -c "%A %a %n" *'
+  alias ls2='stat -c "%A %a %U:%G %n" *'
   
   umask
   chown primo:primo <file>
