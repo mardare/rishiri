@@ -1,0 +1,6 @@
+
+INSTALL/
+
+  vbox menu > storage > remove if optical > add new optical/link it to windows VBoxGuestAdditions.iso
+  ubuntu > mount /dev/cdrom/ /mnt
+  ubuntu > /mnt/VBoxLinuxAdditions.run.sh

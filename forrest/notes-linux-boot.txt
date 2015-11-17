@@ -1,0 +1,24 @@
+
+boot in grub: keep pressing SHIFT at boot time
+
+config boot
+  sudo vi /etc/default/grub
+  #enable verbose login
+    GRUB_TERMINAL=console
+    GRUB_GFXMODE=1024x768
+  #error: no video mode activated
+    GRUB_HIDDEN_TIMEOUT=0
+    GRUB_CMDLINE_LINUX_DEFAULT="quiet splash nomodeset"
+apply changes
+ sudo update-grub
+
+annex - boot sequence
+
+initrd/initfsram (aka early user space)
+
+BIOS > BOOT LOADER > star_kernel() (process 0) > idle process/schedule process/init process inside USER SPACE
+> display manager inside USER SPACE
+
+boot loader = load kernel in RAM (1) uncompress initrd > (2) mount /root
+init process = shell scripts
+start_kernel() = start_32() arch specific > start_kernel() non-arch 

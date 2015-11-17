@@ -1,0 +1,224 @@
+KEYS/
+  CTRL+ALT+T  new terminal
+
+  CTRL+ALT+F1 tty1...
+  ALT+F7      gui tty
+
+CONFIG/
+
+  change tty(console) font
+  #UTF-8;Latin2;Terminus;16
+  sudo dpkg-reconfigure console-setup
+
+  #enable root su
+  sudo usermod root -p <password>
+  sudo passwd root
+  su
+  
+  #ff java plugin
+  download jre
+  unzip to /usr/java/jre<1.8.0_60>/
+  sudo -i ln -s /usr/java/jre<1.8.0_60>/lib/amd64/libnpjp2.so /home/<user>/.mozilla/plugins
+  restart ff
+  #configure security;security tab/add to exception list sites
+  /usr/java/jre1.8.0_60/bin/ControlPanel
+  
+  #tomcat install
+  download tomcat
+  unzip to /local/apache-tomcat-7.0.64/
+  #eclipse bug fix: unable to add a new server 'Tomcat v7.0 Server at localhost'
+  rm workspace/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jst.server.tomcat.core.prefs
+  rm workspace/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.wst.server.core.prefs
+  add new server
+  #eclipse bug fix: server overview tab, Server Location disabled
+  server tab > properties > general - click switch location
+  re-open overview tab - Server Location
+  #always su
+  sudo eclipse
+ 
+  vi ~/.exrc
+    #fix arrow-keys issue
+    add "set nocompatible"  
+    #fix backspace disabled
+    set backspace=2
+    
+  #vi fix config for root
+  sudo -i touch /root/.exrc
+  sudo -i vi /root/.exrc
+    add "set nocompatible"
+    add "set backspace=2"
+    
+  #add user (do not use useradd unless setting up everything manually)
+  adduser primo
+  passwd primo
+  
+  deluser primo
+  
+  #list groups
+  groups primo
+  #-a append
+  sudo usermod -a -G adm,sudo,plugdev,sambashare primo
+  #change fullname
+  sudo usermod -c "primo" primo
+  
+  #vsftp server - users jailed to their /home dir
+  sudo apt-get install vsftpd
+  
+  sudo mkdir /var/ftp/pub/
+  sudo vi /etc/vsftpd.conf
+    local_enable=YES
+    write_enable=YES
+    
+    anon_upload_enable=YES
+    anon_mkdir_write_enable=YES
+    anon_root=/var/ftp/pub
+    
+    chown_uploads=YES
+    chown_username=primo
+  
+  <??anonymous writting not working??>
+  sudo chown primo:primo /var/ftp/pub/
+  sudo chmod 777 /var/ftp/pub/
+  
+  sudo service vsftpd restart
+  </??not working??>
+  
+INSTALL/
+  
+  download to /tmp => extract
+  install to /opt
+  sudo -i ln -s /opt/Sublime/sublime_text /usr/bin/sub 
+  sudo -i ln -s /opt/google/chrome/chrome /usr/bin/chrome
+
+  sudo dpkg -i /path/to/deb/file 
+  sudo apt-get install unity-tweak-tool
+
+  sudo dpkg -i skype-ubuntu-precise_4.3.0.37-1_i386.deb 
+	  The following packages have unmet dependencies:
+	  ....
+  sudo apt-get -f install
+	  -f, --fix-broken
+  cat /etc/apt/sources.list
+
+  list:
+   dpkg -l|grep -i "java"
+  
+  uninstall:
+   sudo apt-get purge openjdk-\* icedtea-\* icedtea6-\*
+   which java
+   which javac
+   
+  #query available packages
+  apt-cache search java |grep openjdk
+
+
+CMD/
+
+  ifconfig
+  
+  tar zxvf jre-8u45-linux-x64.tar.gz
+  gzip -d jdk-7u80-linux-i586.gz
+  
+  export JAVA_HOME="/usr/java/jre1.8.0_45/"
+  
+  which java:
+  /usr/bin/java
+  
+  alias ls='ls -halF'
+  
+  history | grep blahblah
+  
+  #list disks/partitions
+  lsblk
+  sudo sfdisk -l -uM
+  sudo fdisk -l
+  df -h
+  df -h --output=source,fstype,size,used,avail,pcent,target
+  #relation dir-partition
+  df tmp/
+  
+  #what is my windows manager?
+  echo $XDG_CURRENT_DESKTOP
+  
+  #print all env vars
+  printenv
+  #print exported vars, not all bash variables
+  env
+  
+  #run fsck
+    #unmount!
+    sudo unmount /dev/sda1
+    #check if unmounted (sda1 shouldn't appear anymore)
+    df -h --output=source,fstype,target
+    #run fsck
+    sudo -i fsck -f -v /dev/sda1
+    #mount back 
+    mount /dev/sda1
+    
+HOW-TO DEBUG/
+  
+  tail -f /var/log/syslog
+  tail -f /var/log/kern.log
+  
+  last
+
+UBUNTU/
+  
+  #console font
+  sudo dpkg-reconfigure console-setup
+  
+  #windows manager fonts
+  sudo apt-get install unity-tweak-tool
+  sudo unity-tweak-tool
+  * troubleshoot (display/appearance not available in dash)
+	sudo apt-get install synaptic
+	dash: synaptic > 'custom filters' then 'missing recommended'
+	highlight all and right click > mark > apply on the toolbar
+	
+	
+  #disable apport (crash report)
+  sudo service apport stop
+  sudo -i vi /etc/default/apport
+    enabled=0
+  
+  #fsck gui
+  sudo apt-get install gparted
+  sudo gparted
+  
+  #defrag
+  n/a for ext3/ext4 which have a "self-cleaning” mechanism
+  
+  #task manager/ps -aux
+  sudo apt-get install gnome-system-monitor
+  
+  #perl ide
+  sudo apt-get install padre
+
+DISK PARTITION/
+  
+  /root   system partition
+  /swap   ram swap (size = 1.5 or 2 x RAM)
+  /home   everything else  - diff partition => os upgrade is non-event for /home
+  
+  ?/tmp    couple of Mega
+  ?/usr    1-2 Gb
+  
+  /boot    kernel image, ramdisk image, b ootloader configuration
+
+FHS
+  /etc/bash.bashrc
+  /opt/
+      eclipse
+      sublime
+      google/chrome
+  /sbin
+      fdisk
+      fsck
+  /usr
+    /bin/
+      padre
+      sub -> /opt/sublime/sublime_text
+    /java/jre1.8.0_45/bin/java    
+    /lib/jvm/
+    /local/apache-tomcat-7.0.64/
+  /home/mardare/.bashrc

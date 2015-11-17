@@ -1,0 +1,18 @@
+
+
+cat /etc/hostname
+
+corpus=host
+shadow=guest
+
+virtualbox setup/easy
+ #enable inet access for the shadow (one-way comm)
+ vbox>settings>network>adapter 1 - attached to "NAT"
+ #enable two-way comm, port/protocol by port/protocol
+ vbox>settings>network>adapter 1 - Port Forwarding > add "http-server| tcp |  | 8080| | 8080"
+ 
+virtualbox setup two-way access corpus <=> shadow
+ tood
+ https://help.ubuntu.com/community/VirtualBox/Networking
+ bridge is the only way => define 2nd adapter as Bridge
+ sudo nano /etc/network/interfaces
