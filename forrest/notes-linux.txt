@@ -125,6 +125,13 @@ CMD/
   /usr/bin/java
   
   alias ls='ls -halF'
+  alias ls2='stat -c '%A %a %n'
+  
+  umask
+  chown primo:primo <file>
+  
+  #dirs need +x
+  chmod 666 <file>
   
   history | grep blahblah
   
