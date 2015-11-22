@@ -1,0 +1,111 @@
+<html>
+ <head>
+   <script type="text/javascript">
+                //assoc.array of array of assoc.arrays
+                var phData= {
+                                listLang: [
+                                           {label: 'perl'}, {label: 'java <b>1.8</b>'}, {label: 'javascript'}, {label: 'html5'},
+                                           {label: 'sqlite'}
+                                ],
+                                listBin: [
+                                           {
+                                            label: 'git',
+                                            url:undefined
+                                           },
+                                           {
+                                            label: 'sublime',
+                                            url:undefined
+                                           },
+                                           {
+                                            label: 'irfanview',
+                                            url:undefined
+                                           },
+                                           {
+                                            label: 'oracle virtualbox',
+                                            url:undefined
+                                           },
+                                           {
+                                            label: 'jdk 1.8',
+                                            url:undefined
+                                           },
+                                           {
+                                            label: 'camStudio',
+                                            url: 'http://sourceforge.net/projects/camstudio/'
+                                           },
+                                           {
+                                            label: '7zip',
+                                            url: 'http://www.7-zip.org/'
+                                           },                                    
+                                           {
+                                            label: 'skype mand432@/mar432',
+                                           },                                    
+                                           {
+                                            label: 'ncat',
+                                            url: 'https://nmap.org/download.html#windows'
+                                           },
+                                           {
+                                            label: '??wireframe/gui-mockup software??',
+                                            url:undefined
+                                           }                                          
+                                ]};
+                             
+   		function phFillAll(){
+   			phFill();
+   			return;
+   		}
+   		function phFill(divORdivID){
+                        
+                        console.log ("phFill (%s)", typeof divORdivID);
+                        
+                        //convert divORdivID to HTMLDivElement 
+                        if (typeof divORdivID !="object")
+                            divORdivID=(divORdivID?document.getElementById(divORdivID):null);
+                        
+                         var divEl=divORdivID;
+                  
+   			//either fill specific or if not-defined all ph*
+   			if (divEl){
+   				console.log("filling div <%s>", divEl.id);
+                                
+                                var phDataKey=divEl.id.substring(3,divEl.id.length);
+                                
+                                //abort if no data to fill in
+                                if (!(phData[phDataKey])){
+                                    console.log("phDataKey struct - no data for <%s>\nabort function...", phDataKey);
+                                    return;
+                                }
+                                
+                                //iter. array of assoc.arrays
+                                for (var i=0; i<phData[phDataKey].length; i++){
+                                    //build url
+                                    divEl.innerHTML+=(i+1)+":&nbsp;"+(phData[phDataKey][i].url?"<a href=\""+phData[phDataKey][i].url+"\" target=\"_blank\">"+phData[phDataKey][i].label+"</a>":phData[phDataKey][i].label);
+                                    divEl.innerHTML+="<br/>";
+                                }
+                                
+             
+   			} else {
+   				console.log("fill all");
+
+   				var divAll=document.getElementsByTagName("div");
+                                console.log("found %s", divAll.length);
+   				for (var i=0; i<divAll.length; i++){
+                                     phFill(divAll[i]);
+                                }
+   			}
+   			return;
+   		}
+   </script>
+ </head>
+ <body onload="phFillAll()">
+ 
+<table border="1" cellspacing="10px" style="border: 1px blueviolet; border-style: dotted;">
+	<tr><td>install</td>
+            <td valign="top" style="border: 1px blueviolet; border-style: dotted;"><div id="ph-listLang"/><br/><br/></td>
+            <td valign="top" style="border: 1px blueviolet; border-style: dotted;"><div id="ph-listBin"/>/bin<br/><br/></td>
+    </tr>	
+</table>
+</body>
+</html>
+    
+
+
