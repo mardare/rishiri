@@ -80,7 +80,7 @@ git commit -m "forrest/dungeons ..."
 git commit --amend -m "replaced message"
 git push
 
-MERGE/CONFLICT 						see that in git bash (master) is now (master|MERGING)
+CONFLICT/MERGE 						see that in git bash (master) is now (master|MERGING)
 git fetch
 git show FETCH_HEAD:dungeons/XVIIIth/bash/coffee.sh	show remote version
 git difftool -- dungeons/XVIIIth/bash/coffee.sh		diff versus remote version
@@ -90,7 +90,13 @@ or vi <filename> under a (master|MERGING) folder
 g add .
 g cm "coffee merge done"
 g push
-  
+
+CONFLICT/STASH
+git stash
+git pull
+git stash list
+git stash apply
+
 
 INFO/
 
