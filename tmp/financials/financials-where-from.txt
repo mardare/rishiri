@@ -17,6 +17,9 @@ http://www.aerostar.ro/raportari-periodice.php
 http://www.aerostar.ro/raportari-curente.php
 http://www.tradeville.eu/actiuni/actiuni-ARS/dividende
 
+IARV
+http://www.iar.ro/shareholding1.html
+
 ATB
 http://www.antibiotice.ro/investitori.php
 
@@ -68,7 +71,7 @@ SNN
 http://www.nuclearelectrica.ro/situatii-financiare-b7950/structura-actionariatului--9cd5a/structura-actionariatului--4e051/
 
 SNP
-https://www.petrom.com/portal/01/petromcom/petromcom/OMV_Petrom/Investor_Relations
+http://www.omvpetrom.com/portal/01/petromcom/petromcom/OMV_Petrom/Relatia_cu_investitorii
 
 STIB
 http://www.stirom.ro/investors/Financial_Statements/?lang=ro
