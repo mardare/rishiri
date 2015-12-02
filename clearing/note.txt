@@ -1,6 +1,0 @@
-
-All problems in computer science can be solved by another level of indirection. 
--- David Wheeler
-
-Use hardware long enough and it breaks. Use software long enough, and it works.
-
