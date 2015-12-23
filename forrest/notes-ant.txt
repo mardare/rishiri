@@ -1,0 +1,38 @@
+
+
+123/
+
+download bin from https://www.apache.org/dist/ant/binaries/?C=M;O=A
+
+set env
+  	ANT_HOME=C:\ant
+	PATH=%PATH%;%ANT_HOME%\bin
+
+# dest=	system - store in ant lib/
+#	  user - store in the user's home directory
+ant -f %ANT_HOME%\fetch.xml -Ddest=system
+
+
+tasks/
+	<input ....
+	
+	<copy includeemptydirs="false" todir=""/tofile
+	   <fileset dir="src"><exclude name="**/*.java"/></fileset>
+	</copy>
+
+	<ftp ....
+
+	<delete ....
+
+	<zipfileset ....
+	<unzip dest="">
+	   <patternset includes=""/>
+	   <fileset dir="" includes=""/>
+	</unzip>
+
+	<taskdef name="" classname="" classpath=""
+	java.awt.; javax.swing.JDialog
+
+
+
+
