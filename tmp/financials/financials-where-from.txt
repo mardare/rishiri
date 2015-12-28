@@ -43,6 +43,7 @@ https://www.ifond.ro/?page=p_fonduriprezentare_ifond_financial
 https://www.ifond.ro/?page=p_noutati
 
 IPRU
+http://www.iproeb.ro/infosocietate_fisiere/
 http://www.iproeb.ro/info
 http://www.tradeville.eu/actiuni/actiuni-IPRU
 http://markets.ft.com/research/Markets/Tearsheets/Summary?s=IPRU:BUH
