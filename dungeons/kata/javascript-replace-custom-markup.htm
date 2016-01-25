@@ -1,0 +1,94 @@
+
+<html>
+ <head>
+	<script src="jquery-2.1.4.min.js"></script>
+	<script src="underscore.js"></script>
+
+	
+	<script>
+		//follow as much as possible https://en.wikipedia.org/wiki/Help:Wiki_markup
+		//TOOD -- define dict struct, eg 
+				//      wiki0Markup={
+				//			/\[(http:\/\/.*?)\s*?(.*?)\]/gm: "<a href=\"{0}\">{1}</a>",
+				//			/\[(http:\/\/\S*?)]/gm: "<a href=\"{0}\">{0}</a>",				
+				//      }
+		//TOOD	-- support for markup ==h2==
+				//					<table><tr><td> ttt
+					
+		//dialect
+		var dcw=function (t) { document.write(t);}
+		
+		var dbg=function (t) { console.log(t);}
+		//var dbg=function(){}; //disable console.log-ing
+		
+		//constants
+		var nodeTypes = {
+			elementNode:1,
+			attributeNode:2,
+			textNode:3,
+			commentNode:8
+		};	
+		
+		function parseWiki0Markup(element){
+			$(element).contents().filter(
+				function (index, element){
+					
+					dbg("node\nindex:"+index+"\n"+
+								"type:"+element.nodeType+"\n"+
+								"val:"+element.nodeValue);
+					return element.nodeType==nodeTypes.textNode;
+				}
+			).each(
+				function (i,e){
+				
+					dbg ("found text <"+e.nodeValue+">");
+
+					//wiki0 markup simple translate=replace
+					e.nodeValue=e.nodeValue.replace(/\^nb/gm,"\&nbsp;")
+										   .replace(/\^br/gm,"<br/>");
+					
+					//wiki0 markup translate [url{0} caption{1}]
+					var m=e.nodeValue.match(/\[(http:\/\/.*?)\s*?(.*?)\]/gm);					
+		
+					if (m){					
+						dbg ("found1 markup matche(s): "+m.length);
+					
+						for (i=0; i<m.length; i++){
+							dbg("processing "+ m[i]);
+							
+							var aTag=m[i].match(/\[(http:\/\/\S+)\s*?(.*?)\]/);
+							e.nodeValue=e.nodeValue.replace(m[i],"<a href=\""+aTag[1]+"\">"+(aTag[2]?aTag[2]:aTag[1])+"</a>");
+						}
+					}
+
+					//idiom -- got to be called just once for all-updates (after 1st update 'this' is a new object)
+					$(this).replaceWith(e.nodeValue);
+
+				}
+			);
+		}
+	</script>
+ 
+ </head>
+ <body onload="parseWiki0Markup('body')">
+ ^nb^br
+	You're a space marine, one of Earth's toughest, hardened in combat...
+	<table>
+		<tr>
+		<td>
+		...and trained for action. Three years ago you assaulted a superior officer for ordering his
+		soldiers to fire upon civilians.
+		</td>
+		</tr>
+	</table>
+	^br
+	He and his body cast wew shipped to Pearl Harbor [http://www.ibm.com ibm].
+	Software Engineers [http://abcd.efg.org]^br
+	John Carmack	
+	Artists [http://zzz.wwww.yyy Designers]^br
+	Adrian Carmack Kevin Cloud Sandy Petersen
+	^br^br
+	<script>dcw("jq ver"+$.fn.jquery);</script>
+	<script>dcw("_ ver"+_.VERSION);</script>
+	</body>
+</html>
