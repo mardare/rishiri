@@ -4,5 +4,41 @@
   "t": "Justin",
   "label": "rh",
   "location": "https://www.youtube.com/watch?v=QdK5q1WobMo"
+ },
+ {
+  "a": "Metallica",
+  "t": "Hit The Lights",
+  "label": "rh",
+  "location": "https://www.youtube.com/watch?v=IFfVOiG8ZZo"
+ },
+  {
+  "a": "Metallica",
+  "t": "Orion",
+  "label": "rh",
+  "location": "https://www.youtube.com/watch?v=-qYqi-EMErU"
+ },
+  {
+  "a": "Motorhead",
+  "t": "Ace Of Spades",
+  "label": "rh",
+  "location": "https://www.youtube.com/watch?v=vcf7DnHi54g"
+ },
+  {
+  "a": "Korn",
+  "t": "Y'all Want a Single",
+  "label": "rh",
+  "location": "https://www.youtube.com/watch?v=ECE27vtp4WU"
+ },
+  {
+  "a": "Deftones",
+  "t": "Bored",
+  "label": "rh",
+  "location": "https://www.youtube.com/watch?v=-WdYo3WlETY"
+ },
+  {
+  "a": "Deftones",
+  "t": "My Own Summer",
+  "label": "rh",
+  "location": "https://www.youtube.com/watch?v=XOzs1FehYOA"
  }
- ]
+]
