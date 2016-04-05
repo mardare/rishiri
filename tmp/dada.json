@@ -45,12 +45,36 @@
   "a": "Big Pun",
   "t": "Beware",
   "label": "hhh",
-  "location": " https://www.youtube.com/watch?v=ChGLOHjDPK4"
+  "location": "https://www.youtube.com/watch?v=ChGLOHjDPK4"
  },
  {
   "a": "G-Unit",
   "t": "Changes",
   "label": "hhh",
-  "location": " https://www.youtube.com/watch?v=zdpW7jcIFoo"
- }
+  "location": "https://www.youtube.com/watch?v=zdpW7jcIFoo"
+ },
+ {
+  "a": "Fabolous ft 2 chainz",
+  "t": "When I Feel Like",
+  "label": "hhh",
+  "location": "https://www.youtube.com/watch?v=LLCOTa6rnlI"
+ },
+ {
+  "a": "2 Chainz ft. Drake",
+  "t": "When I Feel Like",
+  "label": "hhh",
+  "location": "https://www.youtube.com/watch?v=uQZMaG1eO74"
+ },
+ {
+  "a": "Kanye West",
+  "t": "Can't Tell Me Nothing",
+  "label": "hhh",
+  "location": "https://www.youtube.com/watch?v=E58qLXBfLrs"
+ } ,
+ {
+  "a": "Kanye West ft Rihanna, Kid Cudi",
+  "t": "All Of The Lights",
+  "label": "hhh",
+  "location": "https://www.youtube.com/watch?v=HAfFfqiYLp0"
+ } 
 ]
