@@ -4,5 +4,7 @@
 "interview":
   ["eugenia voda", "howard stern"],
 "documentary":
-  ["communism", "stalin", "ww1", "ww2", "napoleon", "bohr|einstein|quantum", "voyager", "big bang|cosmos"]   
+  ["communism", "stalin", "ww1", "ww2", "napoleon", "bohr|einstein|quantum", "voyager", "big bang|cosmos"],
+"standup":
+  ["amy schumer", ...]
 }
