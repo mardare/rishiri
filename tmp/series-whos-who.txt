@@ -1,0 +1,27 @@
+
+plato
+aristotel
+
+marx
+descartes
+kant
+lenin
+
+mozart
+bach
+beethoven
+
+da vinci
+
+newton
+einstein
+darwin
+
+turing
+--
+
+semiconductors => transistors and computers
+paper
+geometry
+electricity
+telephone
