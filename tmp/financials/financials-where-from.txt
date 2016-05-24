@@ -30,7 +30,7 @@ CMP
 http://compa.ro/companie/date-financiare
 
 COTE
-http://www.conpet.ro/actionari.html
+http://www.conpet.ro/relatia-cu-investitorii/
 
 ELGS
 http://electroarges.ro/ro/index.php?id=10156&lang=ro
