@@ -1,4 +1,4 @@
-package example.ApiClient;
+package Example.ApiClient;
 
 import java.util.HashMap;
 

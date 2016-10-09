@@ -1,4 +1,4 @@
-package example.ApiClient;
+package Example.ApiClient;
 
 public class ApiResponse {
 	public StringBuilder content;
