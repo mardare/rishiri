@@ -1,6 +1,8 @@
 package study;
+// version final
+// publish-to https://github.com/mardare/rishiri/tree/master/dungeons/java/src/study
+// dependency singletonStudyB.java
 
-//singleton defined in singletonStudyB
 
 public class SingletonStudyA {
 

@@ -1,4 +1,7 @@
 package study;
+// version final
+// publish-to https://github.com/mardare/rishiri/tree/master/dungeons/java/src/study
+// dependency none
 
 /* 
   	immutable objects in java 
