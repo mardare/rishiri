@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<!-- 
+	this is a repository/deployment/server/synapse-configs/default/synapse.xml
+	you can add any flat sequences, endpoints, etc.. to this synapse.xml file if you do *not* want to keep the artifacts in several files
+
+-->	
+
+<definitions xmlns="http://ws.apache.org/ns/synapse">   
+ 
+	<api name="mock service nr.2" context="/service2">
+     <resource uri-template="/{idx}" methods="GET">
+        <inSequence>
+         
+		  <payloadFactory media-type="json">
+              <args>
+                <arg expression="get-property('uri.var.idx')"/>
+              </args>
+             <format>{
+				"service": "service2",
+				"id": "$1"
+}             </format> 
+          </payloadFactory>
+		   		   
+		  <log level="custom">
+				<property name="$url:idx" expression="$url:idx"/>
+				<property name="$body" expression="$body"/>
+				<property name="ContentType" expression="$trp:Content-Type"/>
+				<property name="messageType" expression="$axis2:messageType"/>
+		  </log>
+		   
+		  <respond/>
+		   
+        </inSequence>
+     </resource>
+   </api>  
+</definitions>
