@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<!-- 
+	this is a repository/deployment/server/synapse-configs/default/synapse.xml
+	you can add any flat sequences, endpoints, etc.. to this synapse.xml file if you do *not* want to keep the artifacts in several files
+
+-->	
+
+<definitions xmlns="http://ws.apache.org/ns/synapse">   
+  
+   <proxy name="MockServiceNr1" startOnLoad="true" xmlns="http://ws.apache.org/ns/synapse">
+   <!-- 
+		wsdl http://localhost:8280/services/mockServiceNr1?wsdl 
+		location (wsdl 1.1) http://localhost:8280/services/mockServiceNr1.mockServiceNr1HttpSoap11Endpoint
+		location (wsdl 2.0) http://box450:8280/services/mockServiceNr1.mockServiceNr1HttpSoap12Endpoint
+		
+		query-with
+		curl -X POST -H "SOAPAction: \"urn:mediate\"" -H "Content-Type: text/xml" http://localhost:8280/services/mockServiceNr1.mockServiceNr1HttpSoap11Endpoint
+   -->
+   <target>
+      <inSequence>
+         
+		 <payloadFactory>
+            <args/>
+            <format>
+			  <env:Envelope xmlns:env="http://www.w3.org/2003/05/soap-envelope">
+				<env:Header />
+				<env:Body>
+					<env:Fault>
+						<env:Code>
+							<env:Value>env:Sender</env:Value>
+						</env:Code>
+						<env:Reason>
+							<env:Text xml:lang="en-US">Message does not have necessary info</env:Text>
+						</env:Reason>
+						<env:Role>http://gizmos.com/order</env:Role>
+						<env:Detail>
+							<PO:order xmlns:PO="http://gizmos.com/orders/">Quantity element does not have a value</PO:order>
+							<PO:confirmation xmlns:PO="http://gizmos.com/confirm">Incomplete address: no zip code</PO:confirmation>
+						</env:Detail>
+					</env:Fault>
+				</env:Body>
+			</env:Envelope>            
+		 </format>
+         </payloadFactory>
+		 
+		<respond/>  
+	  
+	  </inSequence>
+   </target>
+   </proxy>  
+</definitions>
