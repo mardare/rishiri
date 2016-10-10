@@ -1,4 +1,7 @@
-package Example.ApiClient;
+package example.ApiClient;
+//version 0.2-NOK 'Remote host closed connection during handshake' line 62 via doPOST
+//publish-to https://github.com/mardare/rishiri/tree/master/dungeons/java/src/Example/ApiClient
+//dependency example.ApiClient.ApiResponse
 
 import java.util.HashMap;
 

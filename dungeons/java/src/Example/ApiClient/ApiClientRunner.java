@@ -1,4 +1,7 @@
-package Example.ApiClient;
+package example.ApiClient;
+//version 0.2-OK
+//publish-to https://github.com/mardare/rishiri/tree/master/dungeons/java/src/Example/ApiClient
+//dependency example.ApiClient.ApiClient and ApiResponse
 
 import java.util.HashMap;
 
