@@ -1,3 +1,8 @@
+`String.format(
+						"{\"key\": %s,\n"
+						+ "\"number-left-pad\": %05d\n}",  "doodle", Integer.valueOf(100))`
+
+Next chapter
 
 WI/
  _search play! architecture explained
