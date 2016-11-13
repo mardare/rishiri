@@ -2,7 +2,7 @@
 						"{\"key\": %s,\n"
 						+ "\"number-left-pad\": %05d\n}",  "doodle", Integer.valueOf(100))`
 
-Next chapter
+**Next chapter**
 
 WI/
  _search play! architecture explained
