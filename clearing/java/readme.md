@@ -1,6 +1,12 @@
 `String.format(
-						"{\"key\": %s,\n"
-						+ "\"number-left-pad\": %05d\n}",  "doodle", Integer.valueOf(100))`
+						"{"
+						+ "\"key\": %s, \n"
+						+ "\"number-left-pad\": %05d, \n"
+						+ "\"float\": %.3f"
+						+"}",  
+						"doodle", 
+						Integer.valueOf(100),
+						1.2)`
 
 **Diagrams**
 
