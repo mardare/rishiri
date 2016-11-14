@@ -3,6 +3,7 @@
 						+ "\"number-left-pad\": %05d\n}",  "doodle", Integer.valueOf(100))`
 
 **Diagrams**
+
 ![Throwable](diagrams/throwable-Error-OR-Exception.gif)
 
 **Next chapter**
