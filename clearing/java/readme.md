@@ -10,6 +10,8 @@
 
 ![Throwable](diagrams/throwable-Error-OR-Exception.gif)
 
+![Collections](diagrams/diagram-collectioans.jpg)
+
 **Next chapter**
 
 WI/
