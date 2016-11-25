@@ -11,6 +11,7 @@
 ![Throwable](diagrams/throwable-Error-OR-Exception.gif)
 
 ![Collections](diagrams/diagram-collectioans.jpg)
+![Collections features[(diagrams/diagram-java-collections.jpg)
 
 **Next chapter**
 
