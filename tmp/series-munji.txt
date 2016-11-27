@@ -6,4 +6,6 @@ deux * doocy *
 naz
 lula
 peg
+snoop
+chepo
 
