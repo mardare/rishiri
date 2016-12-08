@@ -1,0 +1,4 @@
+{
+"Your most powerful problem solver is your subconscious mind": "Rich Hickey",
+"Simple is not the same as easy. Don’t confuse them.": "Rich Hickey"
+}
