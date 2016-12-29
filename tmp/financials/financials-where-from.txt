@@ -26,6 +26,9 @@ http://www.antibiotice.ro/investitori.php
 BIO
 http://www.biofarm.ro/2014-s124-ro.htm
 
+BVB
+http://www.bvb.ro/InvestorRelations/FinancialFigures/FinancialReports
+
 CMP
 http://compa.ro/companie/date-financiare
 
@@ -35,8 +38,14 @@ http://www.conpet.ro/relatia-cu-investitorii/
 ELGS
 http://electroarges.ro/ro/index.php?id=10156&lang=ro
 
+EL
+http://www.electrica.ro/investitori/rezultate-si-raportari/
+
 ELMA
 http://www.electromagnetica.ro/documente/companie/investitori/
+
+FP
+http://www.fondulproprietatea.ro/investor-relations
 
 IFR
 https://www.ifond.ro/?page=p_fonduriprezentare_ifond_financial
@@ -66,13 +75,13 @@ http://www.siftransilvania.ro/ro/informatii-pentru-investitori/rapoarte
 http://www.siftransilvania.ro/ro/informatii-pentru-investitori/rapoarte/rapoarte-curente
 
 SNG
-http://www.romgaz.ro/relatia-cu-investitorii.html
+https://www.romgaz.ro/ro/content/relatia-cu-investitorii
 
 SNN
-http://www.nuclearelectrica.ro/situatii-financiare-b7950/structura-actionariatului--9cd5a/structura-actionariatului--4e051/
+http://www.nuclearelectrica.ro/relatii-cu-investitorii/structura-actionariatului/
 
 SNP
-http://www.omvpetrom.com/portal/01/petromcom/petromcom/OMV_Petrom/Relatia_cu_investitorii
+http://www.omvpetrom.com/portal/01/petromcom/petromcom/OMV_Petrom/Investor_Relations
 
 STIB
 http://www.stirom.ro/investors/Financial_Statements/?lang=ro
@@ -83,8 +92,11 @@ http://www.boromir.ro/en/comunicate-financiare
 VNC
 http://www.vrancart.ro/index.php?lang=ro&m=12&p=intrebari_act
 
+TEL
+http://www.transelectrica.ro/web/tel/relatii-investitori
+
 TGN
 http://www.transgaz.ro/ro/informa%C8%9Bii-investitori/raportari-financiare
 
 TRP
-http://www.teraplast.ro/ro/Relatia-cu-Investitorii/Rezultate-financiare.html
+http://www.teraplast.ro/investitori/rapoarte-financiare/
