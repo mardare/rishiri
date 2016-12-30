@@ -1,4 +1,6 @@
-
+http://grails.asia/
+http://mrhaki.blogspot.ro/2009/11/groovy-goodness-building-gui-with.html
+http://docs.groovy-lang.org/latest/html/api/groovy/lang/GroovyClassLoader.html
 https://learnxinyminutes.com/docs/groovy/
 https://github.com/kousen
 http://groovy-lang.org/groovyconsole.html
