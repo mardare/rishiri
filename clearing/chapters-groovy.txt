@@ -1,13 +1,36 @@
-http://grails.asia/
-http://mrhaki.blogspot.ro/2009/11/groovy-goodness-building-gui-with.html
+
+.groovy ==> ANTLR source parser ==> .java ==> ASM bytecode-framework
+
+KEY/
+	operator overloading -- unavail. in java
+	native syntax regex -- e.g. =~//
+	native(dedicated) syntax lists and maps -- e.g. def lst= ['a', 'b', 'c']; def mp= ['id': 1010, 'value': 12]
+	native syntax for 'polymorphic iteration'??1 
+	autoboxing
+	augment jdk with http://docs.groovy-lang.org/latest/html/api/org/codehaus/groovy/runtime/DefaultGroovyMethods.html
+	
+http://grails.asia/grails-3-tutorial-setup-your-windows-development-environment
+
+**http://grails.asia/
+
 http://docs.groovy-lang.org/latest/html/api/groovy/lang/GroovyClassLoader.html
 https://learnxinyminutes.com/docs/groovy/
 https://github.com/kousen
 http://groovy-lang.org/groovyconsole.html
 http://mrhaki.blogspot.ro/search/label/Groovy%3AGoodness
 
+SOAPUI/
+https://www.soapui.org/scripting-properties/tips-tricks.html
+https://www.soapui.org/scripting-properties/tips-tricks.html#5-1-Validate-request-XML-against-the-WSDL
+
 http://groovyconsole.appspot.com/
 http://groovyfx.org/
+
+CLASSLOADER/
+http://docs.groovy-lang.org/latest/html/api/groovy/lang/GroovyClassLoader.html
+
+GUI/
+http://mrhaki.blogspot.ro/2009/11/groovy-goodness-building-gui-with.html
 
 
 Groovy Goodness
