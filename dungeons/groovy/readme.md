@@ -1,3 +1,1 @@
-![groovy](mon.png
-
-groovy*grails*gradle)
+![groovy](mon.png groovy*grails*gradle)
