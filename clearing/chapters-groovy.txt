@@ -8,6 +8,9 @@ KEY/
 	native syntax for 'polymorphic iteration'??1 
 	autoboxing
 	augment jdk with http://docs.groovy-lang.org/latest/html/api/org/codehaus/groovy/runtime/DefaultGroovyMethods.html
+	embedded dependency manager - grape via annotation @Grab
+	runtime classpath control
+	different classpath strategy - parent classloaders are ignored first 
 	
 http://grails.asia/grails-3-tutorial-setup-your-windows-development-environment
 
