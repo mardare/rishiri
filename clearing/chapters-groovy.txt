@@ -2,6 +2,8 @@
 .groovy ==> ANTLR source parser ==> .java ==> ASM bytecode-framework
 
 KEY/
+	script mode (hides the definition of a wrapper class Main extends Script)
+	dynamic typing - valid code def i="1"; ++i; println i
 	operator overloading -- unavail. in java
 	native syntax regex -- e.g. =~//
 	native(dedicated) syntax lists and maps -- e.g. def lst= ['a', 'b', 'c']; def mp= ['id': 1010, 'value': 12]
@@ -10,7 +12,8 @@ KEY/
 	augment jdk with http://docs.groovy-lang.org/latest/html/api/org/codehaus/groovy/runtime/DefaultGroovyMethods.html
 	embedded dependency manager - grape via annotation @Grab
 	runtime classpath control
-	different classpath strategy - parent classloaders are ignored first 
+	different classpath strategy - parent classloaders are ignored first
+	default imports - java.lang/util/io/net, java.math.Big*, groovy.langutil;
 	
 http://grails.asia/grails-3-tutorial-setup-your-windows-development-environment
 
