@@ -1,0 +1,20 @@
+
+
+
+1. dw to /rishiri/tmp...
+2. a4 draft per sym with transcripted items
+3. fin-sql.xls to insert 
+
+4. check inserted
+   .mode line
+    select * from fundamentals where sym=<sym>;
+
+   .mode list
+	 select * from fundamentals where sym=<sym> and year='2016' and period='Q3';
+5. save snapshot 
+   .dump fundamentals in npp
+
+   ==
+   
+Z. if done -> backup to file
+   .backup  backup/snapshot-YYYY-MM-DD
