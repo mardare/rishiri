@@ -9,4 +9,4 @@ known-world-is
 
 https://github.com/tchapi/markdown-cheatsheet/blob/master/README.md
 
-!(mon.jpg "mon")
+![](mon.jpg "mon")
