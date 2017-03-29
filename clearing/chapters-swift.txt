@@ -3,3 +3,5 @@ https://swift.org |
 
 https://www.hackingwithswift.com/read
 https://www.hackingwithswift.com/example-code/
+
+https://github.com/swagger-api/swagger-codegen/tree/master/samples/client/petstore/swift3
