@@ -7,7 +7,7 @@ mixin composition
 
 
 ## jvm/groovy '03   
-**gradle, soap-ui**  
+**(gradle, soap-ui)**  
  http://groovy-lang.org/     
  functional
 ~~~~ 
@@ -29,7 +29,7 @@ mixin composition
 mixin composition   
 
 ## python '91   
-**boxee.tv, machine-learning/tensorflow**  
+**(boxee.tv, machine-learning/tensorflow)**  
  https://www.python.org/ 
  https://www.slideshare.net/MattHarrison4/learn-90  
  everything is an object  
