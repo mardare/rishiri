@@ -31,7 +31,7 @@ mixin composition
 
 
 ## python '91   
-**(boxee.tv, machine-learning/tensorflow)**  
+**(boxee.tv/kodi/XBMC, machine-learning/tensorflow)**  
  https://www.python.org/ 
  https://www.slideshare.net/MattHarrison4/learn-90  
  everything is an object  
