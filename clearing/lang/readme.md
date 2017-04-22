@@ -12,8 +12,8 @@
    >>> id(x)
 ~~~~
    
-**jvm/groovy -- gradle, soap-ui** 
- http://groovy-lang.org/ 
+**jvm/groovy -- gradle, soap-ui**  
+ http://groovy-lang.org/     
  functional
 ~~~~ 
    def closure = { println "I am a closure" }
@@ -25,9 +25,9 @@
    closureWithParameters("Hello dudes", "Hello Mega Dude")  // Prints Hello dudes and Hello Mega Dude
 ~~~~
 
-**jvm/kotlin** 
+**jvm/kotlin**   
  https://kotlinlang.org/ 
 
-**jvm/scala** 
+**jvm/scala**   
  https://www.scala-lang.org/ 
  
