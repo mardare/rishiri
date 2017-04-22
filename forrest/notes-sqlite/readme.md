@@ -15,8 +15,15 @@ SELECT datetime('now', '+5 days');
 SELECT datetime('now', '+1 month');
 ~~~
 
-- **dd.mm.yyyy => yyyy-mm-dd**
+- **"dd.mm.yyyy" => yyyy-mm-dd**
 ~~~
 select 
  datetime(substr(date, 7, 4) || '-' || substr(date, 4, 2) || '-' || substr(date, 1, 2)) date
+~~~
+- **yyyy-mm-dd => "dd/mm"**
+~~~
+select strftime('%d/%m', date) from zxc;
+~~~
+~~~
+select strftime('%d-%m-%Y %H:%M:%S', datetime('now'));
 ~~~
