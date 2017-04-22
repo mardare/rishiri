@@ -1,7 +1,10 @@
 
 ###  lang view
 
-## swift '14       
+## swift '14   
+mixin composition   
+
+
 
 ## jvm/groovy '03   
 **gradle, soap-ui**  
@@ -23,6 +26,7 @@ mixin composition
 
 ## jvm/scala '04      
  https://www.scala-lang.org/ 
+mixin composition   
 
 ## python '91   
 **boxee.tv, machine-learning/tensorflow**  
@@ -36,8 +40,13 @@ mixin composition
 ~~~~
 
 ## perl '87  
-   
+mixin composition   
+
+
      
 ## ruby '95   
+mixin composition   
+
+
 
 
