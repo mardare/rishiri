@@ -1,7 +1,7 @@
 
-##  lang view
+###  lang view
 
-**python -- boxee.tv, machine-learning/tensorflow**  
+## python **boxee.tv, machine-learning/tensorflow**  
  https://www.python.org/ 
  https://www.slideshare.net/MattHarrison4/learn-90 
 
@@ -12,7 +12,7 @@
    >>> id(x)
 ~~~~
    
-**jvm/groovy -- gradle, soap-ui**  
+## jvm/groovy **gradle, soap-ui**  
  http://groovy-lang.org/     
  functional
 ~~~~ 
@@ -25,9 +25,9 @@
    closureWithParameters("Hello dudes", "Hello Mega Dude")  // Prints Hello dudes and Hello Mega Dude
 ~~~~
 
-**jvm/kotlin**   
+## jvm/kotlin     
  https://kotlinlang.org/ 
 
-**jvm/scala**   
+## jvm/scala      
  https://www.scala-lang.org/ 
  
