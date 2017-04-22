@@ -26,7 +26,8 @@ mixin composition
 
 ## jvm/scala '04      
  https://www.scala-lang.org/ 
-mixin composition   
+mixin composition    
+
 
 ## python '91   
 **(boxee.tv, machine-learning/tensorflow)**  
