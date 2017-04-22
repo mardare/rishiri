@@ -1,19 +1,9 @@
 
 ###  lang view
 
-## python 
-**boxee.tv, machine-learning/tensorflow**  
- https://www.python.org/ 
- https://www.slideshare.net/MattHarrison4/learn-90 
+## swift '14       
 
- multi-paradigm 
- everything is an object  
-~~~~
-   >>> x=1 
-   >>> id(x)
-~~~~
-   
-## jvm/groovy 
+## jvm/groovy '03   
 **gradle, soap-ui**  
  http://groovy-lang.org/     
  functional
@@ -26,10 +16,28 @@
    def closureWithParameters = {x, y -> print(x  + " and " + y)}
    closureWithParameters("Hello dudes", "Hello Mega Dude")  // Prints Hello dudes and Hello Mega Dude
 ~~~~
+mixin composition   
 
-## jvm/kotlin     
+## jvm/kotlin '11    
  https://kotlinlang.org/ 
 
-## jvm/scala      
+## jvm/scala '04      
  https://www.scala-lang.org/ 
- 
+
+## python '91   
+**boxee.tv, machine-learning/tensorflow**  
+ https://www.python.org/ 
+ https://www.slideshare.net/MattHarrison4/learn-90  
+ everything is an object  
+ mixin composition  
+~~~~
+   >>> x=1 
+   >>> id(x)
+~~~~
+
+## perl '87  
+   
+     
+## ruby '95   
+
+
