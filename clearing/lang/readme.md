@@ -2,14 +2,14 @@
 ###lang view 
 
 
-**python -- boxee.tv, machine-learning/tensorflow** 
+**python -- boxee.tv, machine-learning/tensorflow**  
  https://www.python.org/ 
  https://www.slideshare.net/MattHarrison4/learn-90 
 
  multi-paradigm 
  everything is an object  
-`   >>> x=1 
-   >>> id(x)`
+```>>> x=1 
+   >>> id(x)```
    
 **jvm/groovy -- gradle, soap-ui** 
  http://groovy-lang.org/ 
