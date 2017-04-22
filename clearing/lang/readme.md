@@ -14,7 +14,7 @@ mixin composition
    def closure = { println "I am a closure" }
    closure() // Prints I am a closure, and closure ***has state***
 ~~~~   
-            or/  
+or   
 ~~~~  
    def closureWithParameters = {x, y -> print(x  + " and " + y)}
    closureWithParameters("Hello dudes", "Hello Mega Dude")  // Prints Hello dudes and Hello Mega Dude
