@@ -25,8 +25,9 @@ mixin composition
  https://kotlinlang.org/ 
 
 ## jvm/scala '04      
- https://www.scala-lang.org/ 
-mixin composition    
+ https://www.scala-lang.org/   
+mixin composition   
+
 
 
 ## python '91   
@@ -42,11 +43,11 @@ mixin composition
 
 ## perl '87  
 mixin composition   
-
-
-     
+ 
 ## ruby '95   
 mixin composition   
+
+
 
 
 
