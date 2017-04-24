@@ -1,4 +1,5 @@
 {
 "Your most powerful problem solver is your subconscious mind": "Rich Hickey",
-"Simple is not the same as easy. Don’t confuse them.": "Rich Hickey"
+"Simple is not the same as easy. Don’t confuse them.": "Rich Hickey",
+"I need better thoughts, Better vibes": "Future, Purple calling"
 }
