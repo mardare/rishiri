@@ -5,6 +5,7 @@
 mixin composition   
 
 
+_jvm bytecode= lingua fanca Groovy/Clojure/Scala/jRuby/jPython/Kotlin_
 
 ## jvm/groovy '03   
 **(gradle, soap-ui)**  
