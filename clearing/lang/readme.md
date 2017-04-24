@@ -1,7 +1,7 @@
 
 ###  lang view
 
-tags: traits, mixins, protocol extensions,tuple, promise, functional (function 1st class ctz), higher order
+tags: traits, mixins, protocol extensions,tuple, promise, meta-programming, everything is an ..... (object, list, ...), functional (function 1st class ctz), higher order
 **Go**: uses type composition exclusively;**Rust** **Erlang**
 
 ## swift '14   
