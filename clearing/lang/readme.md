@@ -1,9 +1,7 @@
 
 ###  lang view
 
-traits, mixins, protocol extensions
-tuple
-promise
+tags: traits, mixins, protocol extensions,tuple, promise, functional (function 1st class ctz), higher order
 Go: uses type composition exclusively
 
 ## swift '14   
