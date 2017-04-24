@@ -4,6 +4,7 @@
 traits, mixins, protocol extensions
 tuple
 promise
+Go: uses type composition exclusively
 
 ## swift '14   
 mixin composition   
