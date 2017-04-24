@@ -1,6 +1,10 @@
 
 ###  lang view
 
+traits, mixins, protocol extensions
+tuple
+promise
+
 ## swift '14   
 mixin composition   
 
