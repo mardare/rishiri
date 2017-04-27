@@ -4,7 +4,8 @@
 tags: traits, mixins, protocol extensions,tuple, promise, meta-programming, everything-is-an ..... (object, list, ...), functional (function 1st class ctz, higher-order-function)
 **Go**: uses type composition exclusively;**Rust** **Erlang**
 
-## swift '14   
+## swift '14
+**(uber app)**  
 static typed (as opposed to objective-c which is dynamically type, except for C plain objts)
 mixin-composition   
 
