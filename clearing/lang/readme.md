@@ -5,6 +5,7 @@ tags: traits, mixins, protocol extensions,tuple, promise, meta-programming, ever
 **Go**: uses type composition exclusively;**Rust** **Erlang**
 
 ## swift '14   
+static typed (as opposed to objective-c which is dynamically type, except for C plain objts)
 mixin-composition   
 
 
