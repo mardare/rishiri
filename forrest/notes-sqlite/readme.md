@@ -1,6 +1,7 @@
 ## cli
-- **show tables:** _.tables_   
-- **show cols:** _.headers ON_   
+- **show tables:**  _.tables_   
+- **show cols:**  _.headers ON_   
+- **list col names horizontally:**  _.mode line_  (default _.mode list_)
 - **set column separator:** 
 _sqlite3 -separator " # " zxc.db "select * from tableX where date>=datetime('now', '-7 days');"_
 
@@ -26,4 +27,22 @@ select strftime('%d/%m', date) from zxc;
 ~~~
 ~~~
 select strftime('%d-%m-%Y %H:%M:%S', datetime('now'));
+~~~
+
+## table/database to sql
+
+- **generate only insert statements for table data**
+~~~
+.mode insert
+select * from abc;
+~~~
+- **generate all sql statements for table re-creation**
+~~~
+.dump abc
+~~~
+
+## backup database
+
+~~~
+.backup  backup/snapshot-YYYY-MM-DD
 ~~~
