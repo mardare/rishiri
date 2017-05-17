@@ -34,6 +34,9 @@ mixin-composition
  https://www.scala-lang.org/   
 mixin-composition   
 
+## c# '00
+ partial classes
+ 
 
 ## python '91   
 **(boxee.tv/kodi/XBMC, machine-learning/tensorflow)**  
