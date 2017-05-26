@@ -26,7 +26,7 @@ or
    closureWithParameters("Hello dudes", "Hello Mega Dude")  // Prints Hello dudes and Hello Mega Dude
 ~~~~
 mixin-composition   
-meta-programming via AST (Abstract Syntax Tree= Abstract Representation of Code)
+meta-programming via metaclasses
 
 ## jvm/kotlin '11    
  https://kotlinlang.org/ 
@@ -57,12 +57,14 @@ mixin-composition
    >>> x=1 
    >>> id(x)
 ~~~~
+meta-programming via metaclasses
 
 ## perl '87  
 mixin-composition   
  
 ## ruby '95   
-mixin-composition   
+mixin-composition
+meta-programming via metaclasses
 
 
 
