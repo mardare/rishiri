@@ -26,9 +26,17 @@ or
    closureWithParameters("Hello dudes", "Hello Mega Dude")  // Prints Hello dudes and Hello Mega Dude
 ~~~~
 mixin-composition   
+meta-programming via AST (Abstract Syntax Tree= Abstract Representation of Code)
 
 ## jvm/kotlin '11    
  https://kotlinlang.org/ 
+
+## jvm/clojure    
+ https://clojure.org/
+clr
+dialect of Lisp (modern Lisp for functional programming)
+emphasis on functional
+meta-programming via macros
 
 ## jvm/scala '04      
  https://www.scala-lang.org/   
