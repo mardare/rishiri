@@ -1,0 +1,12 @@
+
+REACT NATIVE Build your first app in the next 5 minutes
+https://repl.it/site/react_native
+
+Android Studio
+https://developer.android.com/studio/preview/index.html
+
+Apache Cordova
+Mobile apps with HTML, CSS & JS
+Target multiple platforms with one code base
+Free and open source
+https://cordova.apache.org/
