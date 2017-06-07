@@ -1,5 +1,6 @@
 {
 "Your most powerful problem solver is your subconscious mind": "Rich Hickey",
 "Simple is not the same as easy. Don’t confuse them.": "Rich Hickey",
-"I need better thoughts, Better vibes": "Future, Purple calling"
+"I need better thoughts, Better vibes": "Future, Purple calling",
+"There is no matter as such! All matter originates and exists only by virtue of a force which brings the particles of an atom to vibration and holds this most minute solar system of the atom together. . . . We must assume behind this force the existence of a conscious and intelligent Spirit. This Spirit is the matrix of all matter.": "Das Wesen der Materie [The Nature of Matter], 1944, Max Planck"
 }
