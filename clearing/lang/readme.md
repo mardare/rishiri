@@ -1,5 +1,5 @@
 
-###  lang view
+#  lang
 
 tags: traits, mixins, protocol extensions,tuple, promise, meta-programming, everything-is-an ..... (object, list, ...), functional (function 1st class ctz, higher-order-function)
 **Go**: uses type composition exclusively;**Rust** **Erlang**
@@ -67,7 +67,6 @@ mixin-composition
 meta-programming via metaclasses
 
 
-
-
+*made in [dillinger.io](http://dillinger.io)
 
 
