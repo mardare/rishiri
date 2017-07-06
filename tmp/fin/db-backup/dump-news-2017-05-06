@@ -1,0 +1,19 @@
+PRAGMA foreign_keys=OFF;
+BEGIN TRANSACTION;
+CREATE TABLE "news" (
+        `date`  TEXT NOT NULL,
+        `label` TEXT NOT NULL,
+        `news`   TEXT NOT NULL
+                );
+INSERT INTO "news" VALUES('2017-1-8','EL, ELECTRIC, ENERGY','Pretul mediu al energiei electrice tranzactionate pentru astazi, pe Piata pentru Ziua Urmatoare (PZU), administrata de OPCOM, a fost 186,67 lei/MWh (echivalentul a 41,32 euro/MWh)');
+INSERT INTO "news" VALUES('2017-1-6','SNN, ENERGY','Reactorul 1 al centralei nucleare de la Cernavoda a fost oprit controlat, din cauza vremii.');
+INSERT INTO "news" VALUES('2017-1-13','RO','BM estim pt RO ''16 PIB +4.7% reviz vs +5.1%; ''17 PIB +3,7%; ''18 PIB +3,4%');
+INSERT INTO "news" VALUES('2017-1-13','*','BM estim global ''17 PIB +2,7%; SUA SUA +2,2%; economii avansate +1.8%; emergente +4.2%; China +6.2%');
+INSERT INTO "news" VALUES('2017-1-6','TRP','Teraplast deschide o societate în Serbia - 16M9 exporturi +28% vs ''15 - tari Germania, Austria, Ungaria, Slovenia, Cehia, Slovacia, Italia, Bulgaria, Serbia sau Belgia');
+INSERT INTO "news" VALUES('2017-1-13','MCAB','Morgan Stanley iese din actionariatul Romcab Targu-Mures - detinerea de 4,8% este eval la ~600.000 EUR');
+INSERT INTO "news" VALUES('2016-10-14','SNP','Oferta accelerata de catre FP pentru titluri SNP, pref final 0.21 lei (vs pret privatizare 0.239 lei in 2004), transa investitori mici 0.204 lei');
+INSERT INTO "news" VALUES('2017-1-1','EL, ELECTRIC, ENERGY','Romania 2014 - 236 masini electrice si hibrid; Romania 2015 - 495 (x2.09) masini electrice si hibrid;');
+INSERT INTO "news" VALUES('2017-1-1','EL, ELECTRIC, ENERGY','incarcare-priza-normala 7-8h; incarcare-rapida 50kWh, 20 minute pentru 80% baterie');
+INSERT INTO "news" VALUES('2017-05-04','CMP','Japonezii de la Takata cauta 215 oameni pentru fabricile de componente auto din Sibiu si Arad');
+INSERT INTO "news" VALUES('2017-05-06','EST-17, VNC','PBrut= +1.3%; Venituri= +6.5%; In 2017 investiitii ''de anvergura'' pt crestere capacitate si divers. produse!!');
+COMMIT;
