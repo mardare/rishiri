@@ -13,7 +13,9 @@
  - null safety
  - hejlsbergian syntax
  - function names as a phrase (readable auto-testing e.g. @Test fun \`verify node has sub-nodes\`() {...})
- - ~~instance via 'new' keyword~~ 
+ - ~~instance via 'new' keyword~~
+ - own reflection classes, own class type (java.lang.Class+ kotlin.reflect.KClass)
+ - augment methods to java core classes/functionality (e.g. kotlin.io.FileReadWrite.writer(), collection/maps .associateBy(), .sortBy())
 
 [official documentation (pdf)](https://kotlinlang.org/docs/kotlin-docs.pdf)|
 [stackoverflow stats](https://stackoverflow.com/questions/tagged/kotlin)
