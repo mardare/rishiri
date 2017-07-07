@@ -1,7 +1,10 @@
 
 #  lang
 
-tags: traits, mixins, protocol extensions,tuple, promise, meta-programming, everything-is-an ..... (object, list, ...), functional (function 1st class ctz, higher-order-function)
+tags: traits, mixins, protocol extensions,tuple, promise, meta-programming, everything-is-an ..... (object, list, ...), functional (function 1st class ctz, higher-order-function), hejlsberg-syntax
+
+ps: anders hejlsberg: Borland, Turbo Pascal, Delphi (Turbo Pascal next gen), TypeScript  
+
 **Go**: uses type composition exclusively;**Rust** **Erlang**
 
 ## swift '14
