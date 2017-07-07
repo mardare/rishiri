@@ -31,7 +31,7 @@ http://kotlination.com/
 
 
 ~~~~
-<dependency><!---->
+<dependency>
 	<groupId>org.jetbrains.kotlin</groupId>
 	<artifactId>kotlin-stdlib</artifactId>
 	<version>1.0.4</version>
