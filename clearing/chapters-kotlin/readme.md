@@ -12,7 +12,7 @@
  - all exceptions are unchecked (no compiler enforcement to catch them) 
  - null safety
  - hejlsbergian syntax
- - function names as a phrase (readable auto-testing e.g. @Test fun `verify node has sub-nodes`() {...})
+ - function names as a phrase (readable auto-testing e.g. @Test fun ```verify node has sub-nodes```() {...})
  - ~~instance via 'new' keyword~~ 
 
 [official documentation (pdf)](https://kotlinlang.org/docs/kotlin-docs.pdf)|
