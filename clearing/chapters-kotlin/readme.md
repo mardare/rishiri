@@ -24,21 +24,26 @@
 http://jamie.mccrindle.org/2013/01/exploring-kotlin-standard-library-part-1.html  
 http://jamie.mccrindle.org/2013/01/exploring-kotlin-standard-library-part-2.html  
 http://jamie.mccrindle.org/2013/02/exploring-kotlin-standard-library-part-3.html  
+http://kotlination.com/  
+
 
 ~~~~
-	<dependency><!--http://search.maven.org/#search%7Cgav%7C1%7Cg%3A%22org.jetbrains.kotlin%22%20AND%20a%3A%22kotlin-stdlib%22 -->
-		<groupId>org.jetbrains.kotlin</groupId>
-		<artifactId>kotlin-stdlib</artifactId>
-		<version>1.0.4</version>
-	</dependency>
-	<dependency>
-		<groupId>org.jetbrains.kotlin</groupId><!-- http://search.maven.org/#search%7Cgav%7C1%7Cg%3A%22org.jetbrains.kotlin%22%20AND%20a%3A%22kotlin-test-junit%22 -->
-		<artifactId>kotlin-test-junit</artifactId>
-		<version>1.0.4</version>
-		<scope>test</scope>
-	</dependency>
-~~~~  
+<dependency><!---->
+	<groupId>org.jetbrains.kotlin</groupId>
+	<artifactId>kotlin-stdlib</artifactId>
+	<version>1.0.4</version>
+</dependency>
+<dependency>
+	<groupId>org.jetbrains.kotlin</groupId>
+	<artifactId>kotlin-test-junit</artifactId>
+	<version>1.0.4</version>
+	<scope>test</scope>
+</dependency>
+~~~~
   
+kotlin-stdlib http://search.maven.org/#search%7Cgav%7C1%7Cg%3A%22org.jetbrains.kotlin%22%20AND%20a%3A%22kotlin-stdlib%22  
+kotlin-test-junit http://search.maven.org/#search%7Cgav%7C1%7Cg%3A%22org.jetbrains.kotlin%22%20AND%20a%3A%22kotlin-test-junit%22  
+
 ~~~~
    //immutable variable
    val a: Int = 1
@@ -83,7 +88,7 @@ http://jamie.mccrindle.org/2013/02/exploring-kotlin-standard-library-part-3.html
     }
 ~~~~
 
-
+* made in http://dillinger.io/
 
 
 
