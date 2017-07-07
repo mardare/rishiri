@@ -18,6 +18,7 @@
 [official documentation (pdf)](https://kotlinlang.org/docs/kotlin-docs.pdf)|
 [stackoverflow stats](https://stackoverflow.com/questions/tagged/kotlin)
 
+https://hackernoon.com/my-first-experiences-with-kotlin-b3fcf5e111f7
 [jetbrains kotlin examples](https://github.com/JetBrains/kotlin-examples)  
 [hadi hariri oreilly kotlin course](https://github.com/hhariri/oreilly-kotlin-course)  
 [antonio leiva blog](https://antonioleiva.com/kotlin/)  
