@@ -63,7 +63,9 @@ mixin-composition
 meta-programming via metaclasses
 
 ## perl '87  
-mixin-composition   
+mixin-composition
+closure/lexical scoping
+concurrent programming (perl 6 via concurrent primitives) inspired from Go/C#
  
 ## ruby '95   
 mixin-composition
