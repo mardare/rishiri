@@ -10,3 +10,10 @@ https://www.youtube.com/watch?v=VrMHA3yX_QI
 
 Siraj Raval "Backpropagation in 5 Minutes"
 https://www.youtube.com/watch?v=q555kfIFUCM
+
+
+machine learning= statistical method for correlation discovery between past events and current state, via predictions
+this is a reverse of rule=>action, ml extracts the rules from current and past actions/data,
+
+there is no "thinking", that is why Kasparov could not identify the play/strategy of the algorithm, there is no play/plan, 
+there are only new probabilities/plans from each of his moves
