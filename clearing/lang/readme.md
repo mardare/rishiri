@@ -28,6 +28,7 @@ or
    def closureWithParameters = {x, y -> print(x  + " and " + y)}
    closureWithParameters("Hello dudes", "Hello Mega Dude")  // Prints Hello dudes and Hello Mega Dude
 ~~~~
+elvis-operator
 dynamic-typed (via def)/can be static-typed (via @TypeChecked/@CompileStatic)
 mixin-composition   
 meta-programming via metaclasses
@@ -37,6 +38,8 @@ maven groovy:execute -Dsource=src/....
 
 ## jvm/kotlin '11    
  https://kotlinlang.org/ 
+
+elvis-operator
 
 ## jvm/clojure    
  https://clojure.org/
@@ -53,7 +56,7 @@ mixin-composition
  partial classes
 
 ## python '91   
-**(boxee.tv*kodi*XBMC, machine-learning/tensorflow)**  
+**(boxee \* kodi \* XBMC, machine-learning/tensorflow)**  
  https://www.python.org/ 
  https://www.slideshare.net/MattHarrison4/learn-90  
  multi-paradigm
