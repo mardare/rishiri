@@ -46,3 +46,12 @@ Programming Groovy 2: Dynamic Productivity for the Java Developer
 
 Groovy compiler maps the groovy source code in a tree form called Abstract Syntax Tree (AST)
 groovy => ast => groovy compiler ast-mod => bytecode
+
+Method pointer operator
+~~~~
+def str = 'example of method reference'           
+def fun = str.&toUpperCase                        
+def upper = fun()                                 
+assert upper == str.toUpperCase()
+~~~~
+ 

@@ -71,6 +71,9 @@ concurrent programming (perl 6 via concurrent primitives) inspired from Go/C#
 mixin-composition
 meta-programming via metaclasses
 
+## lisp '58   
+meta-programming
+
 
 *made in [dillinger.io](http://dillinger.io)
 
