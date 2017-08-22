@@ -8,20 +8,16 @@
 
 ## COMP
 
-- ALBZ
-http://www.albalact.ro/rapoarte-si-hotarari.html
-http://www.tradeville.eu/actiuni/actiuni-ALBZ/dividende
-
 - ARS
 http://www.aerostar.ro/raportari-periodice.php
 http://www.aerostar.ro/raportari-curente.php
 http://www.tradeville.eu/actiuni/actiuni-ARS/dividende
 
 - IARV
-http://www.iar.ro/shareholding1.html
+http://www.iar.ro/ro/prod/investitori/raportari-conform-cerintelor-pietei-de-capital-25/page-1/
 
 - ATB
-http://www.antibiotice.ro/investitori.php
+http://www.antibiotice.ro/investitori-php/financial-information/raportari-financiare/
 
 - BIO
 http://www.biofarm.ro/2014-s124-ro.htm
@@ -30,7 +26,7 @@ http://www.biofarm.ro/2014-s124-ro.htm
 http://www.bvb.ro/InvestorRelations/FinancialFigures/FinancialReports
 
 - CMP
-http://compa.ro/companie/date-financiare
+http://compa.ro/companie/raportari-legale-in-format-pdf
 
 - COTE
 http://www.conpet.ro/relatia-cu-investitorii/
