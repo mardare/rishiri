@@ -52,6 +52,9 @@ meta-programming via macros
  https://www.scala-lang.org/   
 mixin-composition   
 
+## jvm/ceylon
+## jvm/jruby
+
 ## c# '00
  partial classes
 
