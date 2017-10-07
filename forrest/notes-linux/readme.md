@@ -10,7 +10,13 @@ http://ttyplus.com/downloads.html
 https://winscp.net/eng/download.php  
 http://www.putty.org/  
   
-  
+sudo apt-get update
+sudo apt-get upgrade
+sudo apt-get dist-upgrade
+sudo apt-get install mc
+
+uname -a
+lsb_release 0a
 
 su -  
 df -h  
