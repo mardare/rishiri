@@ -27,7 +27,10 @@ Ctrl+Alt+F7 GUI(X) terminal
 
 vi /etc/apt/sources.list  
 	:%s/(archieve.ubuntu.com|security.ubuntu.com)/old-releases.ubuntu.com/g  
-	
+
+- teamviewer via dw .deb
+- 
+
 # linux-config
  
 http://www.brendangregg.com/linuxperf.html
