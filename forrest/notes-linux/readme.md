@@ -5,17 +5,23 @@ find ./ -name "*.jar" -exec readlink -f {} \; -exec jar tf {} \;|grep -E "jar|rh
 
 # bash-install
 
-su -
-df -h
+install on master  
+http://ttyplus.com/downloads.html  
+https://winscp.net/eng/download.php  
+http://www.putty.org/  
+  
+  
 
-new session
-Ctrl+Alt+F1 new terminal
-Ctrl+Alt+F7 GUI(X) terminal
+su -  
+df -h  
 
-vi /etc/apt/sources.list
-	:%s/(archieve.ubuntu.com|security.ubuntu.com)/old-releases.ubuntu.com/g
+new session  
+Ctrl+Alt+F1 new terminal  
+Ctrl+Alt+F7 GUI(X) terminal  
 
-
+vi /etc/apt/sources.list  
+	:%s/(archieve.ubuntu.com|security.ubuntu.com)/old-releases.ubuntu.com/g  
+	
 # linux-config
  
 http://www.brendangregg.com/linuxperf.html
