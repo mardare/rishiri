@@ -35,7 +35,13 @@ vi /etc/apt/sources.list
  
 http://www.brendangregg.com/linuxperf.html
 
+# ubuntu
+samba browser: sudo apt-get install konqueror
 
+jre/jdk: 
+sudo apt-add-repository ppa:webupd8team/java
+sudo apt-get update
+sudo apt-get install oracle-java7-installer
 
 * made in http://dillinger.io/
 
