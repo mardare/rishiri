@@ -5,6 +5,11 @@
 - [2/3 Why Are We Here](https://www.youtube.com/watch?v=JgiGbmdkMIo)
 - [3/3 Are We Real?](https://www.youtube.com/watch?v=kXRtWgJjT-c)
 
+##### Jim Al-Khalili, Atom, 2007/08 [>](http://www.imdb.com/title/tt1173021/?ref_=ttep_ep_tt)
+- [1/3 The Clash of the Titans](https://www.youtube.com/watch?v=Gm3p_3Vgejk)
+- [2/3 The Key to the Cosmos](https://www.youtube.com/watch?v=ABb6RYeFlHg)
+- [3/3 The Illusion of Reality](https://www.youtube.com/watch?v=QGnrv5wFUcE)
+
 ##### Apocalypse: The Second World War, 2009 [>](http://www.imdb.com/title/tt1508238/)
 
  - [1/6 The Aggression](http://www.dailymotion.com/video/x126vvt)
