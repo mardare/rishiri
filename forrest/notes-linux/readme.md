@@ -1,3 +1,39 @@
+# fhs
+
+	user apps	/usr/bin/firefox, gedit, chrome
+			/opt/google/chrome
+			
+			fhs-canon
+			/opt/;/usr/local/
+			
+			/usr/local: not part of os/not managed by system packager/
+			_build_and_maintained_locally_ (make) by sysadmin
+			so that not be overwritten by a system reinstall
+			part of $PATH (/usr/local/sbin:/usr/local/bin)
+
+			/opt:not part of os/not managed by system packager/3rd party/already 						    			 build (not-made by sysadmin)
+			packages, should user convetion /opt/<app>/bin/;/etc/opt/<app>/<app>.conf;/var/opt/<app>/logs/<app>.access
+			not in $PATH
+			
+			/var:/var/cache:/var/log:/var/spoon/: used for application/process operations
+			/proc
+			/root
+                        /boot
+                        /dev
+
+		       /tmp
+
+		       /bin
+		       /sbin
+		       /opt
+		       /usr
+		       /etc
+
+		       /home
+		       /lib
+		       /lost+found
+		       /misc
+		       /mnt       
 
 # bash
 
@@ -42,6 +78,16 @@ jre/jdk:
 sudo apt-add-repository ppa:webupd8team/java
 sudo apt-get update
 sudo apt-get install oracle-java7-installer
+
+teamviewer:
+sudo dpkg -i teamviewer_linux.deb/teamviewer_linux_x64.deb
+teamvie77wer --daemon start
+/opt/teamviewer/tv_bin/TeamViewer
+/opt/teamviewer/tv_bin/script/teamviewer &
+
+launcher shortcuts for desktop apps:
+/usr/share/applications
+~/.local/share/applications
 
 * made in http://dillinger.io/
 
