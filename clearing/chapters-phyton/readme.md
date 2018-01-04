@@ -10,6 +10,9 @@ https://docs.python.org/3/tutorial/datastructures.html
 https://developers.google.com/edu/python/regular-expressions
 http://python.net/~goodger/projects/pycon/2007/idiomatic/handout.html#naming
 
+### help
+help(filter)
+
 ### 18th print-fridge-cal
 
 https://github.com/mstamy2/PyPDF2/blob/master/Sample_Code/basic_features.py  
