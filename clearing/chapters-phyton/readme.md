@@ -3,14 +3,15 @@
 ### unavoidable python
 https://developers.google.com/edu/python/
 
+https://docs.python.org/2/tutorial/datastructures.html
+https://docs.python.org/2/library/datetime.html#datetime-objects
+
 https://github.com/boxeehacks/boxeehack/tree/master/hack/boxee/skin/boxee/720p/scripts  
 http://code.activestate.com/recipes/langs/python/
 https://developers.google.com/edu/python/  
 https://jeffknupp.com/blog/2012/11/13/is-python-callbyvalue-or-callbyreference-neither/
-https://docs.python.org/3/tutorial/datastructures.html  
 https://developers.google.com/edu/python/regular-expressions
 http://python.net/~goodger/projects/pycon/2007/idiomatic/handout.html#naming
-https://docs.python.org/2/library/datetime.html#datetime-objects
 
 ### help
 help(filter)
