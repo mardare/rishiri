@@ -86,3 +86,30 @@ print(a)
 print( list(filter(lambda x: x%2 == 0, a )))
 
 ~~~
+
+### virtualenvwrapper (extensio of virtualenv virtualenv.org  = Virtual Python Environment builder)
+
+	https://www.dabapps.com/blog/introduction-to-pip-and-virtualenv-python/
+
+install with ~~~source /usr/local/bin/virtualenvwrapper.sh~~~ 
+
+~~~
+	pip install virtualenvwrapper
+	sudo pip install virtualenv
+	...
+	export WORKON_HOME=~/Envs
+	mkdir -p $WORKON_HOME
+	source /usr/local/bin/virtualenvwrapper.sh
+
+~~~
+creat 
+	mkvirtualenv env1
+	
+	pip install django
+	lssitepackages
+
+change to env
+	workon envX
+	
+list envs
+	ls $WORKON_HOME
