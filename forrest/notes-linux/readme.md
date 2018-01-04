@@ -39,6 +39,11 @@
 
 find ./ -name "*.jar" -exec readlink -f {} \; -exec jar tf {} \;|grep -E "jar|rhino"
 
+# developer space
+
+sudo apt-get install -y jq
+sudo apt-get install -y curl
+	
 # bash-install
 
 install on master  
