@@ -2,12 +2,12 @@
 
 ### overview-mess
  
- https://blog.jetbrains.com/kotlin/2015/06/better-annotation-processing-supporting-stubs-in-kapt/
- https://kotlinlang.org/docs/reference/kapt.html
- https://blog.jetbrains.com/kotlin/2015/06/improving-java-interop-top-level-functions-and-properties/
- http://notatube.blogspot.ro/2010/11/project-lombok-trick-explained.html
- http://www.baeldung.com/intro-to-project-lombok
- https://www.ibm.com/developerworks/library/j-lombok/
+ https://blog.jetbrains.com/kotlin/2015/06/better-annotation-processing-supporting-stubs-in-kapt/  
+ https://kotlinlang.org/docs/reference/kapt.html  
+ https://blog.jetbrains.com/kotlin/2015/06/improving-java-interop-top-level-functions-and-properties/  
+ http://notatube.blogspot.ro/2010/11/project-lombok-trick-explained.html  
+ http://www.baeldung.com/intro-to-project-lombok  
+ https://www.ibm.com/developerworks/library/j-lombok/  
 
 ### intro
  
