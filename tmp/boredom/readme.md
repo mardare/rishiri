@@ -7,6 +7,7 @@ cosmological const https://en.wikipedia.org/wiki/Cosmological_constant
 Jim Al-Khalili
 Leonard Susskind
 Martin Rees
+Max Tegmar
 
 ### etc
 Prodigy X Alchemist https://www.youtube.com/watch?v=lkF6VhwseB0  
