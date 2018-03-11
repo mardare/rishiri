@@ -38,6 +38,8 @@
 # bash
 
 find ./ -name "*.jar" -exec readlink -f {} \; -exec jar tf {} \;|grep -E "jar|rhino"
+dmesg
+pstree -pl
 
 # developer space
 
