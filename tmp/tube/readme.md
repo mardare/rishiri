@@ -20,3 +20,15 @@
  - [6/6 Inferno](https://www.youtube.com/watch?v=A0f3UHWiUcw&list=PL13AAF9B0E3B6B2F7)
 
 ##### The Untold History of the United States, Oliver Stone, 2012 [>](http://www.imdb.com/title/tt1494191/)
+
+##### various
+
+ - [Jim Al-Khalili theoretical physicist](https://www.youtube.com/results?search_query=Jim+Al-Khalili+)
+ - [Martin Rees cosmologist](https://www.youtube.com/results?search_query=Martin+Rees+)
+ - [Ian Stewart mathematician](https://www.youtube.com/results?search_query=ian+stewart+mathematician+)
+ - [Jack Cohen biologist](https://www.youtube.com/results?search_query=jack+cohen+biologist+)
+ - [Max Tegmark cosmologist](https://www.youtube.com/results?search_query=max+tegmark+)
+ - [Steven Weinberg particle physicist](https://www.youtube.com/results?search_query=steven+weinberg+)
+ - [Leonard Susskind theoretical physicist](https://www.youtube.com/results?search_query=leonard+susskind+)
+ 
+ 
