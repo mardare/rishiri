@@ -1,2 +1,5 @@
-functional:
-  - Jessica Kerr "Functional Principles for Object Oriented Development" https://www.youtube.com/watch?v=pMGY9ViIGNU&feature=youtu.be
+---
+functional: 
+  - author: Jessica Kerr 
+  - title: Functional Principles for Object Oriented Development
+  - video" https://www.youtube.com/watch?v=pMGY9ViIGNU&feature=youtu.be
