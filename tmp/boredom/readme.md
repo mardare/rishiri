@@ -9,6 +9,12 @@ Leonard Susskind
 Martin Rees  
 Max Tegmar  
 
+### 8(2)
+
+Charlie Rose - How the Brain Constructs Visual Experience
+https://www.youtube.com/watch?v=d5daIXeSOVc
+
+
 ### standup
 
 BILL HICKS  
