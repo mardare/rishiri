@@ -14,6 +14,7 @@ Max Tegmar
 Charlie Rose - How the Brain Constructs Visual Experience
 https://www.youtube.com/watch?v=d5daIXeSOVc
 
+http://www.eugeniavoda.ro/ro/emisiuni/diverse/sanda-tatarascu-negroponte
 
 ### standup
 
