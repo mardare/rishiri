@@ -55,4 +55,7 @@
  # playlist
   - [Prodigy X Alchemist](https://www.youtube.com/watch?v=lkF6VhwseB0)
   - [Alchemist - Secret Sauce](https://www.youtube.com/watch?v=TKtmBSwpzt0)
+  - [Alchemist Soundcloud](https://soundcloud.com/alan-the-chemist)
+  - [subsemnatu](https://www.youtube.com/user/subsproduction/videos)
+  - 
   - [dada.yml](../dodo.yml)
