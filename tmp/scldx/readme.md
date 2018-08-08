@@ -6,6 +6,7 @@
 [Scoliosis Correction Protocol/Ed Paget](https://www.youtube.com/playlist?list=PLd7bg5Nl6YpUB9bFcGdVGZfr-Q6RPdDPa)
 https://www.youtube.com/watch?v=k9wph_-iKys
 https://www.youtube.com/watch?v=wmk5Mvz4pe8
+[Pull-Up Bar Hanging Spinal Column Distraction](https://www.youtube.com/watch?v=keGfExJ2XCU)
 
 ##### description
 https://www.youtube.com/watch?v=RRpLyC2xxO8
