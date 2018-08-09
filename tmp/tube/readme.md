@@ -33,6 +33,8 @@
  - [Max Tegmark cosmologist](https://www.youtube.com/results?search_query=max+tegmark+)
  - [Steven Weinberg particle physicist](https://www.youtube.com/results?search_query=steven+weinberg+)
  - [Leonard Susskind theoretical physicist](https://www.youtube.com/results?search_query=leonard+susskind+)
+ - [feynman lectures caltech](http://www.feynmanlectures.caltech.edu/)
+ - [3Blue1Brown](https://www.youtube.com/channel/UCYO_jab_esuFRV4b17AJtAw/videos)
  
  # 0 
  
