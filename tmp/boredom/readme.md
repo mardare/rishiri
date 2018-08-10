@@ -12,6 +12,8 @@ BILL HICKS
 
 
 ### etc
+Richard Feynman: The Christopher Sykes Documentaries
+From 1981 to 1993, documentary producer Christopher Sykes created these three films about renowned physicist and Nobel laureate Dr. Richard Feynman
 
 anima vs sapientia
 
