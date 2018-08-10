@@ -7,6 +7,8 @@ rdshift https://en.wikipedia.org/wiki/Redshift
 
 20% of your brain is their purely for vision ( visual cortex)
 not all forms of intelligence have vision
+Charlie Rose - How the Brain Constructs Visual Experience
+https://www.youtube.com/watch?v=d5daIXeSOVc
 
 ### standup
 
