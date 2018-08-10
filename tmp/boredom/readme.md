@@ -13,6 +13,11 @@ BILL HICKS
 
 ### etc
 
+anima vs sapientia
+
+Paracelsus 1493 
+https://en.wikipedia.org/wiki/Heinrich_Khunrath
+
 Howa latest https://www.google.ro/search?q=howard+stern+latest+interview
 
 Revulutia, dupa Conul Leonida fata cu reactiunea/ Adrian Iorgulescu/premiera'91 la primul festival "Enescu" 
@@ -31,6 +36,13 @@ Dan Dediu
 https://github.com/explore/  
 https://github.com/trending/  
 https://github.com/trending/kotlin  
+
+### travel
+
+new york:
+ - Streets by VICE: New York (Bedford Ave) https://www.youtube.com/watch?v=PIuFayQ2zUg
+ - The Pizza Show: NYC's Other Boroughs https://www.youtube.com/watch?v=w6ffL3PJ2Og
+ - Taxi Cab Confessions, Basketball, & Blunts: Fuck, That's Delicious (Episode 7) https://www.youtube.com/watch?v=qFhHnjvenO0&t=520s
 
 ### waster
 
