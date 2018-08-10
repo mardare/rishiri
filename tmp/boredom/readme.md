@@ -16,6 +16,9 @@ BILL HICKS
 
 
 ### etc
+
+https://en.wikipedia.org/wiki/P_versus_NP_problem
+
 Richard Feynman: The Christopher Sykes Documentaries
 From 1981 to 1993, documentary producer Christopher Sykes created these three films about renowned physicist and Nobel laureate Dr. Richard Feynman
 
