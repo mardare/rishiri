@@ -5,6 +5,8 @@ cosmological const https://en.wikipedia.org/wiki/Cosmological_constant
 gamma-ray burst https://en.wikipedia.org/wiki/Gamma-ray_burst
 rdshift https://en.wikipedia.org/wiki/Redshift
 
+20% of your brain is their purely for vision ( visual cortex)
+not all forms of intelligence have vision
 
 ### standup
 
