@@ -47,3 +47,16 @@ new york:
 ### waster
 
 https://airma.sh/
+
+
+### cal
+
+CAL
+
+
+Dumitru Bagdasar 17.12.1893 (Roșiești, Vaslui) - 16.7.1946 (București)
+A pus bazele școlii românești de neurochirgie. A fost căsătorit cu Florica Bagdasar, prima femeie ministru din România.
+Se orientează către Neurologie la clinica marelui neurolog, Dr. Gheorghe Marinescu.
+În 1927 se căsătorește cu Dr. Florica Ciumetti si pleacă împreună la specializare în America, la Boston unde in anii 1927-1929se specializează în Neurochirurgie la vestita clinică Peter Bent Brigham a Dr. Harvey Cushing, pionierul mondial al neurochirurgiei moderne.
+Împreună cu Dr. Percival Bailey, publică două lucrări privind "Tratamentul gomelor cerebrale" și "Cordoblastoamele intracraniene".
+
