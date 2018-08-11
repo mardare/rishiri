@@ -53,6 +53,9 @@
    - [Tucci Gang](https://www.youtube.com/watch?v=Aw5NG580rBk)
    - [When Will The Bass Drop](https://www.youtube.com/watch?v=XCawU6BE8P8)
    - [Natalie’s MOMI MOVES](https://www.youtube.com/watch?v=QS8bma7LRX4)
+   - [Alec Baldwin Frenche Classe 1993](https://vimeo.com/146792478)
+   - [Jim Gaffigan Obsessed 2014](https://www.youtube.com/watch?v=6tb7U6JTr4E)
+   - Jim Gaffigan, Mr Universe 2012, Beyond The Pale 2006
    
  # playlist
   - [Prodigy X Alchemist](https://www.youtube.com/watch?v=lkF6VhwseB0)
