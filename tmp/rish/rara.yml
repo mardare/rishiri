@@ -3,3 +3,5 @@ functional:
   - author: Jessica Kerr 
   - title: Functional Principles for Object Oriented Development
   - video" https://www.youtube.com/watch?v=pMGY9ViIGNU&feature=youtu.be
+  - ---
+  -  functional patterns, when functional is the silver bullet (linq/data processing)
