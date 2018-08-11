@@ -46,6 +46,11 @@ Telegrame/Anatol Vieru
 
 Dan Dediu
 
+### hist
+
+https://en.wikipedia.org/wiki/House_of_Romanov
+www1, royal families/russian tzar
+
 ### dungeon master slayer
 https://github.com/explore/  
 https://github.com/trending/  
@@ -64,9 +69,6 @@ https://airma.sh/
 
 
 ### cal
-
-CAL
-
 
 Dumitru Bagdasar 17.12.1893 (Roșiești, Vaslui) - 16.7.1946 (București)
 A pus bazele școlii românești de neurochirgie. A fost căsătorit cu Florica Bagdasar, prima femeie ministru din România.
