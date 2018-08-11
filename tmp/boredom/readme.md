@@ -17,6 +17,11 @@ BILL HICKS
 
 ### etc
 
+https://en.wikipedia.org/wiki/Berber_languages
+https://en.wikipedia.org/wiki/Rus%27_people
+https://en.wikipedia.org/wiki/Ruthenians
+https://en.wikipedia.org/wiki/Varangians
+
 https://en.wikipedia.org/wiki/P_versus_NP_problem
 
 Richard Feynman: The Christopher Sykes Documentaries
