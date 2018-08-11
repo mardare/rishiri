@@ -17,6 +17,9 @@ BILL HICKS
 
 ### etc
 
+Keishi Kameyama https://en.wikipedia.org/wiki/Keishi_Kameyama
+peter fiell design
+ 
 https://en.wikipedia.org/wiki/Berber_languages
 https://en.wikipedia.org/wiki/Rus%27_people
 https://en.wikipedia.org/wiki/Ruthenians
@@ -50,6 +53,8 @@ Dan Dediu
 
 https://en.wikipedia.org/wiki/House_of_Romanov
 www1, royal families/russian tzar
+
+1956 jewish suez conflict
 
 ### dungeon master slayer
 https://github.com/explore/  
