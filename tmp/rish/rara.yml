@@ -6,6 +6,9 @@ ij excelence
 functional:
   - etc:
     - functional patterns, when functional is the silver bullet (linq/data processing)
+        - strategy pattern
+        - command pattern
+        - template pattern
   - patterns: 
     - author: Jessica Kerr 
     - title: Functional Principles for Object Oriented Development
