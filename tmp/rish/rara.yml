@@ -17,6 +17,7 @@ functional:
         - strategy pattern
         - command pattern
         - template pattern
+        - HOW TO NEGATE A PREDICATE
   - patterns: 
     - author: Jessica Kerr 
     - title: Functional Principles for Object Oriented Development
