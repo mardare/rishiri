@@ -1,4 +1,8 @@
 ---
+spring
+spring-boot
+lombok
+ij excelence
 functional:
   - etc:
     - functional patterns, when functional is the silver bullet (linq/data processing)
