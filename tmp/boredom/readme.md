@@ -56,6 +56,11 @@ Dan Dediu
 https://en.wikipedia.org/wiki/House_of_Romanov
 www1, royal families/russian tzar
 
+nicolae iorga
+alexandru vaida
+ghe tatarascu
+*alexandru ioan cuza
+
 1956 jewish suez conflict
 
 ### dungeon master slayer
