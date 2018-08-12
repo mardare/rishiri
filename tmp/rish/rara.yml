@@ -3,6 +3,13 @@ spring
 spring-boot
 lombok
 ij excelence
+non-blocking/rx
+  - observable
+  - actor model/Akka
+  - rxJava
+  - netty
+netflix finagle
+
 functional:
   - etc:
     - functional patterns, when functional is the silver bullet (linq/data processing)
