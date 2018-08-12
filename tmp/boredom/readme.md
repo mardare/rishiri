@@ -17,6 +17,8 @@ BILL HICKS
 
 ### etc
 
+Stefan Mihailescu Braila
+Esrig
 Keishi Kameyama https://en.wikipedia.org/wiki/Keishi_Kameyama
 peter fiell design
  
