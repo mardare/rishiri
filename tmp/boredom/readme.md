@@ -17,6 +17,7 @@ BILL HICKS
 
 ### etc
 
+cula olteneasca
 Stefan Mihailescu Braila
 Esrig
 Keishi Kameyama https://en.wikipedia.org/wiki/Keishi_Kameyama
