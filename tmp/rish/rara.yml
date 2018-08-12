@@ -18,6 +18,7 @@ functional:
         - command pattern
         - template pattern
         - HOW TO NEGATE A PREDICATE
+        - COMPOSING FUNCTIONS
   - patterns: 
     - author: Jessica Kerr 
     - title: Functional Principles for Object Oriented Development
