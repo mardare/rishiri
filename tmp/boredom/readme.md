@@ -21,6 +21,9 @@ https://en.wikipedia.org/wiki/Anti-intellectualism
 
 2374 experiences, philip k dick
 
+The world according to Philip K. Dick | DW Documentary 
+https://www.youtube.com/watch?v=v4A0ydrRSuA
+
 cula olteneasca
 Stefan Mihailescu Braila
 Esrig
