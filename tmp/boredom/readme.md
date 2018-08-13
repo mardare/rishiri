@@ -17,6 +17,10 @@ BILL HICKS
 
 ### etc
 
+https://en.wikipedia.org/wiki/Anti-intellectualism
+
+2374 experiences, philip k dick
+
 cula olteneasca
 Stefan Mihailescu Braila
 Esrig
