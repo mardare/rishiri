@@ -51,6 +51,8 @@ functional:
         - template pattern
         - HOW TO NEGATE A PREDICATE
         - COMPOSING FUNCTIONS
+  - libs:
+    - guava for ImmutableList, ImmutableCollections
   - patterns: 
     - author: Jessica Kerr 
     - title: Functional Principles for Object Oriented Development
