@@ -9,7 +9,7 @@ summer-summoning:
     - streams
    - optional
    - lambdas
-  non-blocking/rx
+  non-blocking/rx/http2
     - observable vs observer
     - actor model/Akka
     - rxJava
