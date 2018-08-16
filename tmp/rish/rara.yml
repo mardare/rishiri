@@ -1,16 +1,48 @@
 ---
-spring
-spring-boot
-lombok
-joo^ (lambda)
-ij excelence
-non-blocking/rx
-  - observable
-  - actor model/Akka
-  - rxJava
-  - netty
-netflix finagle
+summer-summoning:
+  spring best-practic
+  spring-boot best-practic
+  lombok
+  joo^ (lambda)
+  ij excelence
+  java8
+    - streams
+   - optional
+   - lambdas
+  non-blocking/rx
+    - observable vs observer
+    - actor model/Akka
+    - rxJava
+    - netty
+    - reactive streams
+    - twitter finagle deep-dive
+     - https://twitter.github.io/finagle/guide/Futures.html#futures
+     - https://twitter.github.io/finagle/guide/index.html
+     - https://twitter.github.io/finagle/guide/Quickstart.html
+    - netflix hystrix vs twitter finagle
+    - pluralsights
+        **Josh Long March 2014, Addison-Wesley Professional
+        https://www.safaribooksonline.com/library/view/restful-web-apis/9780133890204/
 
+        Toby Weston July 2017, Packt Publishing
+        https://www.safaribooksonline.com/library/view/whats-new-in/9781788627245/
+
+        *Functional Programming With Java by Jessica Kerr
+         https://app.pluralsight.com/library/courses/java-functional-programming/table-of-contents
+
+        Spring Boot: Efficient Development, Configuration, and Deployment by Dustin Schultz
+        https://app.pluralsight.com/library/courses/spring-boot-efficient-development-configuration-deployment/table-of-contents
+
+        Reactive Spring by Josh Long
+        https://www.youtube.com/watch?v=zVNIZXf4BG8
+
+        Good use case for Akka [closed]
+        what is akka, ... safari si pluralsight
+
+        Spring Boot: Efficient Development, Configuration, and Deployment
+        by Dustin Schultz
+        https://app.pluralsight.com/library/courses/spring-boot-efficient-development-configuration-deployment/table-of-contents
+ 
 functional:
   - etc:
     - functional patterns, when functional is the silver bullet (linq/data processing)
@@ -26,3 +58,13 @@ functional:
   - streams:
     - Journey’s End: Collection and Reduction in the Streams API
     - video: https://www.youtube.com/watch?v=GOMovkQCYD4
+spring:
+  - core:
+    - https://advancedweb.hu/2018/03/06/dependency-injection-boundaries/
+    - https://www.youtube.com/watch?v=cxs7oLGrxQ4
+    - https://kinbiko.com/java/dependency-injection-patterns/
+  - boot:
+    - https://www.e4developer.com/2018/03/30/introduction-to-concurrency-in-spring-boot/
+    - https://dzone.com/articles/a-look-at-spring-boot-admin
+    - https://docs.spring.io/spring-boot/docs/current/reference/html/boot-features-developing-auto-configuration.html
+
