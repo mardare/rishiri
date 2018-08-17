@@ -18,6 +18,7 @@ BILL HICKS
 ### etc
 
 https://en.wikipedia.org/wiki/Anti-intellectualism
+https://en.wikipedia.org/wiki/Jean_Baudrillard
 
 2374 experiences, philip k dick
 
