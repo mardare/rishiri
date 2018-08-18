@@ -5,12 +5,13 @@ summer-summoning:
   lombok
   joo^ (lambda)
   ij excelence
+  ** aop hella **
   java8
     - streams
    - optional
    - lambdas
   non-blocking/rx/http2
-    - observable vs observer
+    - ** observable vs observer **
     - actor model/Akka
     - rxJava
     - netty
