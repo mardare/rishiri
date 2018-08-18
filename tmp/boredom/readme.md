@@ -22,6 +22,8 @@ https://en.wikipedia.org/wiki/Jean_Baudrillard
 
 2374 experiences, philip k dick
 
+12 titans helios, hyperion,....
+
 The world according to Philip K. Dick | DW Documentary 
 https://www.youtube.com/watch?v=v4A0ydrRSuA
 
@@ -61,6 +63,9 @@ Telegrame/Anatol Vieru
 Dan Dediu
 
 ### hist
+
+saud story -- medina, mekka
+ottoman-wahhabi war 1811-1818; 1744 Diriyah
 
 https://en.wikipedia.org/wiki/House_of_Romanov
 www1, royal families/russian tzar
