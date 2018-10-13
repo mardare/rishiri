@@ -1,4 +1,11 @@
 
+### mantra "zen of python"
+explicit is better than implicit
+there should be one and only one good way
+
+### queue
+*  args and kwargs
+* https://docs.python.org/3/library/sqlite3.html
 
 ### unavoidable python
 https://developers.google.com/edu/python/
