@@ -1,4 +1,6 @@
-
+# unavoidable python
+  
+  
 ### mantra "zen of python"
 explicit is better than implicit
 there should be one and only one good way
@@ -7,10 +9,12 @@ there should be one and only one good way
 *  args and kwargs
 * https://docs.python.org/3/library/sqlite3.html
 
-### unavoidable python
+### path
+https://learnxinyminutes.com/docs/python3/
 https://developers.google.com/edu/python/
 https://automatetheboringstuff.com/
 https://github.com/jerry-git/learn-python3#idiomatic-python  
+https://docs.python.org/3/tutorial/
 
 https://docs.python.org/2/tutorial/datastructures.html
 https://docs.python.org/2/library/datetime.html#datetime-objects
