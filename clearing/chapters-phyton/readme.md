@@ -9,6 +9,8 @@ there should be one and only one good way
 
 ### unavoidable python
 https://developers.google.com/edu/python/
+https://automatetheboringstuff.com/
+https://github.com/jerry-git/learn-python3#idiomatic-python  
 
 https://docs.python.org/2/tutorial/datastructures.html
 https://docs.python.org/2/library/datetime.html#datetime-objects
