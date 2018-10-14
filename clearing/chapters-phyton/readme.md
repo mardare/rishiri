@@ -1,7 +1,7 @@
 # unavoidable python
   
   
-### mantra "zen of python"
+### mantra ["zen of python"](https://www.python.org/dev/peps/pep-0020/) 
 explicit is better than implicit
 there should be one and only one good way
 
