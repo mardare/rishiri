@@ -24,7 +24,7 @@
 ##### Charlie Rose - How the Brain Constructs Visual Experience [>](https://www.youtube.com/watch?v=d5daIXeSOVc)
 ##### Charlie Rose - The Brain Series [>](https://charlierose.com/collections/3)
 
-##### various
+##### boredom
   
  - [Jim Al-Khalili theoretical physicist](https://www.youtube.com/results?search_query=Jim+Al-Khalili+)
  - [Martin Rees cosmologist](https://www.youtube.com/results?search_query=Martin+Rees+)
@@ -34,14 +34,14 @@
  - [Steven Weinberg particle physicist](https://www.youtube.com/results?search_query=steven+weinberg+)
  - [Leonard Susskind theoretical physicist](https://www.youtube.com/results?search_query=leonard+susskind+)
  - [feynman lectures caltech](http://www.feynmanlectures.caltech.edu/)
- - [3Blue1Brown](https://www.youtube.com/channel/UCYO_jab_esuFRV4b17AJtAw/videos)
- 
- # 0 
- 
+ - [3Blue1Brown](https://www.youtube.com/channel/UCYO_jab_esuFRV4b17AJtAw/videos)  
+   
+     
   - [bill burr prodcast](https://www.youtube.com/channel/UCAp990eMLzmei84WNR4ptgA)
   - [eugenia voda](http://www.eugeniavoda.ro/ro/emisiuni/diverse/sanda-tatarascu-negroponte)
   - [Eugenia Voda](http://www.eugeniavoda.ro/ro/emisiuni)
   - [charlie rose](https://charlierose.com/videos?topic=History)
+  - [henry rollins etc tube latest](https://www.google.ro/search?q=site:youtube.com+henry+rollins&tbm=vid&source=lnt&tbs=qdr:y&sa=X&biw=1600&bih=770&dpr=1)
  
  # snl
    - [Threw It On The Ground](https://www.youtube.com/watch?v=gAYL5H46QnQ)
