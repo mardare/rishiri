@@ -19,6 +19,12 @@
  - [5/6 The Great Landing](https://www.youtube.com/watch?v=9cC2-ZpuV3Y)
  - [6/6 Inferno](https://www.youtube.com/watch?v=A0f3UHWiUcw&list=PL13AAF9B0E3B6B2F7)
 
+##### Apocalypse: Stalin, 2015 [>](https://www.imdb.com/title/tt5287808/)
+
+ - [1/3 Demon](http://www.dailymotion.com/video/x126vvt)
+ - [2/6 Red](https://www.youtube.com/watch?v=zeZ5n-LMMLM)
+ - [3/6 Master of the World](https://www.youtube.com/watch?v=JHF1_fFIGws)
+   
 ##### The Untold History of the United States, Oliver Stone, 2012 [>](http://www.imdb.com/title/tt1494191/)  
 
 ##### Charlie Rose - How the Brain Constructs Visual Experience [>](https://www.youtube.com/watch?v=d5daIXeSOVc)
