@@ -22,8 +22,8 @@
 ##### Apocalypse: Stalin, 2015 [>](https://www.imdb.com/title/tt5287808/)
 
  - [1/3 Demon](https://www.youtube.com/watch?v=NvUIkwREIfw)
- - [2/6 Red](https://www.youtube.com/watch?v=zeZ5n-LMMLM)
- - [3/6 Master of the World](https://www.youtube.com/watch?v=JHF1_fFIGws)
+ - [2/3 Red](https://www.youtube.com/watch?v=zeZ5n-LMMLM)
+ - [3/3 Master of the World](https://www.youtube.com/watch?v=JHF1_fFIGws)
    
 ##### The Untold History of the United States, Oliver Stone, 2012 [>](http://www.imdb.com/title/tt1494191/)  
 
