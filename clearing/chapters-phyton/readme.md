@@ -36,12 +36,12 @@ Pythons makes one liners almost impossible
   
 Perl allows for type readability by syntax: @foobar, %foobar or $foobar  
   
-Python: output is TypeError: can only concatenate str (not "int") to str  
+Python: output is _TypeError: can only concatenate str (not "int") to str_
 ```  
 i= "1"  
 i= i + 1  
 ```  
-Perl: output is 2   
+Perl: output is _2_   
 ```
 $i="1"; $i++; print $i
 ```
