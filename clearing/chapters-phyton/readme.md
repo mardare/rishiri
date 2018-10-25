@@ -29,7 +29,7 @@ Perl has built-in regex and os opetarations
 Python uses Import re for regex, Import os,sys for os operations  
   
 Python is OOP oriented, everything is an object including "primitive" types like integer  
-Perl has an occured OOP construct, also threading is problematic  
+Perl has an awkward OOP construct, also threading is problematic  
   
 Perl encourages one liners  
 Pythons makes one liners almost impossible  
