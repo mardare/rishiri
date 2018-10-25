@@ -1,16 +1,57 @@
 # unavoidable python
-  
-  
-### mantra ["zen of python"](https://www.python.org/dev/peps/pep-0020/) 
-explicit is better than implicit
-there should be one and only one good way
 
-### queue
-*  args and kwargs
-* https://docs.python.org/3/library/sqlite3.html
-
+A: in python everything is an object  
+B: python is a dynamically typed language  
+C: python doesn't have a native array structure  
+  
+dir (<module>)  
+type (<module>)  
+id (<variable>)  
+  
+dictionary keys must be of an immutable type    
+immutable types: ints, floats, strings, tuples  
+    
+### mantra ["zen of python"](https://www.python.org/dev/peps/pep-0020/)   
+explicit is better than implicit  
+there should be one and only one good way  
+  
+### queue  
+* args and kwargs  
+* self keyword  
+* with requests.sessions...: construct  
+* https://docs.python.org/3/library/sqlite3.html  
+  
+### Perl (1987) vs Python (1990)/Python 3000 (2008)  
+  
+Perl is withering, probably  
+  
+Perl built-in regex and os opetarations  
+Python uses Import re for regex, Import os,sys for os operations  
+  
+Python is OOP oriented, everything is an object including "primitive" types la integer  
+Perl has an occured OOP construct, also threading is problematic  
+  
+Perl encourages one liners  
+Pythons makes one liners almost impossible  
+  
+Perl allows for type inference by syntax: @foobar, %foobar or $foobar  
+  
+Python: output is TypeError: can only concatenate str (not "int") to str  
+```  
+i= "1"  
+i= i + 1  
+```  
+Perl: output is 2   
+```
+$i="1"; $i++; print $i
+```
+  
+Neither Perl nor Python uses null reference  
+Python uses no-value/empty signal object: var= None  
+Perl marks the variable: undef $var; OR $var = undef  
+  
 ### path
-https://learnxinyminutes.com/docs/python3/
+https://learnxinyminutes.com/docs/python3/  
 https://developers.google.com/edu/python/
 https://automatetheboringstuff.com/
 https://github.com/jerry-git/learn-python3#idiomatic-python  
