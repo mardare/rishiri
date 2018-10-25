@@ -1,7 +1,7 @@
 # unavoidable python
 
 A: in python everything is an object  
-B: python is a dynamically typed language  
+B: python is strongly and dynamically typed language  
 C: python doesn't have a native array structure  
 ```  
 dir (<module>)  
