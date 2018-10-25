@@ -3,11 +3,11 @@
 A: in python everything is an object  
 B: python is a dynamically typed language  
 C: python doesn't have a native array structure  
-  
+```  
 dir (<module>)  
 type (<module>)  
 id (<variable>)  
-  
+```
 dictionary keys must be of an immutable type    
 immutable types: ints, floats, strings, tuples  
     
