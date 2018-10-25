@@ -25,7 +25,7 @@ there should be one and only one good way
   
 Perl is withering, probably  
   
-Perl built-in regex and os opetarations  
+Perl has built-in regex and os opetarations  
 Python uses Import re for regex, Import os,sys for os operations  
   
 Python is OOP oriented, everything is an object including "primitive" types la integer  
