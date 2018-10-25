@@ -34,7 +34,7 @@ Perl has an awkward OOP construct, also threading is problematic
 Perl encourages one liners  
 Pythons makes one liners almost impossible  
   
-Perl allows for type inference by syntax: @foobar, %foobar or $foobar  
+Perl allows for type readability by syntax: @foobar, %foobar or $foobar  
   
 Python: output is TypeError: can only concatenate str (not "int") to str  
 ```  
