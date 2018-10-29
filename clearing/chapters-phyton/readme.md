@@ -10,7 +10,12 @@ id (<variable>)
 ```
 dictionary keys must be of an immutable type    
 immutable types: ints, floats, strings, tuples  
-    
+
+### unavoidable python(2)
+
+oop: there is no “private” keyword/concept in Python [>](https://docs.python.org/2/tutorial/classes.html#private-variables-and-class-local-references); _main reason for making (nearly) everything discoverable was debugging: when debugging you often need to break through the abstractions_  
+
+
 ### mantra ["zen of python"](https://www.python.org/dev/peps/pep-0020/)   
 explicit is better than implicit  
 there should be one and only one good way  
