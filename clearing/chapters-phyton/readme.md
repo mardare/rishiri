@@ -13,8 +13,9 @@ immutable types: ints, floats, strings, tuples
 
 ### unavoidable python(2)
 
-oop: there is no “private” keyword/concept in Python [>](https://docs.python.org/2/tutorial/classes.html#private-variables-and-class-local-references); _main reason for making (nearly) everything discoverable was debugging: when debugging you often need to break through the abstractions_  
-
+oop:  
+ - there is no “private” keyword/concept in Python [>](https://docs.python.org/2/tutorial/classes.html#private-variables-and-class-local-references);  
+_main reason for making (nearly) everything discoverable was debugging: when debugging you often need to break through the abstractions_  - allows for multiple-inheritance  
 
 ### mantra ["zen of python"](https://www.python.org/dev/peps/pep-0020/)   
 explicit is better than implicit  
@@ -35,6 +36,9 @@ Python uses Import re for regex, Import os,sys for os operations
   
 Python is OOP oriented, everything is an object including "primitive" types like integer  
 Perl has an awkward OOP construct, also threading is problematic  
+
+Python and Perl support multiple inheritance  
+
   
 Perl encourages one liners  
 Pythons makes one liners almost impossible  
