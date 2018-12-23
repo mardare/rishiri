@@ -32,7 +32,7 @@
 
 ##### Philip Zimbardo - The psychology of evil [>](https://www.ted.com/talks/philip_zimbardo_on_the_psychology_of_evil?language=en&utm_campaign=tedspread&utm_medium=referral&utm_source=tedcomshare)
 
-##### boredom
+##### boredom [hydra](../boredom)
   
  - [Jim Al-Khalili theoretical physicist](https://www.youtube.com/results?search_query=Jim+Al-Khalili+)
  - [Martin Rees cosmologist](https://www.youtube.com/results?search_query=Martin+Rees+)
