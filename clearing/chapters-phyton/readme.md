@@ -11,6 +11,7 @@ there should be one and only one good way
 
 ### path
 https://learnxinyminutes.com/docs/python3/
+https://github.com/JeffPaine/beautiful_idiomatic_python
 https://developers.google.com/edu/python/
 https://automatetheboringstuff.com/
 https://github.com/jerry-git/learn-python3#idiomatic-python  
@@ -29,6 +30,12 @@ https://github.com/learnbyexample/scripting_course/blob/master/Python_curated_re
 
 ### help
 help(filter)
+
+### py
+
+None
+a= None
+a is None
 
 ### 18th print-fridge-cal
 
