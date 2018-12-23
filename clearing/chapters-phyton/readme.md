@@ -1,17 +1,77 @@
 # unavoidable python
-  
-  
-### mantra "zen of python"
-explicit is better than implicit
-there should be one and only one good way
 
-### queue
-*  args and kwargs
-* https://docs.python.org/3/library/sqlite3.html
+A: in python everything is an object  
+B: python is strongly and dynamically typed language  
+C: python doesn't have a native array structure  
+```  
+dir (<module>)  
+type (<module>)  
+id (<variable>)  
+```
+dictionary keys must be of an immutable type    
+immutable types: ints, floats, strings, tuples  
 
+### unavoidable python(2)
+
+oop:  
+ - there is no “private” concept in Python [>](https://docs.python.org/2/tutorial/classes.html#private-variables-and-class-local-references);    
+_main reason for making (nearly) everything discoverable was debugging: when debugging you often need to break through the abstractions_  - no access modifiers, no public, protected or private: all member variables and methods are public by default
+- restrictive encapsulation is just in your mind:  
+ - by convention/civility _member is protected (accesible by sub-class)  
+ - by convention/civility __member is private  
+   	self._color = color    # protected variable  
+        self.__content = None  # private variable  
+ - private members by naming conventio are name mangled
+
+- allows for multiple-inheritance  
+- allows for mixins via multiple-inheritance  
+
+
+### mantra ["zen of python"](https://www.python.org/dev/peps/pep-0020/)   
+explicit is better than implicit  
+there should be one and only one good way  
+  
+### queue  
+* args and kwargs  
+* self keyword  
+* with requests.sessions...: construct  
+* https://docs.python.org/3/library/sqlite3.html  
+  
+### Perl (1987) vs Python (1990)/Python 3000 (2008)  
+  
+Perl is withering, probably  
+  
+Perl has built-in regex and os opetarations  
+Python uses Import re for regex, Import os,sys for os operations  
+  
+Python is OOP oriented, everything is an object including "primitive" types like integer  
+Perl has an awkward OOP construct, also threading is problematic  
+
+Python and Perl support multiple inheritance  
+
+  
+Perl encourages one liners  
+Pythons makes one liners almost impossible  
+  
+Perl allows for type readability by syntax: @foobar, %foobar or $foobar  
+  
+Python: output is _TypeError: can only concatenate str (not "int") to str_
+```  
+i= "1"  
+i= i + 1  
+```  
+Perl: output is _2_   
+```
+$i="1"; $i++; print $i
+```
+  
+Neither Perl nor Python uses null reference  
+Python uses no-value/empty signal object: var= None  
+Perl marks the variable: undef $var; OR $var = undef  
+  
 ### path
-https://learnxinyminutes.com/docs/python3/
 https://github.com/JeffPaine/beautiful_idiomatic_python
+https://learnxinyminutes.com/docs/python3/  
 https://developers.google.com/edu/python/
 https://automatetheboringstuff.com/
 https://github.com/jerry-git/learn-python3#idiomatic-python  
@@ -42,6 +102,25 @@ a is None
 https://github.com/mstamy2/PyPDF2/blob/master/Sample_Code/basic_features.py  
 https://pypi.python.org/pypi/pdfkit/0.4.1  
 
+
+dick comprehension  
+```
+data = { tag['name']: tag['value'] 
+	for tag in soup.select('input[name^=ctl00]') if tag.get('value')
+}
+```
+merge two associative-arrays  
+```
+arr1.update(arr0)
+arr2= {**arr0, **arr1}	
+```
+zero padding  
+```
+'{:02d}'.format(1)
+'01'
+'{:3d}'.format(1)
+'  1'
+```
 ~~~
 
 import os

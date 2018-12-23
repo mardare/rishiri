@@ -1,4 +1,4 @@
-# 8th
+# 8th rev-engineering-god
 
 ##### Martin Rees, What We Still Don't Know, 2004 [>](http://www.imdb.com/title/tt0838144/)
 - [1/3 Are We Alone](https://www.youtube.com/watch?v=NqArGW6k5gc)
@@ -19,12 +19,20 @@
  - [5/6 The Great Landing](https://www.youtube.com/watch?v=9cC2-ZpuV3Y)
  - [6/6 Inferno](https://www.youtube.com/watch?v=A0f3UHWiUcw&list=PL13AAF9B0E3B6B2F7)
 
+##### Apocalypse: Stalin, 2015 [>](https://www.imdb.com/title/tt5287808/)
+
+ - [1/3 Demon](https://www.youtube.com/watch?v=NvUIkwREIfw)
+ - [2/3 Red](https://www.youtube.com/watch?v=zeZ5n-LMMLM)
+ - [3/3 Master of the World](https://www.youtube.com/watch?v=JHF1_fFIGws)
+   
 ##### The Untold History of the United States, Oliver Stone, 2012 [>](http://www.imdb.com/title/tt1494191/)  
 
 ##### Charlie Rose - How the Brain Constructs Visual Experience [>](https://www.youtube.com/watch?v=d5daIXeSOVc)
-##### Charlie Rose - The Brain Series [>](https://charlierose.com/collections/3)
+##### Charlie Rose - The Brain Series [>](https://charlierose.com/collections/3)  
 
-##### various
+##### Philip Zimbardo - The psychology of evil [>](https://www.ted.com/talks/philip_zimbardo_on_the_psychology_of_evil?language=en&utm_campaign=tedspread&utm_medium=referral&utm_source=tedcomshare)
+
+##### boredom
   
  - [Jim Al-Khalili theoretical physicist](https://www.youtube.com/results?search_query=Jim+Al-Khalili+)
  - [Martin Rees cosmologist](https://www.youtube.com/results?search_query=Martin+Rees+)
@@ -34,14 +42,14 @@
  - [Steven Weinberg particle physicist](https://www.youtube.com/results?search_query=steven+weinberg+)
  - [Leonard Susskind theoretical physicist](https://www.youtube.com/results?search_query=leonard+susskind+)
  - [feynman lectures caltech](http://www.feynmanlectures.caltech.edu/)
- - [3Blue1Brown](https://www.youtube.com/channel/UCYO_jab_esuFRV4b17AJtAw/videos)
- 
- # 0 
- 
+ - [3Blue1Brown](https://www.youtube.com/channel/UCYO_jab_esuFRV4b17AJtAw/videos)  
+   
+     
   - [bill burr prodcast](https://www.youtube.com/channel/UCAp990eMLzmei84WNR4ptgA)
   - [eugenia voda](http://www.eugeniavoda.ro/ro/emisiuni/diverse/sanda-tatarascu-negroponte)
   - [Eugenia Voda](http://www.eugeniavoda.ro/ro/emisiuni)
   - [charlie rose](https://charlierose.com/videos?topic=History)
+  - [henry rollins etc tube latest](https://www.google.ro/search?q=site:youtube.com+henry+rollins&tbm=vid&source=lnt&tbs=qdr:y&sa=X&biw=1600&bih=770&dpr=1)
  
  # snl
    - [Threw It On The Ground](https://www.youtube.com/watch?v=gAYL5H46QnQ)
