@@ -14,8 +14,18 @@ immutable types: ints, floats, strings, tuples
 ### unavoidable python(2)
 
 oop:  
- - there is no “private” keyword/concept in Python [>](https://docs.python.org/2/tutorial/classes.html#private-variables-and-class-local-references);  
-_main reason for making (nearly) everything discoverable was debugging: when debugging you often need to break through the abstractions_  - allows for multiple-inheritance  
+ - there is no “private” concept in Python [>](https://docs.python.org/2/tutorial/classes.html#private-variables-and-class-local-references);    
+_main reason for making (nearly) everything discoverable was debugging: when debugging you often need to break through the abstractions_  - no access modifiers, no public, protected or private: all member variables and methods are public by default
+- restrictive encapsulation is just in your mind:  
+ - by convention/civility _member is protected (accesible by sub-class)  
+ - by convention/civility __member is private  
+   	self._color = color    # protected variable  
+        self.__content = None  # private variable  
+ - private members by naming conventio are name mangled
+
+- allows for multiple-inheritance  
+- allows for mixins via multiple-inheritance  
+
 
 ### mantra ["zen of python"](https://www.python.org/dev/peps/pep-0020/)   
 explicit is better than implicit  
@@ -85,6 +95,25 @@ help(filter)
 https://github.com/mstamy2/PyPDF2/blob/master/Sample_Code/basic_features.py  
 https://pypi.python.org/pypi/pdfkit/0.4.1  
 
+
+dick comprehension  
+```
+data = { tag['name']: tag['value'] 
+	for tag in soup.select('input[name^=ctl00]') if tag.get('value')
+}
+```
+merge two associative-arrays  
+```
+arr1.update(arr0)
+arr2= {**arr0, **arr1}	
+```
+zero padding  
+```
+'{:02d}'.format(1)
+'01'
+'{:3d}'.format(1)
+'  1'
+```
 ~~~
 
 import os
