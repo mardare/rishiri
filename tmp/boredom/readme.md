@@ -40,6 +40,8 @@ https://en.wikipedia.org/wiki/Varangians
 
 https://en.wikipedia.org/wiki/P_versus_NP_problem
 
+http://intellectualdark.website/
+
 Richard Feynman: The Christopher Sykes Documentaries
 From 1981 to 1993, documentary producer Christopher Sykes created these three films about renowned physicist and Nobel laureate Dr. Richard Feynman
 
