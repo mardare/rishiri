@@ -25,10 +25,11 @@
  - [2/3 Red](https://www.youtube.com/watch?v=zeZ5n-LMMLM)
  - [3/3 Master of the World](https://www.youtube.com/watch?v=JHF1_fFIGws)
    
-##### The Untold History of the United States, Oliver Stone, 2012 [>](http://www.imdb.com/title/tt1494191/)  
-
-##### Charlie Rose - How the Brain Constructs Visual Experience [>](https://www.youtube.com/watch?v=d5daIXeSOVc)
-##### Charlie Rose - The Brain Series [>](https://charlierose.com/collections/3)  
+##### The Untold History of the United States, Oliver Stone, 2012 [>](http://www.imdb.com/title/tt1494191/)
+  
+##### etcce homo  
+ - Charlie Rose - How the Brain Constructs Visual Experience [>](https://www.youtube.com/watch?v=d5daIXeSOVc)
+ - Charlie Rose - The Brain Series [>](https://charlierose.com/collections/3)  
 
 ##### Philip Zimbardo - The psychology of evil [>](https://www.ted.com/talks/philip_zimbardo_on_the_psychology_of_evil?language=en&utm_campaign=tedspread&utm_medium=referral&utm_source=tedcomshare)
 
