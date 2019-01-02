@@ -1,9 +1,12 @@
 
 ### 8 inconceivable nature of nature/impossible knowledge
 
-cosmological const https://en.wikipedia.org/wiki/Cosmological_constant
-gamma-ray burst https://en.wikipedia.org/wiki/Gamma-ray_burst
-rdshift https://en.wikipedia.org/wiki/Redshift
+cosmological const https://en.wikipedia.org/wiki/Cosmological_constant  
+gamma-ray burst https://en.wikipedia.org/wiki/Gamma-ray_burst  
+rdshift https://en.wikipedia.org/wiki/Redshift  
+E8 https://en.wikipedia.org/wiki/E8_(mathematics)  
+number system/quaternions https://en.wikipedia.org/wiki/Quaternion  
+Group theory https://en.wikipedia.org/wiki/Group_theory  
 
 20% of your brain is their purely for vision ( visual cortex)
 not all forms of intelligence have vision
