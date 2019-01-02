@@ -5,7 +5,8 @@ cosmological const https://en.wikipedia.org/wiki/Cosmological_constant
 gamma-ray burst https://en.wikipedia.org/wiki/Gamma-ray_burst  
 rdshift https://en.wikipedia.org/wiki/Redshift  
 E8 https://en.wikipedia.org/wiki/E8_(mathematics)  
-number system/quaternions https://en.wikipedia.org/wiki/Quaternion  
+number system/quaternions https://en.wikipedia.org/wiki/Quaternion 
+Visualizing quaternions by Grant Sanderson	https://eater.net/quaternions  
 Group theory https://en.wikipedia.org/wiki/Group_theory  
 
 20% of your brain is their purely for vision ( visual cortex)
